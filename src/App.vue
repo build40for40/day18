@@ -19,7 +19,7 @@ const edition = `${chart.window?.to.slice(0, 4) ?? '2026'} edition`
     <header class="hero">
       <p class="eyebrow kicker">40 for 40 · Day 18 · {{ edition }}</p>
       <h1>The Crossover <span>100</span> Index</h1>
-      <p class="dek">Your feed isn't my feed.</p>
+      <p class="dek">The world's most truly influential people.</p>
       <div class="why">
         <p>
           Everyone knows we live in a more polarised world than ever, thanks to the algorithms. What I see and what you
