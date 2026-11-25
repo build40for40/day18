@@ -2,18 +2,17 @@
 import { computed, ref } from 'vue'
 
 import { LANES, personLanes } from './lanes'
-import PersonDetail from './PersonDetail.vue'
 import type { Person } from './schema'
 import { fold } from './searches'
 
 const props = defineProps<{ people: Person[] }>()
+const emit = defineEmits<{ open: [rank: number] }>()
 
 const rows = computed(() => props.people.map((person) => ({ person, lanes: personLanes(person) })))
 const homeLanes = computed(() => LANES.filter((l) => rows.value.some((r) => r.lanes.home === l.id)))
 
 const query = ref('')
 const lane = ref('all')
-const open = ref<number | null>(null)
 
 const shown = computed(() => {
   const q = fold(query.value)
@@ -22,7 +21,6 @@ const shown = computed(() => {
   )
 })
 
-const toggle = (rank: number) => (open.value = open.value === rank ? null : rank)
 const percent = (share: number) => `${Math.round(share * 100)}%`
 </script>
 
@@ -54,12 +52,12 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
     </div>
 
     <ol class="list" aria-label="Ranking">
-      <li v-for="{ person, lanes } in shown" :key="person.rank" :class="{ open: open === person.rank }">
+      <li v-for="{ person, lanes } in shown" :key="person.rank">
         <button
           class="head"
-          :aria-expanded="open === person.rank"
-          :aria-controls="`detail-${person.rank}`"
-          @click="toggle(person.rank)"
+          aria-haspopup="dialog"
+          :aria-label="`${person.name}, number ${person.rank}. Open their card`"
+          @click="emit('open', person.rank)"
         >
           <span class="c-rank rank">{{ person.rank }}</span>
           <span class="c-name who">
@@ -82,9 +80,6 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
           </span>
           <span class="c-art articles">{{ person.articles?.toLocaleString('en-GB') ?? '' }}</span>
         </button>
-        <div v-if="open === person.rank" :id="`detail-${person.rank}`" class="body">
-          <PersonDetail :person="person" />
-        </div>
       </li>
     </ol>
     <p v-if="shown.length === 0" class="empty">Nobody like that in the 100. Maybe next year.</p>
@@ -93,7 +88,7 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
       <span><i class="sq hm" />Known for</span>
       <span><i class="sq on" />Crossed into</span>
       <span><i class="sq" />Not yet</span>
-      <span class="note">Tap anyone to see every section they crossed into.</span>
+      <span class="note">Tap anyone to open their card.</span>
     </div>
   </div>
 </template>
@@ -173,9 +168,6 @@ input {
 }
 .list li {
   border-bottom: 1px solid var(--faint);
-}
-.list li.open {
-  background: color-mix(in srgb, var(--accent) 7%, transparent);
 }
 .head {
   all: unset;
@@ -272,9 +264,6 @@ input {
   color: var(--muted);
   text-align: right;
 }
-.body {
-  padding: 0 16px 16px calc(3.2rem + 28px);
-}
 .empty {
   color: var(--muted);
   padding: 24px 16px;
@@ -339,8 +328,5 @@ input {
   .rank {
     font-size: 22px;
   }
-  .body {
-    padding: 0 12px 14px;
   }
-}
 </style>
