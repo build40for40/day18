@@ -2,25 +2,22 @@
 
 `final-100.csv` is the list, ranked by `other_sections` (Guardian sections other than the person's home section with at least 1 article about them, 25 Nov 2025 to 25 Nov 2026), then `outside_pct`, then article count. **Every person has at least 1 other section.** Method and limits are in `guardian-crossover-scores.md`.
 
-**Make-up:** 84 from Semrush (the living seed, ranks 1 to 155, plus 6 from the extension, ranks 181 to 271) and 16 best-guess fill-ins (not from Semrush). 39 of the 100 are thin (under 10 articles), so one article can move their score.
+**Make-up:** 70 from Semrush (the living seed, ranks 1 to 305) and 30 best-guess names that are not from Semrush. 35 of the 100 are thin (under 10 articles), so one article can move their score.
 
-**Dropped for scoring 0, or having no score (17 scored people):** lebron james, jenna ortega, selena gomez, eminem, angelina jolie, keanu reeves, cristiano ronaldo, al pacino, jackie chan, simone biles, oprah winfrey, shania twain, virat kohli, neymar, priyanka chopra, the weeknd, travis scott. These are people we expected to see; the Guardian simply did not cover them across sections in this window, so the list is a Guardian-crossover list, not a popularity list. People with no Guardian tag or no articles in the window were never scored (see `guardian-crossover-scores.md`).
+**How it was built.** Everyone scored from the Semrush living seed, the 13-person extension and the best-guess batches was pooled (120 people with at least 1 other section), and the top 100 by score was taken. That ranks by Guardian coverage across sections only, so it favours people the Guardian covers widely, and the tie at 1 other section is decided by thin differences.
 
-**Selection note:** the best-guess names were added to reach 100 once zero scores were removed. Because the rule excludes people with no coverage, the list leans towards people the Guardian covers, and the second batch of guesses leans UK. Order of picking was by guessed popularity, not by score.
+**Added in the latest re-rank** (17): Keir Starmer, Jd Vance, Pope Leo Xiv, Zohran Mamdani, Victoria Beckham, Javier Milei, Sam Altman, Jacob Elordi, Jensen Huang, Kate Moss, Giorgia Meloni, Erling Haaland, Tim Cook, Jude Bellingham, Anya Taylor Joy, Tyler The Creator, Millie Bobby Brown. Most are the 35 names in `guess-extension-35.csv`, chosen as people a current list should plausibly include, plus Kate Moss and Victoria Beckham, who were scored earlier and held back.
 
-## Second batch of guesses (scored 25 Nov 2026)
+**Left in the latest re-rank** (17; each scored 1 other section with thin or low outside share, so they are the first to fall under a tie-break): Bono, Bruno Mars, Drake, Johnny Depp, Dwayne Johnson, Kate Winslet, Kate Middleton, Stevie Wonder, Scarlett Johansson, Robert Downey Jr, Kendrick Lamar, Chappell Roan, Sabrina Carpenter, Leonardo Dicaprio, Serena Williams, Novak Djokovic, Lewis Hamilton.
 
-Five of these were added to the list (the first five with other_sections of 1 or more, in guessed order): Idris Elba, Naomi Campbell, Rosalia, Gordon Ramsay, Stormzy. The rest were not used.
+**Scored 0, so never on the list (17):** Lebron James, Jenna Ortega, Selena Gomez, Eminem, Angelina Jolie, Keanu Reeves, Cristiano Ronaldo, Al Pacino, Jackie Chan, Simone Biles, Oprah Winfrey, Shania Twain, Virat Kohli, Neymar, Priyanka Chopra, The Weeknd, Travis Scott. These are people we expected to see; the Guardian did not cover them across sections in this window.
 
-| Person | Tag | Articles | Other sections | Outside % |
-|---|---|---|---|---|
-| idris elba | culture/idris-elba | 8 | 5 | 62 |
-| naomi campbell | fashion/naomi-campbell | 3 | 1 | 33 |
-| rosalia | music/rosalia | 12 | 2 | 18 |
-| burna boy | music/burna-boy | 2 | 0 | 0 |
-| gordon ramsay | food/gordonramsay | 5 | 1 | 40 |
-| stormzy | music/stormzy | 5 | 2 | 50 |
-| kate moss | fashion/kate-moss | 5 | 3 | 60 |
-| victoria beckham | fashion/victoria-beckham | 25 | 6 | 65 |
-| emma raducanu | sport/emma-raducanu | 36 | 0 | 0 |
-| marcus rashford | football/marcus-rashford | 10 | 0 | 0 |
+**New names with a Guardian tag but 0 other sections:** Caitlin Clark, Victor Wembanyama, Max Verstappen, Lando Norris, Jannik Sinner, Shohei Ohtani, Doechii, Austin Butler.
+
+**New names with no Guardian tag found:** Sundar Pichai, Satya Nadella, Demis Hassabis, Lisa Su, Emma Chamberlain, Alex Cooper, Hasan Piker, Lamine Yamal, Jungkook. These tag lookups found nothing under the spellings tried, so some may exist under another form.
+
+**Limits**
+- This is a Guardian-crossover list, not a popularity list, and it leans UK and US. The newest additions are mostly news figures, who score across news sections because they are news subjects, not because they cross industries.
+- Keir Starmer's count is a floor: the pull stopped at 1,000 articles of 1,406.
+- The best-guess names were picked by hand, by guessed popularity, and some of them (the newest batch) were picked partly because a Guardian tag existed, so they are not a fair sample.
+- Search interest (Semrush) is from March 2026, so it misses people whose year since then has been big.

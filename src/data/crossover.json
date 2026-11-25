@@ -4,9 +4,9 @@
     "from": "2025-11-25",
     "to": "2026-11-25"
   },
-  "generatedAt": "2026-11-25T16:31:23.799Z",
+  "generatedAt": "2026-11-25T16:40:41.151Z",
   "method": [
-    "Most people are from Semrush's most searched people, plus a few hand-picked names, all checked against 12 months of Guardian coverage.",
+    "Most people are from Semrush's most searched people and the rest are hand-picked names, all checked against 12 months of Guardian coverage.",
     "Your home section is where the Guardian writes about you most. Football counts as sport, and the opinion section doesn't count.",
     "A crossover is any other section with at least 1 article about you (5 when we matched your name rather than a Guardian tag).",
     "Most crossovers wins. Ties go to whoever has more coverage outside their home section.",
@@ -165,6 +165,136 @@
     },
     {
       "rank": 2,
+      "name": "Keir Starmer",
+      "crossovers": 24,
+      "articles": 821,
+      "outsideShare": 0.278,
+      "home": "Politics",
+      "sections": [
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 85
+        },
+        {
+          "id": "uk-news",
+          "title": "UK news",
+          "articles": 40
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 20
+        },
+        {
+          "id": "society",
+          "title": "Society",
+          "articles": 13
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 13
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 9
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 5
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 5
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 4
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 4
+        },
+        {
+          "id": "news",
+          "title": "News",
+          "articles": 4
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 4
+        },
+        {
+          "id": "environment",
+          "title": "Environment",
+          "articles": 3
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 3
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 3
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 3
+        },
+        {
+          "id": "community",
+          "title": "Community",
+          "articles": 2
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 2
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 1
+        },
+        {
+          "id": "australia-news",
+          "title": "Australia news",
+          "articles": 1
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 1
+        },
+        {
+          "id": "education",
+          "title": "Education",
+          "articles": 1
+        },
+        {
+          "id": "global-development",
+          "title": "Global development",
+          "articles": 1
+        },
+        {
+          "id": "membership",
+          "title": "Membership",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 3,
       "name": "Elon Musk",
       "crossovers": 21,
       "articles": 327,
@@ -279,7 +409,7 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "Vladimir Putin",
       "crossovers": 13,
       "articles": 275,
@@ -354,7 +484,77 @@
       ]
     },
     {
-      "rank": 4,
+      "rank": 5,
+      "name": "JD Vance",
+      "crossovers": 12,
+      "articles": 157,
+      "outsideShare": 0.471,
+      "home": "US news",
+      "sections": [
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 48
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 7
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 5
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 4
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 2
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 2
+        },
+        {
+          "id": "australia-news",
+          "title": "Australia news",
+          "articles": 1
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 1
+        },
+        {
+          "id": "environment",
+          "title": "Environment",
+          "articles": 1
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 1
+        },
+        {
+          "id": "news",
+          "title": "News",
+          "articles": 1
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 6,
       "name": "Taylor Swift",
       "crossovers": 11,
       "articles": 61,
@@ -419,7 +619,7 @@
       ]
     },
     {
-      "rank": 5,
+      "rank": 7,
       "name": "Prince Harry",
       "crossovers": 11,
       "articles": 79,
@@ -484,7 +684,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 8,
       "name": "Meghan Markle",
       "crossovers": 11,
       "articles": 58,
@@ -549,7 +749,7 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 9,
       "name": "Jeff Bezos",
       "crossovers": 10,
       "articles": 40,
@@ -609,7 +809,7 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 10,
       "name": "Mark Zuckerberg",
       "crossovers": 10,
       "articles": 54,
@@ -669,7 +869,7 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 11,
       "name": "Xi Jinping",
       "crossovers": 10,
       "articles": 121,
@@ -729,7 +929,127 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 12,
+      "name": "Pope Leo XIV",
+      "crossovers": 10,
+      "articles": 96,
+      "outsideShare": 0.323,
+      "home": "World news",
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 19
+        },
+        {
+          "id": "news",
+          "title": "News",
+          "articles": 2
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 2
+        },
+        {
+          "id": "uk-news",
+          "title": "UK news",
+          "articles": 2
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 1
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 1
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 1
+        },
+        {
+          "id": "education",
+          "title": "Education",
+          "articles": 1
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 1
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Zohran Mamdani",
+      "crossovers": 10,
+      "articles": 145,
+      "outsideShare": 0.207,
+      "home": "US news",
+      "sections": [
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 12
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 6
+        },
+        {
+          "id": "news",
+          "title": "News",
+          "articles": 3
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 2
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 2
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 1
+        },
+        {
+          "id": "australia-news",
+          "title": "Australia news",
+          "articles": 1
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 1
+        },
+        {
+          "id": "society",
+          "title": "Society",
+          "articles": 1
+        },
+        {
+          "id": "thefilter-us",
+          "title": "The Filter US",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 14,
       "name": "Bad Bunny",
       "crossovers": 9,
       "articles": 35,
@@ -784,7 +1104,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 15,
       "name": "Barack Obama",
       "crossovers": 9,
       "articles": 48,
@@ -839,7 +1159,7 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 16,
       "name": "Timothée Chalamet",
       "crossovers": 9,
       "articles": 54,
@@ -894,7 +1214,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 17,
       "name": "David Beckham",
       "crossovers": 8,
       "articles": 26,
@@ -944,7 +1264,7 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 18,
       "name": "JK Rowling",
       "crossovers": 7,
       "articles": 13,
@@ -989,7 +1309,7 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 19,
       "name": "Beyoncé",
       "crossovers": 7,
       "articles": 23,
@@ -1034,7 +1354,7 @@
       ]
     },
     {
-      "rank": 16,
+      "rank": 20,
       "name": "Paul McCartney",
       "crossovers": 7,
       "articles": 35,
@@ -1079,7 +1399,7 @@
       ]
     },
     {
-      "rank": 17,
+      "rank": 21,
       "name": "Dolly Parton",
       "crossovers": 7,
       "articles": 37,
@@ -1124,7 +1444,7 @@
       ]
     },
     {
-      "rank": 18,
+      "rank": 22,
       "name": "Narendra Modi",
       "crossovers": 7,
       "articles": 53,
@@ -1169,7 +1489,7 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 23,
       "name": "Volodymyr Zelenskyy",
       "crossovers": 7,
       "articles": 305,
@@ -1214,7 +1534,7 @@
       ]
     },
     {
-      "rank": 20,
+      "rank": 24,
       "name": "Katy Perry",
       "crossovers": 6,
       "articles": 8,
@@ -1254,7 +1574,7 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 25,
       "name": "Yoko Ono",
       "crossovers": 6,
       "articles": 8,
@@ -1294,7 +1614,87 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 26,
+      "name": "Victoria Beckham",
+      "crossovers": 6,
+      "articles": 20,
+      "outsideShare": 0.65,
+      "home": "Fashion",
+      "sections": [
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 7
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 2
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 1
+        },
+        {
+          "id": "news",
+          "title": "News",
+          "articles": 1
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 1
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Javier Milei",
+      "crossovers": 6,
+      "articles": 25,
+      "outsideShare": 0.48,
+      "home": "World news",
+      "sections": [
+        {
+          "id": "global-development",
+          "title": "Global development",
+          "articles": 4
+        },
+        {
+          "id": "uk-news",
+          "title": "UK news",
+          "articles": 4
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 1
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 1
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 1
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 28,
       "name": "Harry Styles",
       "crossovers": 6,
       "articles": 25,
@@ -1334,7 +1734,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 29,
       "name": "Ariana Grande",
       "crossovers": 6,
       "articles": 19,
@@ -1374,7 +1774,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 30,
       "name": "Tom Cruise",
       "crossovers": 6,
       "articles": 27,
@@ -1414,7 +1814,47 @@
       ]
     },
     {
-      "rank": 25,
+      "rank": 31,
+      "name": "Sam Altman",
+      "crossovers": 6,
+      "articles": 73,
+      "outsideShare": 0.219,
+      "home": "Technology",
+      "sections": [
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 5
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 3
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 3
+        },
+        {
+          "id": "australia-news",
+          "title": "Australia news",
+          "articles": 2
+        },
+        {
+          "id": "global",
+          "title": "global",
+          "articles": 2
+        },
+        {
+          "id": "uk-news",
+          "title": "UK news",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 32,
       "name": "Idris Elba",
       "crossovers": 5,
       "articles": 8,
@@ -1449,7 +1889,7 @@
       ]
     },
     {
-      "rank": 26,
+      "rank": 33,
       "name": "Kim Kardashian",
       "crossovers": 5,
       "articles": 8,
@@ -1484,7 +1924,77 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 34,
+      "name": "Jacob Elordi",
+      "crossovers": 5,
+      "articles": 28,
+      "outsideShare": 0.393,
+      "home": "Film",
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 5
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 2
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 2
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 1
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Jensen Huang",
+      "crossovers": 5,
+      "articles": 71,
+      "outsideShare": 0.282,
+      "home": "Technology",
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 11
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 3
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 3
+        },
+        {
+          "id": "global",
+          "title": "global",
+          "articles": 2
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 36,
       "name": "Bob Dylan",
       "crossovers": 5,
       "articles": 19,
@@ -1519,7 +2029,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 37,
       "name": "Margot Robbie",
       "crossovers": 5,
       "articles": 22,
@@ -1554,7 +2064,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 38,
       "name": "Zendaya",
       "crossovers": 4,
       "articles": 25,
@@ -1584,7 +2094,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 39,
       "name": "Bill Gates",
       "crossovers": 4,
       "articles": 14,
@@ -1614,7 +2124,7 @@
       ]
     },
     {
-      "rank": 31,
+      "rank": 40,
       "name": "Bill Clinton",
       "crossovers": 4,
       "articles": 27,
@@ -1644,7 +2154,7 @@
       ]
     },
     {
-      "rank": 32,
+      "rank": 41,
       "name": "Joe Biden",
       "crossovers": 4,
       "articles": 36,
@@ -1674,7 +2184,7 @@
       ]
     },
     {
-      "rank": 33,
+      "rank": 42,
       "name": "Elton John",
       "crossovers": 3,
       "articles": 21,
@@ -1699,7 +2209,7 @@
       ]
     },
     {
-      "rank": 34,
+      "rank": 43,
       "name": "Sydney Sweeney",
       "crossovers": 3,
       "articles": 19,
@@ -1724,7 +2234,7 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 44,
       "name": "Arnold Schwarzenegger",
       "crossovers": 3,
       "articles": 5,
@@ -1749,7 +2259,32 @@
       ]
     },
     {
-      "rank": 36,
+      "rank": 45,
+      "name": "Kate Moss",
+      "crossovers": 3,
+      "articles": 5,
+      "outsideShare": 0.6,
+      "home": "Fashion",
+      "sections": [
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 1
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 1
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 46,
       "name": "Shakira",
       "crossovers": 3,
       "articles": 8,
@@ -1774,7 +2309,7 @@
       ]
     },
     {
-      "rank": 37,
+      "rank": 47,
       "name": "Ben Affleck",
       "crossovers": 3,
       "articles": 7,
@@ -1799,7 +2334,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 48,
       "name": "Lady Gaga",
       "crossovers": 3,
       "articles": 10,
@@ -1824,7 +2359,7 @@
       ]
     },
     {
-      "rank": 39,
+      "rank": 49,
       "name": "Daniel Craig",
       "crossovers": 3,
       "articles": 11,
@@ -1849,7 +2384,7 @@
       ]
     },
     {
-      "rank": 40,
+      "rank": 50,
       "name": "Justin Bieber",
       "crossovers": 3,
       "articles": 9,
@@ -1874,7 +2409,7 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 51,
       "name": "Travis Kelce",
       "crossovers": 3,
       "articles": 12,
@@ -1899,7 +2434,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 52,
       "name": "Stephen King",
       "crossovers": 3,
       "articles": 13,
@@ -1924,7 +2459,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 53,
       "name": "Billie Eilish",
       "crossovers": 3,
       "articles": 12,
@@ -1949,7 +2484,7 @@
       ]
     },
     {
-      "rank": 44,
+      "rank": 54,
       "name": "Olivia Rodrigo",
       "crossovers": 3,
       "articles": 17,
@@ -1974,7 +2509,7 @@
       ]
     },
     {
-      "rank": 45,
+      "rank": 55,
       "name": "Kanye West",
       "crossovers": 3,
       "articles": 20,
@@ -1999,7 +2534,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 56,
       "name": "Anne Hathaway",
       "crossovers": 3,
       "articles": 24,
@@ -2024,7 +2559,7 @@
       ]
     },
     {
-      "rank": 47,
+      "rank": 57,
       "name": "Quentin Tarantino",
       "crossovers": 3,
       "articles": 24,
@@ -2049,7 +2584,7 @@
       ]
     },
     {
-      "rank": 48,
+      "rank": 58,
       "name": "Kamala Harris",
       "crossovers": 3,
       "articles": 22,
@@ -2074,7 +2609,57 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 59,
+      "name": "Giorgia Meloni",
+      "crossovers": 3,
+      "articles": 58,
+      "outsideShare": 0.121,
+      "home": "World news",
+      "sections": [
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 3
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 3
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Erling Haaland",
+      "crossovers": 3,
+      "articles": 34,
+      "outsideShare": 0.088,
+      "home": "Sport",
+      "sections": [
+        {
+          "id": "education",
+          "title": "Education",
+          "articles": 1
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 1
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 61,
       "name": "Joe Rogan",
       "crossovers": 2,
       "articles": 3,
@@ -2094,7 +2679,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 62,
       "name": "Cardi B",
       "crossovers": 2,
       "articles": 5,
@@ -2114,7 +2699,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 63,
       "name": "Dua Lipa",
       "crossovers": 2,
       "articles": 14,
@@ -2134,7 +2719,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 64,
       "name": "Dalai Lama",
       "crossovers": 2,
       "articles": 4,
@@ -2154,7 +2739,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 65,
       "name": "Pedro Pascal",
       "crossovers": 2,
       "articles": 6,
@@ -2174,7 +2759,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 66,
       "name": "Stormzy",
       "crossovers": 2,
       "articles": 4,
@@ -2194,7 +2779,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 67,
       "name": "Bruce Springsteen",
       "crossovers": 2,
       "articles": 11,
@@ -2214,7 +2799,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 68,
       "name": "Cillian Murphy",
       "crossovers": 2,
       "articles": 6,
@@ -2234,7 +2819,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 69,
       "name": "George W Bush",
       "crossovers": 2,
       "articles": 9,
@@ -2254,7 +2839,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 70,
       "name": "Greta Thunberg",
       "crossovers": 2,
       "articles": 6,
@@ -2274,7 +2859,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 71,
       "name": "Tom Hanks",
       "crossovers": 2,
       "articles": 9,
@@ -2294,7 +2879,7 @@
       ]
     },
     {
-      "rank": 60,
+      "rank": 72,
       "name": "Sylvester Stallone",
       "crossovers": 2,
       "articles": 8,
@@ -2314,7 +2899,7 @@
       ]
     },
     {
-      "rank": 61,
+      "rank": 73,
       "name": "Ed Sheeran",
       "crossovers": 2,
       "articles": 19,
@@ -2334,7 +2919,27 @@
       ]
     },
     {
-      "rank": 62,
+      "rank": 74,
+      "name": "Tim Cook",
+      "crossovers": 2,
+      "articles": 10,
+      "outsideShare": 0.2,
+      "home": "Technology",
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 1
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 75,
       "name": "Rosalía",
       "crossovers": 2,
       "articles": 11,
@@ -2354,7 +2959,7 @@
       ]
     },
     {
-      "rank": 63,
+      "rank": 76,
       "name": "Tom Holland",
       "crossovers": 2,
       "articles": 17,
@@ -2374,7 +2979,7 @@
       ]
     },
     {
-      "rank": 64,
+      "rank": 77,
       "name": "Brad Pitt",
       "crossovers": 2,
       "articles": 12,
@@ -2394,7 +2999,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 78,
       "name": "Hillary Clinton",
       "crossovers": 2,
       "articles": 22,
@@ -2414,7 +3019,7 @@
       ]
     },
     {
-      "rank": 66,
+      "rank": 79,
       "name": "Robert De Niro",
       "crossovers": 2,
       "articles": 15,
@@ -2434,7 +3039,27 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 80,
+      "name": "Jude Bellingham",
+      "crossovers": 2,
+      "articles": 31,
+      "outsideShare": 0.065,
+      "home": "Sport",
+      "sections": [
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 1
+        },
+        {
+          "id": "uk-news",
+          "title": "UK news",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 81,
       "name": "Lionel Messi",
       "crossovers": 2,
       "articles": 74,
@@ -2454,7 +3079,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 82,
       "name": "Clint Eastwood",
       "crossovers": 1,
       "articles": 2,
@@ -2469,7 +3094,7 @@
       ]
     },
     {
-      "rank": 69,
+      "rank": 83,
       "name": "Jennifer Lawrence",
       "crossovers": 1,
       "articles": 4,
@@ -2484,7 +3109,7 @@
       ]
     },
     {
-      "rank": 70,
+      "rank": 84,
       "name": "Jennifer Lopez",
       "crossovers": 1,
       "articles": 2,
@@ -2499,7 +3124,7 @@
       ]
     },
     {
-      "rank": 71,
+      "rank": 85,
       "name": "Justin Timberlake",
       "crossovers": 1,
       "articles": 2,
@@ -2514,7 +3139,7 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 86,
       "name": "Kylie Jenner",
       "crossovers": 1,
       "articles": 4,
@@ -2529,7 +3154,7 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 87,
       "name": "Rafael Nadal",
       "crossovers": 1,
       "articles": 2,
@@ -2544,7 +3169,22 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 88,
+      "name": "Anya Taylor-Joy",
+      "crossovers": 1,
+      "articles": 9,
+      "outsideShare": 0.444,
+      "home": "Television & radio",
+      "sections": [
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 89,
       "name": "Gordon Ramsay",
       "crossovers": 1,
       "articles": 5,
@@ -2559,7 +3199,7 @@
       ]
     },
     {
-      "rank": 75,
+      "rank": 90,
       "name": "Doja Cat",
       "crossovers": 1,
       "articles": 3,
@@ -2574,7 +3214,7 @@
       ]
     },
     {
-      "rank": 76,
+      "rank": 91,
       "name": "Mariah Carey",
       "crossovers": 1,
       "articles": 6,
@@ -2589,7 +3229,22 @@
       ]
     },
     {
-      "rank": 77,
+      "rank": 92,
+      "name": "Millie Bobby Brown",
+      "crossovers": 1,
+      "articles": 3,
+      "outsideShare": 0.333,
+      "home": "Television & radio",
+      "sections": [
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 93,
       "name": "Naomi Campbell",
       "crossovers": 1,
       "articles": 3,
@@ -2604,7 +3259,7 @@
       ]
     },
     {
-      "rank": 78,
+      "rank": 94,
       "name": "Rihanna",
       "crossovers": 1,
       "articles": 3,
@@ -2619,7 +3274,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 95,
       "name": "Roger Federer",
       "crossovers": 1,
       "articles": 3,
@@ -2634,7 +3289,22 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 96,
+      "name": "Tyler, the Creator",
+      "crossovers": 1,
+      "articles": 3,
+      "outsideShare": 0.333,
+      "home": "Music",
+      "sections": [
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 1
+        }
+      ]
+    },
+    {
+      "rank": 97,
       "name": "Usain Bolt",
       "crossovers": 1,
       "articles": 3,
@@ -2649,7 +3319,7 @@
       ]
     },
     {
-      "rank": 81,
+      "rank": 98,
       "name": "Angela Merkel",
       "crossovers": 1,
       "articles": 4,
@@ -2664,22 +3334,7 @@
       ]
     },
     {
-      "rank": 82,
-      "name": "Bono",
-      "crossovers": 1,
-      "articles": 4,
-      "outsideShare": 0.25,
-      "home": "Music",
-      "sections": [
-        {
-          "id": "us-news",
-          "title": "US news",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 83,
+      "rank": 99,
       "name": "John Travolta",
       "crossovers": 1,
       "articles": 4,
@@ -2694,7 +3349,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 100,
       "name": "Michael Jordan",
       "crossovers": 1,
       "articles": 4,
@@ -2704,246 +3359,6 @@
         {
           "id": "film",
           "title": "Film",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 85,
-      "name": "Bruno Mars",
-      "crossovers": 1,
-      "articles": 9,
-      "outsideShare": 0.222,
-      "home": "Music",
-      "sections": [
-        {
-          "id": "culture",
-          "title": "Culture",
-          "articles": 2
-        }
-      ]
-    },
-    {
-      "rank": 86,
-      "name": "Drake",
-      "crossovers": 1,
-      "articles": 5,
-      "outsideShare": 0.2,
-      "home": "Music",
-      "sections": [
-        {
-          "id": "lifeandstyle",
-          "title": "Life and style",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 87,
-      "name": "Dwayne Johnson",
-      "crossovers": 1,
-      "articles": 5,
-      "outsideShare": 0.2,
-      "home": "Film",
-      "sections": [
-        {
-          "id": "stage",
-          "title": "Stage",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 88,
-      "name": "Johnny Depp",
-      "crossovers": 1,
-      "articles": 5,
-      "outsideShare": 0.2,
-      "home": "Film",
-      "sections": [
-        {
-          "id": "music",
-          "title": "Music",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 89,
-      "name": "Kate Winslet",
-      "crossovers": 1,
-      "articles": 5,
-      "outsideShare": 0.2,
-      "home": "Film",
-      "sections": [
-        {
-          "id": "tv-and-radio",
-          "title": "Television & radio",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 90,
-      "name": "Kate Middleton",
-      "crossovers": 1,
-      "articles": 11,
-      "outsideShare": 0.182,
-      "home": "UK news",
-      "sections": [
-        {
-          "id": "fashion",
-          "title": "Fashion",
-          "articles": 2
-        }
-      ]
-    },
-    {
-      "rank": 91,
-      "name": "Stevie Wonder",
-      "crossovers": 1,
-      "articles": 6,
-      "outsideShare": 0.167,
-      "home": "Music",
-      "sections": [
-        {
-          "id": "us-news",
-          "title": "US news",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 92,
-      "name": "Scarlett Johansson",
-      "crossovers": 1,
-      "articles": 7,
-      "outsideShare": 0.143,
-      "home": "Film",
-      "sections": [
-        {
-          "id": "technology",
-          "title": "Technology",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 93,
-      "name": "Robert Downey Jr",
-      "crossovers": 1,
-      "articles": 10,
-      "outsideShare": 0.1,
-      "home": "Film",
-      "sections": [
-        {
-          "id": "tv-and-radio",
-          "title": "Television & radio",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 94,
-      "name": "Kendrick Lamar",
-      "crossovers": 1,
-      "articles": 11,
-      "outsideShare": 0.091,
-      "home": "Music",
-      "sections": [
-        {
-          "id": "lifeandstyle",
-          "title": "Life and style",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 95,
-      "name": "Chappell Roan",
-      "crossovers": 1,
-      "articles": 12,
-      "outsideShare": 0.083,
-      "home": "Music",
-      "sections": [
-        {
-          "id": "culture",
-          "title": "Culture",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 96,
-      "name": "Sabrina Carpenter",
-      "crossovers": 1,
-      "articles": 14,
-      "outsideShare": 0.071,
-      "home": "Music",
-      "sections": [
-        {
-          "id": "culture",
-          "title": "Culture",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 97,
-      "name": "Leonardo DiCaprio",
-      "crossovers": 1,
-      "articles": 19,
-      "outsideShare": 0.053,
-      "home": "Film",
-      "sections": [
-        {
-          "id": "society",
-          "title": "Society",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 98,
-      "name": "Serena Williams",
-      "crossovers": 1,
-      "articles": 24,
-      "outsideShare": 0.042,
-      "home": "Sport",
-      "sections": [
-        {
-          "id": "uk-news",
-          "title": "UK news",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 99,
-      "name": "Novak Djokovic",
-      "crossovers": 1,
-      "articles": 49,
-      "outsideShare": 0.02,
-      "home": "Sport",
-      "sections": [
-        {
-          "id": "food",
-          "title": "Food",
-          "articles": 1
-        }
-      ]
-    },
-    {
-      "rank": 100,
-      "name": "Lewis Hamilton",
-      "crossovers": 1,
-      "articles": 81,
-      "outsideShare": 0.012,
-      "home": "Sport",
-      "sections": [
-        {
-          "id": "money",
-          "title": "Money",
           "articles": 1
         }
       ]
