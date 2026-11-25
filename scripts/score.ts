@@ -40,7 +40,7 @@ const chart = {
   method: [
     `Most people are from Semrush's most searched people and the rest are hand-picked names, all checked against 12 months of Guardian coverage.`,
     `Your home section is where the Guardian writes about you most. Football counts as sport, and the opinion section doesn't count.`,
-    `A crossover is any other section with at least ${RULES.threshold.tag} article about you (${RULES.threshold.phrase} when we matched your name rather than a Guardian tag).`,
+    `A crossover is any other section with at least ${RULES.threshold.tag} article about the person.`,
     `Most crossovers wins. Ties go to whoever has more coverage outside their home section.`,
     `Everyone here crossed into at least one other section. How much coverage you get doesn't count, but with a low bar a handful of articles can move a score, so the thinnest are marked.`,
   ],
