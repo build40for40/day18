@@ -1,0 +1,101 @@
+rank,search_term,monthly_searches,group,in_seed
+1,donald trump,7.5M,politician,yes
+2,taylor swift,4.1M,,yes
+3,elon musk,3.4M,,yes
+4,kamala harris,3.4M,politician,yes
+5,lebron james,2.7M,,yes
+6,sydney sweeney,2.7M,,yes
+7,ariana grande,1.8M,,yes
+8,kendrick lamar,1.8M,,yes
+9,billie eilish,1.5M,,yes
+10,jenna ortega,1.5M,,yes
+11,pope francis,1.5M,deceased,no
+12,travis kelce,1.5M,,yes
+13,joe biden,1.2M,politician,yes
+14,justin bieber,1.2M,,yes
+15,megan fox,1.2M,,yes
+16,patrick mahomes,1.2M,,yes
+17,selena gomez,1.2M,,yes
+18,ana de armas,1M,,yes
+19,drake,1M,,yes
+20,kanye west,1M,,yes
+21,michael jackson,1M,deceased,no
+22,scarlett johansson,1M,,yes
+23,timothee chalamet,1M,,yes
+24,tom cruise,1M,,yes
+25,anne hathaway,823K,,yes
+26,beyonce,823K,,yes
+27,bob dylan,823K,,yes
+28,brad pitt,823K,,yes
+29,clint eastwood,823K,,yes
+30,dolly parton,823K,,yes
+31,eminem,823K,,yes
+32,jake paul,823K,,yes
+33,jennifer aniston,823K,,yes
+34,lady gaga,823K,,yes
+35,pink,823K,ambiguous term,yes
+36,zendaya,823K,,yes
+37,angelina jolie,673K,,yes
+38,arnold schwarzenegger,673K,,yes
+39,ben affleck,673K,,yes
+40,dua lipa,673K,,yes
+41,jennifer lopez,673K,,yes
+42,joe rogan,673K,,yes
+43,katy perry,673K,,yes
+44,keanu reeves,673K,,yes
+45,kim kardashian,673K,,yes
+46,leonardo dicaprio,673K,,yes
+47,michael jordan,673K,,yes
+48,olivia rodrigo,673K,,yes
+49,post malone,673K,,yes
+50,rihanna,673K,,yes
+51,bruno mars,550K,,yes
+52,cristiano ronaldo,550K,,yes
+53,jennifer lawrence,550K,,yes
+54,johnny depp,550K,,yes
+55,kylie jenner,550K,,yes
+56,mariah carey,550K,,yes
+57,meghan markle,550K,royal,yes
+58,robert de niro,550K,,yes
+59,serena williams,550K,,yes
+60,sylvester stallone,550K,,yes
+61,tom hanks,550K,,yes
+62,abraham lincoln,450K,deceased,no
+63,cillian murphy,450K,,yes
+64,dwayne johnson,450K,,yes
+65,jeff bezos,450K,,yes
+66,john travolta,450K,,yes
+67,marilyn monroe,450K,deceased,no
+68,mark zuckerberg,450K,,yes
+69,mrbeast,450K,,yes
+70,shakira,450K,,yes
+71,al pacino,368K,,yes
+72,barack obama,368K,politician,yes
+73,bill clinton,368K,politician,yes
+74,elton john,368K,,yes
+75,george washington,368K,deceased,no
+76,jackie chan,368K,,yes
+77,justin timberlake,368K,,yes
+78,kate middleton,368K,royal,yes
+79,novak djokovic,368K,,yes
+80,paul mccartney,368K,,yes
+81,prince harry,368K,royal,yes
+82,stephen hawking,368K,deceased,no
+83,audrey hepburn,301K,deceased,no
+84,david bowie,301K,deceased,no
+85,freddie mercury,301K,deceased,no
+86,john lennon,301K,deceased,no
+87,kate winslet,301K,,yes
+88,logan paul,301K,,yes
+89,malcolm x,301K,deceased,no
+90,muhammad ali,301K,deceased,no
+91,osama bin laden,301K,deceased,no
+92,prince,301K,deceased,no
+93,quentin tarantino,301K,,yes
+94,simone biles,301K,,yes
+95,whitney houston,301K,deceased,no
+96,adolf hitler,246K,deceased,no
+97,albert einstein,246K,deceased,no
+98,bill gates,246K,,yes
+99,bob marley,246K,deceased,no
+100,bruce springsteen,246K,,yes
