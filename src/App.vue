@@ -6,8 +6,6 @@ import FameChart from './chart/FameChart.vue'
 import HowWeRank from './chart/HowWeRank.vue'
 import IndexTable from './chart/IndexTable.vue'
 import SwiftStory from './chart/SwiftStory.vue'
-import TalentCards from './chart/TalentCards.vue'
-import TopTen from './chart/TopTen.vue'
 import { formatDay, loadChart, type LoadedChart } from './chart/load'
 
 const props = defineProps<{ data?: LoadedChart }>()
@@ -52,14 +50,9 @@ const cardRank = ref<number | null>(null)
       Sample data. These people are made up while Samira pulls the real thing.
     </p>
 
-    <section class="block top" aria-label="The top 10">
-      <TopTen :people="people" :edition="edition" />
-      <TalentCards :people="people" :edition="edition" />
-    </section>
-
     <section class="block" aria-labelledby="all-title">
       <div class="block-head">
-        <h2 id="all-title">All 100</h2>
+        <h2 id="all-title">The top 100</h2>
         <p>
           Every row shows 12 lanes of the paper, so you can read a whole year at a glance. Ranked by how many Guardian
           sections they crossed into. Tap anyone to open their card.
@@ -149,13 +142,6 @@ h1 span {
   padding-block: 36px;
   border-top: 1px solid var(--line);
 }
-.block.top {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 28px;
-  justify-items: center;
-  align-items: start;
-}
 .block-head {
   display: grid;
   gap: 6px;
@@ -182,8 +168,5 @@ footer a {
   color: inherit;
 }
 @media (max-width: 860px) {
-  .block.top {
-    grid-template-columns: minmax(0, 1fr);
   }
-}
 </style>
