@@ -29,10 +29,27 @@ const toggle = (rank: number) => (open.value = open.value === rank ? null : rank
   <main>
     <header>
       <p class="kicker">40 for 40 · Day 18</p>
-      <h1>{{ chart.title }}</h1>
-      <p class="dek">
-        The people the Guardian couldn't keep in one section, ranked by how many worlds they crossed into.
-      </p>
+      <h1>The Crossover 100 Index</h1>
+      <p class="dek">Your feed isn't my feed.</p>
+      <div class="why">
+        <p>
+          Everyone knows we live in a more polarised world than ever, thanks to the algorithms. What I see and what you
+          see are completely different. Something can be huge in my world all week and you've never heard of it. That's
+          every feed: built for one person, shown to one person.
+        </p>
+        <p>It also makes it harder to tell who has real cultural influence.</p>
+        <p>
+          But when a news story, a celebrity, an influencer or a meme crosses over from one category into another,
+          that's when international conversations begin. An actress becomes the world's biggest fashion icon. The world's
+          biggest pop star marries a future Hall of Fame NFL player. A tech CEO gets known for a black leather jacket and
+          a possible relationship with a spy.
+        </p>
+        <p>
+          So we took the world's most searched for people and read a year of Guardian coverage to count how many
+          crossover stories each of them had. That's how we measure influence. Followers don't count. Fame alone
+          doesn't win. It's all about the crossover.
+        </p>
+      </div>
       <p v-if="chart.window" class="window">
         {{ formatDay(chart.window.from) }} to {{ formatDay(chart.window.to) }}
       </p>
@@ -102,6 +119,22 @@ h1 {
   color: var(--ink-2);
   margin: 0 0 8px;
   max-width: 34rem;
+}
+.dek {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(22px, 5vw, 28px);
+  color: var(--ink);
+}
+.why {
+  max-width: 36rem;
+  margin: 0 0 14px;
+}
+.why p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  margin: 0 0 12px;
 }
 .window {
   font-size: 13px;
