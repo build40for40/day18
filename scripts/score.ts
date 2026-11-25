@@ -38,7 +38,7 @@ const chart = {
   window: counts.window,
   generatedAt: new Date().toISOString(),
   method: [
-    `Most people are from Semrush's most searched people, plus a few hand-picked names, all checked against 12 months of Guardian coverage.`,
+    `Most people are from Semrush's most searched people and the rest are hand-picked names, all checked against 12 months of Guardian coverage.`,
     `Your home section is where the Guardian writes about you most. Football counts as sport, and the opinion section doesn't count.`,
     `A crossover is any other section with at least ${RULES.threshold.tag} article about you (${RULES.threshold.phrase} when we matched your name rather than a Guardian tag).`,
     `Most crossovers wins. Ties go to whoever has more coverage outside their home section.`,
