@@ -30,4 +30,4 @@ __screenshots__/
 .DS_Store
 
 # local data and cached API responses
-data/
+/data/

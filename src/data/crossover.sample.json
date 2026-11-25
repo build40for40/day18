@@ -1,0 +1,4783 @@
+{
+  "title": "The Crossover 100",
+  "window": {
+    "from": "2025-11-25",
+    "to": "2026-11-25"
+  },
+  "generatedAt": "2026-11-25T16:00:00Z",
+  "method": [
+    "Everyone is from Semrush's most searched people, checked against 12 months of Guardian coverage.",
+    "Your home section is where the Guardian writes about you most.",
+    "A crossover is any other section with at least 3 articles about you (5 when we matched your name rather than a Guardian tag).",
+    "Most crossovers wins. Ties go to whoever has more coverage outside their home section.",
+    "How much coverage you get doesn't count, so fame alone can't win."
+  ],
+  "people": [
+    {
+      "rank": 1,
+      "name": "DJ Placeholder",
+      "crossovers": 15,
+      "home": "Art and design",
+      "articles": 344,
+      "outsideShare": 0.762,
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 41
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 37
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 25
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 24
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 22
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 20
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 17
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 13
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 13
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 13
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 11
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 8
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 7
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 7
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Biscuit Placeholder",
+      "crossovers": 15,
+      "home": "Culture",
+      "articles": 834,
+      "outsideShare": 0.507,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 39
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 37
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 37
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 35
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 33
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 33
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 33
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 31
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 29
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 26
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 25
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 24
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 22
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 16
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Velvet Placeholder",
+      "crossovers": 15,
+      "home": "Life and style",
+      "articles": 610,
+      "outsideShare": 0.479,
+      "sections": [
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 37
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 35
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 34
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 31
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 30
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 24
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 20
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 18
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 16
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 15
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 10
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 10
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 5
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 4
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Professor Placeholder",
+      "crossovers": 14,
+      "home": "Music",
+      "articles": 317,
+      "outsideShare": 0.707,
+      "sections": [
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 41
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 29
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 26
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 21
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 18
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 16
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 15
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 13
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 12
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 11
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 8
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 5
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 5
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Echo Placeholder",
+      "crossovers": 14,
+      "home": "Culture",
+      "articles": 414,
+      "outsideShare": 0.676,
+      "sections": [
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 41
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 32
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 31
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 27
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 26
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 24
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 23
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 16
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 15
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 15
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 10
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 10
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 5
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Nova Placeholder",
+      "crossovers": 14,
+      "home": "Games",
+      "articles": 568,
+      "outsideShare": 0.532,
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 41
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 39
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 37
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 36
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 28
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 18
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 17
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 14
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 14
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 13
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 13
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 12
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 10
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 10
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Sir Placeholder",
+      "crossovers": 14,
+      "home": "US news",
+      "articles": 503,
+      "outsideShare": 0.471,
+      "sections": [
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 34
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 33
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 26
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 25
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 25
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 20
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 20
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 14
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 13
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 8
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 5
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 5
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 5
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Mx Placeholder",
+      "crossovers": 14,
+      "home": "Football",
+      "articles": 688,
+      "outsideShare": 0.438,
+      "sections": [
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 40
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 34
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 33
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 26
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 25
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 21
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 20
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 20
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 19
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 19
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 15
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 12
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 12
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Pixel Placeholder",
+      "crossovers": 14,
+      "home": "Stage",
+      "articles": 618,
+      "outsideShare": 0.416,
+      "sections": [
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 42
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 33
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 28
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 24
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 20
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 19
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 19
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 18
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 17
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 17
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 8
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 5
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 4
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Sunny Placeholder",
+      "crossovers": 13,
+      "home": "Media",
+      "articles": 521,
+      "outsideShare": 0.639,
+      "sections": [
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 42
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 41
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 40
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 39
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 32
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 30
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 26
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 17
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 16
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 16
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 15
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 12
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 7
+        }
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Dame Placeholder",
+      "crossovers": 13,
+      "home": "Games",
+      "articles": 528,
+      "outsideShare": 0.581,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 40
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 40
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 39
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 30
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 30
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 29
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 20
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 18
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 16
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 15
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 11
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 10
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 9
+        }
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Lady Placeholder",
+      "crossovers": 13,
+      "home": "Business",
+      "articles": 475,
+      "outsideShare": 0.577,
+      "sections": [
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 39
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 37
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 35
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 31
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 29
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 23
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 23
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 20
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 11
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 10
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 7
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 6
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Captain Placeholder",
+      "crossovers": 13,
+      "home": "Football",
+      "articles": 588,
+      "outsideShare": 0.532,
+      "sections": [
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 41
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 41
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 41
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 37
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 33
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 22
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 22
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 17
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 16
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 16
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 10
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 10
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 7
+        }
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Disco Placeholder",
+      "crossovers": 13,
+      "home": "Food",
+      "articles": 669,
+      "outsideShare": 0.468,
+      "sections": [
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 42
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 39
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 32
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 30
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 30
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 26
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 24
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 23
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 21
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 19
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 10
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 9
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 8
+        }
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Auntie Placeholder",
+      "crossovers": 13,
+      "home": "Science",
+      "articles": 575,
+      "outsideShare": 0.464,
+      "sections": [
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 36
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 35
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 34
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 33
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 32
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 28
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 16
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 15
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 14
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 9
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 7
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 5
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Baby Placeholder",
+      "crossovers": 13,
+      "home": "Science",
+      "articles": 633,
+      "outsideShare": 0.367,
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 35
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 35
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 30
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 29
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 26
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 19
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 18
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 11
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 8
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 7
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 6
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 5
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Sunny Sampleton",
+      "crossovers": 12,
+      "home": "Books",
+      "articles": 496,
+      "outsideShare": 0.625,
+      "sections": [
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 42
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 39
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 36
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 36
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 35
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 33
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 31
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 19
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 13
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 10
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 10
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Lil Placeholder",
+      "crossovers": 12,
+      "home": "Food",
+      "articles": 415,
+      "outsideShare": 0.605,
+      "sections": [
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 40
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 37
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 30
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 29
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 21
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 19
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 17
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 15
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 15
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 11
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 9
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 8
+        }
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Biscuit Sampleton",
+      "crossovers": 12,
+      "home": "US news",
+      "articles": 506,
+      "outsideShare": 0.583,
+      "sections": [
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 41
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 33
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 33
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 28
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 27
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 26
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 26
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 24
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 23
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 14
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 10
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 10
+        }
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Pixel Sampleton",
+      "crossovers": 12,
+      "home": "Opinion",
+      "articles": 399,
+      "outsideShare": 0.566,
+      "sections": [
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 37
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 31
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 29
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 25
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 21
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 20
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 17
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 13
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 12
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 9
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 8
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Professor Sampleton",
+      "crossovers": 11,
+      "home": "Film",
+      "articles": 320,
+      "outsideShare": 0.781,
+      "sections": [
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 41
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 40
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 36
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 31
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 26
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 22
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 15
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 12
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 10
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 9
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 8
+        }
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Big Placeholder",
+      "crossovers": 11,
+      "home": "Technology",
+      "articles": 341,
+      "outsideShare": 0.718,
+      "sections": [
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 42
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 37
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 37
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 33
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 26
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 26
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 13
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 11
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 11
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 5
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Nova Sampleton",
+      "crossovers": 11,
+      "home": "Politics",
+      "articles": 374,
+      "outsideShare": 0.666,
+      "sections": [
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 40
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 39
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 34
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 32
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 28
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 22
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 16
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 14
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 13
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 6
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "DJ Sampleton",
+      "crossovers": 11,
+      "home": "Books",
+      "articles": 267,
+      "outsideShare": 0.644,
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 36
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 33
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 27
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 24
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 11
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 9
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 8
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 7
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 7
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 6
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Lil Sampleton",
+      "crossovers": 11,
+      "home": "Culture",
+      "articles": 420,
+      "outsideShare": 0.571,
+      "sections": [
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 41
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 37
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 36
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 33
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 32
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 17
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 12
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 10
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 10
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 7
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Kid Placeholder",
+      "crossovers": 11,
+      "home": "Football",
+      "articles": 306,
+      "outsideShare": 0.565,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 39
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 26
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 20
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 18
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 17
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 12
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 12
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 10
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 8
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 7
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Captain Sampleton",
+      "crossovers": 11,
+      "home": "Science",
+      "articles": 539,
+      "outsideShare": 0.512,
+      "sections": [
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 42
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 36
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 35
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 30
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 29
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 27
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 20
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 17
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 15
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 14
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 11
+        }
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Duke Placeholder",
+      "crossovers": 11,
+      "home": "Music",
+      "articles": 528,
+      "outsideShare": 0.504,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 40
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 39
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 33
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 33
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 32
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 24
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 22
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 17
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 12
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 10
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Echo Sampleton",
+      "crossovers": 11,
+      "home": "Business",
+      "articles": 448,
+      "outsideShare": 0.444,
+      "sections": [
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 40
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 35
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 29
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 20
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 19
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 17
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 13
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 8
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 7
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 7
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Velvet Sampleton",
+      "crossovers": 11,
+      "home": "Opinion",
+      "articles": 685,
+      "outsideShare": 0.393,
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 40
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 38
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 30
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 28
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 27
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 26
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 26
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 23
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 18
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 8
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Auntie Sampleton",
+      "crossovers": 10,
+      "home": "Film",
+      "articles": 248,
+      "outsideShare": 0.806,
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 41
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 40
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 40
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 17
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 14
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 14
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 11
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 9
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 8
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "Lady Sampleton",
+      "crossovers": 10,
+      "home": "Money",
+      "articles": 444,
+      "outsideShare": 0.631,
+      "sections": [
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 41
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 37
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 37
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 33
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 28
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 27
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 26
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 26
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 21
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Kid Sampleton",
+      "crossovers": 10,
+      "home": "Technology",
+      "articles": 368,
+      "outsideShare": 0.592,
+      "sections": [
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 36
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 32
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 30
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 27
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 24
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 22
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 13
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 13
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 12
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 9
+        }
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "Pixel Dummington",
+      "crossovers": 10,
+      "home": "Culture",
+      "articles": 510,
+      "outsideShare": 0.535,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 42
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 39
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 37
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 30
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 29
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 26
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 25
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 23
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 11
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 11
+        }
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Baby Sampleton",
+      "crossovers": 10,
+      "home": "Football",
+      "articles": 521,
+      "outsideShare": 0.476,
+      "sections": [
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 33
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 31
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 30
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 30
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 29
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 23
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 23
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 23
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 14
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 12
+        }
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Disco Sampleton",
+      "crossovers": 10,
+      "home": "Business",
+      "articles": 610,
+      "outsideShare": 0.325,
+      "sections": [
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 39
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 35
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 30
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 20
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 19
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 18
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 12
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 12
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 8
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "Sir Sampleton",
+      "crossovers": 9,
+      "home": "Television & radio",
+      "articles": 316,
+      "outsideShare": 0.826,
+      "sections": [
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 41
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 40
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 38
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 36
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 33
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 24
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 23
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 14
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 12
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Baby Dummington",
+      "crossovers": 9,
+      "home": "Film",
+      "articles": 277,
+      "outsideShare": 0.718,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 41
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 38
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 32
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 28
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 27
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 11
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 10
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 8
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Lady Dummington",
+      "crossovers": 9,
+      "home": "Culture",
+      "articles": 225,
+      "outsideShare": 0.667,
+      "sections": [
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 38
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 21
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 20
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 17
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 15
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 13
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 12
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 10
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "Biscuit Dummington",
+      "crossovers": 9,
+      "home": "Games",
+      "articles": 340,
+      "outsideShare": 0.6,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 40
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 35
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 32
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 29
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 28
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 15
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 13
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 8
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "Duke Sampleton",
+      "crossovers": 9,
+      "home": "Sport",
+      "articles": 313,
+      "outsideShare": 0.572,
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 33
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 30
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 24
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 23
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 20
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 19
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 19
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 8
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "Mx Sampleton",
+      "crossovers": 9,
+      "home": "Opinion",
+      "articles": 452,
+      "outsideShare": 0.434,
+      "sections": [
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 42
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 39
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 39
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 30
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 22
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 9
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 7
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 5
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "Big Sampleton",
+      "crossovers": 9,
+      "home": "Culture",
+      "articles": 531,
+      "outsideShare": 0.292,
+      "sections": [
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 37
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 27
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 20
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 18
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 16
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 14
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 10
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 9
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "Dame Sampleton",
+      "crossovers": 8,
+      "home": "Science",
+      "articles": 238,
+      "outsideShare": 0.66,
+      "sections": [
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 37
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 31
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 26
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 22
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 21
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 10
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 6
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 45,
+      "name": "Kid Dummington",
+      "crossovers": 8,
+      "home": "Sport",
+      "articles": 300,
+      "outsideShare": 0.607,
+      "sections": [
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 42
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 32
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 27
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 26
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 25
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 13
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 10
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 7
+        }
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "Sir Dummington",
+      "crossovers": 8,
+      "home": "Food",
+      "articles": 272,
+      "outsideShare": 0.555,
+      "sections": [
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 31
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 31
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 26
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 20
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 15
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 14
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 7
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 7
+        }
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Disco Dummington",
+      "crossovers": 8,
+      "home": "Media",
+      "articles": 470,
+      "outsideShare": 0.474,
+      "sections": [
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 42
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 42
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 40
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 40
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 22
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 19
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 15
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "Echo Dummington",
+      "crossovers": 8,
+      "home": "Food",
+      "articles": 611,
+      "outsideShare": 0.38,
+      "sections": [
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 42
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 40
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 37
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 34
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 30
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 28
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 15
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 49,
+      "name": "Velvet Dummington",
+      "crossovers": 8,
+      "home": "Music",
+      "articles": 510,
+      "outsideShare": 0.355,
+      "sections": [
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 38
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 37
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 34
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 24
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 21
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 13
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 8
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "Nova Dummington",
+      "crossovers": 8,
+      "home": "Money",
+      "articles": 454,
+      "outsideShare": 0.346,
+      "sections": [
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 39
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 36
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 28
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 20
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 11
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 10
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 9
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "Professor Dummington",
+      "crossovers": 8,
+      "home": "Television & radio",
+      "articles": 620,
+      "outsideShare": 0.311,
+      "sections": [
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 35
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 34
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 32
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 30
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 27
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 16
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 10
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 9
+        }
+      ]
+    },
+    {
+      "rank": 52,
+      "name": "Dame Dummington",
+      "crossovers": 8,
+      "home": "Football",
+      "articles": 402,
+      "outsideShare": 0.301,
+      "sections": [
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 34
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 25
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 24
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 10
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 10
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 7
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 7
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 53,
+      "name": "Big Dummington",
+      "crossovers": 7,
+      "home": "Technology",
+      "articles": 280,
+      "outsideShare": 0.739,
+      "sections": [
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 42
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 42
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 36
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 34
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 26
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 14
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 13
+        }
+      ]
+    },
+    {
+      "rank": 54,
+      "name": "Sunny Dummington",
+      "crossovers": 7,
+      "home": "Fashion",
+      "articles": 230,
+      "outsideShare": 0.552,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 38
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 33
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 24
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 14
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 9
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 6
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "Duke Dummington",
+      "crossovers": 7,
+      "home": "Culture",
+      "articles": 364,
+      "outsideShare": 0.396,
+      "sections": [
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 41
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 25
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 20
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 18
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 16
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 14
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 10
+        }
+      ]
+    },
+    {
+      "rank": 56,
+      "name": "Auntie Dummington",
+      "crossovers": 7,
+      "home": "Sport",
+      "articles": 382,
+      "outsideShare": 0.374,
+      "sections": [
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 37
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 24
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 24
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 20
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 16
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 16
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 57,
+      "name": "Captain Dummington",
+      "crossovers": 7,
+      "home": "Music",
+      "articles": 587,
+      "outsideShare": 0.271,
+      "sections": [
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 42
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 34
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 28
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 24
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 15
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 8
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 8
+        }
+      ]
+    },
+    {
+      "rank": 58,
+      "name": "Mx Dummington",
+      "crossovers": 7,
+      "home": "Opinion",
+      "articles": 459,
+      "outsideShare": 0.251,
+      "sections": [
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 33
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 33
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 15
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 12
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 9
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 7
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 59,
+      "name": "DJ Mockridge",
+      "crossovers": 6,
+      "home": "Science",
+      "articles": 157,
+      "outsideShare": 0.809,
+      "sections": [
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 30
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 28
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 26
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 15
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 14
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 14
+        }
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Pixel Mockridge",
+      "crossovers": 6,
+      "home": "Television & radio",
+      "articles": 221,
+      "outsideShare": 0.561,
+      "sections": [
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 40
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 28
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 23
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 14
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 11
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 8
+        }
+      ]
+    },
+    {
+      "rank": 61,
+      "name": "Sunny Mockridge",
+      "crossovers": 6,
+      "home": "Music",
+      "articles": 336,
+      "outsideShare": 0.387,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 41
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 36
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 24
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 16
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 8
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 62,
+      "name": "Lil Dummington",
+      "crossovers": 6,
+      "home": "Games",
+      "articles": 392,
+      "outsideShare": 0.347,
+      "sections": [
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 42
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 39
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 24
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 14
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 13
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "name": "Nova Mockridge",
+      "crossovers": 6,
+      "home": "Books",
+      "articles": 358,
+      "outsideShare": 0.332,
+      "sections": [
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 36
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 31
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 24
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 19
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 6
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "name": "DJ Dummington",
+      "crossovers": 6,
+      "home": "Film",
+      "articles": 418,
+      "outsideShare": 0.328,
+      "sections": [
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 42
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 38
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 24
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 16
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 13
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 65,
+      "name": "Captain Mockridge",
+      "crossovers": 6,
+      "home": "Film",
+      "articles": 565,
+      "outsideShare": 0.301,
+      "sections": [
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 40
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 37
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 30
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 29
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 28
+        },
+        {
+          "id": "games",
+          "title": "Games",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 66,
+      "name": "Echo Mockridge",
+      "crossovers": 5,
+      "home": "Media",
+      "articles": 112,
+      "outsideShare": 0.509,
+      "sections": [
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 26
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 12
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 9
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 7
+        },
+        {
+          "id": "law",
+          "title": "Law",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 67,
+      "name": "Biscuit Mockridge",
+      "crossovers": 5,
+      "home": "Science",
+      "articles": 300,
+      "outsideShare": 0.433,
+      "sections": [
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 41
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 34
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 23
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 22
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 10
+        }
+      ]
+    },
+    {
+      "rank": 68,
+      "name": "Auntie Mockridge",
+      "crossovers": 5,
+      "home": "Film",
+      "articles": 361,
+      "outsideShare": 0.377,
+      "sections": [
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 36
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 34
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 28
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 21
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 17
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "name": "Kid Mockridge",
+      "crossovers": 5,
+      "home": "Opinion",
+      "articles": 414,
+      "outsideShare": 0.362,
+      "sections": [
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 42
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 38
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 30
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 26
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 14
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "name": "Disco Mockridge",
+      "crossovers": 5,
+      "home": "Money",
+      "articles": 272,
+      "outsideShare": 0.353,
+      "sections": [
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 40
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 21
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 17
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 12
+        },
+        {
+          "id": "world",
+          "title": "World news",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 71,
+      "name": "Big Mockridge",
+      "crossovers": 5,
+      "home": "Law",
+      "articles": 338,
+      "outsideShare": 0.328,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 38
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 29
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 21
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 20
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 72,
+      "name": "Velvet Mockridge",
+      "crossovers": 5,
+      "home": "World news",
+      "articles": 462,
+      "outsideShare": 0.299,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 41
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 38
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 28
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 27
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 73,
+      "name": "Lady Mockridge",
+      "crossovers": 4,
+      "home": "Media",
+      "articles": 146,
+      "outsideShare": 0.733,
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 37
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 32
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 30
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 8
+        }
+      ]
+    },
+    {
+      "rank": 74,
+      "name": "Baby Mockridge",
+      "crossovers": 4,
+      "home": "World news",
+      "articles": 114,
+      "outsideShare": 0.5,
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 23
+        },
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 18
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 13
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "name": "Sir Mockridge",
+      "crossovers": 4,
+      "home": "Art and design",
+      "articles": 155,
+      "outsideShare": 0.387,
+      "sections": [
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 22
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 19
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 14
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "name": "Velvet Fakesworth",
+      "crossovers": 4,
+      "home": "Music",
+      "articles": 355,
+      "outsideShare": 0.327,
+      "sections": [
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 42
+        },
+        {
+          "id": "technology",
+          "title": "Technology",
+          "articles": 36
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 31
+        },
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 7
+        }
+      ]
+    },
+    {
+      "rank": 77,
+      "name": "Professor Mockridge",
+      "crossovers": 4,
+      "home": "Opinion",
+      "articles": 237,
+      "outsideShare": 0.291,
+      "sections": [
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 31
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 17
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 11
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 10
+        }
+      ]
+    },
+    {
+      "rank": 78,
+      "name": "Lil Mockridge",
+      "crossovers": 4,
+      "home": "Stage",
+      "articles": 450,
+      "outsideShare": 0.242,
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 38
+        },
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 28
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 24
+        },
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 19
+        }
+      ]
+    },
+    {
+      "rank": 79,
+      "name": "Mx Mockridge",
+      "crossovers": 4,
+      "home": "Music",
+      "articles": 466,
+      "outsideShare": 0.204,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 31
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 28
+        },
+        {
+          "id": "culture",
+          "title": "Culture",
+          "articles": 20
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 16
+        }
+      ]
+    },
+    {
+      "rank": 80,
+      "name": "Echo Fakesworth",
+      "crossovers": 4,
+      "home": "Life and style",
+      "articles": 425,
+      "outsideShare": 0.12,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 24
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 18
+        },
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 5
+        },
+        {
+          "id": "money",
+          "title": "Money",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 81,
+      "name": "Duke Mockridge",
+      "crossovers": 3,
+      "home": "Life and style",
+      "articles": 164,
+      "outsideShare": 0.463,
+      "sections": [
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 35
+        },
+        {
+          "id": "tv-and-radio",
+          "title": "Television & radio",
+          "articles": 21
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 20
+        }
+      ]
+    },
+    {
+      "rank": 82,
+      "name": "Big Fakesworth",
+      "crossovers": 3,
+      "home": "Books",
+      "articles": 233,
+      "outsideShare": 0.292,
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 27
+        },
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 23
+        },
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 18
+        }
+      ]
+    },
+    {
+      "rank": 83,
+      "name": "Sunny Fakesworth",
+      "crossovers": 3,
+      "home": "Media",
+      "articles": 452,
+      "outsideShare": 0.184,
+      "sections": [
+        {
+          "id": "music",
+          "title": "Music",
+          "articles": 40
+        },
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 38
+        },
+        {
+          "id": "business",
+          "title": "Business",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 84,
+      "name": "Pixel Fakesworth",
+      "crossovers": 2,
+      "home": "Life and style",
+      "articles": 109,
+      "outsideShare": 0.578,
+      "sections": [
+        {
+          "id": "film",
+          "title": "Film",
+          "articles": 34
+        },
+        {
+          "id": "books",
+          "title": "Books",
+          "articles": 29
+        }
+      ]
+    },
+    {
+      "rank": 85,
+      "name": "Biscuit Fakesworth",
+      "crossovers": 2,
+      "home": "Money",
+      "articles": 181,
+      "outsideShare": 0.243,
+      "sections": [
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 39
+        },
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 5
+        }
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "Nova Fakesworth",
+      "crossovers": 2,
+      "home": "Sport",
+      "articles": 403,
+      "outsideShare": 0.151,
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 40
+        },
+        {
+          "id": "artanddesign",
+          "title": "Art and design",
+          "articles": 21
+        }
+      ]
+    },
+    {
+      "rank": 87,
+      "name": "Baby Fakesworth",
+      "crossovers": 2,
+      "home": "Sport",
+      "articles": 463,
+      "outsideShare": 0.123,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 34
+        },
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 23
+        }
+      ]
+    },
+    {
+      "rank": 88,
+      "name": "Captain Fakesworth",
+      "crossovers": 2,
+      "home": "Sport",
+      "articles": 434,
+      "outsideShare": 0.106,
+      "sections": [
+        {
+          "id": "lifeandstyle",
+          "title": "Life and style",
+          "articles": 42
+        },
+        {
+          "id": "media",
+          "title": "Media",
+          "articles": 4
+        }
+      ]
+    },
+    {
+      "rank": 89,
+      "name": "Dame Mockridge",
+      "crossovers": 2,
+      "home": "US news",
+      "articles": 317,
+      "outsideShare": 0.098,
+      "sections": [
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 25
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 6
+        }
+      ]
+    },
+    {
+      "rank": 90,
+      "name": "Lady Fakesworth",
+      "crossovers": 2,
+      "home": "US news",
+      "articles": 366,
+      "outsideShare": 0.087,
+      "sections": [
+        {
+          "id": "fashion",
+          "title": "Fashion",
+          "articles": 16
+        },
+        {
+          "id": "food",
+          "title": "Food",
+          "articles": 16
+        }
+      ]
+    },
+    {
+      "rank": 91,
+      "name": "DJ Fakesworth",
+      "crossovers": 2,
+      "home": "Culture",
+      "articles": 401,
+      "outsideShare": 0.03,
+      "sections": [
+        {
+          "id": "football",
+          "title": "Football",
+          "articles": 9
+        },
+        {
+          "id": "sport",
+          "title": "Sport",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 92,
+      "name": "Mx Fakesworth",
+      "crossovers": 1,
+      "home": "US news",
+      "articles": 97,
+      "outsideShare": 0.433,
+      "sections": [
+        {
+          "id": "science",
+          "title": "Science",
+          "articles": 42
+        }
+      ]
+    },
+    {
+      "rank": 93,
+      "name": "Kid Fakesworth",
+      "crossovers": 1,
+      "home": "Music",
+      "articles": 51,
+      "outsideShare": 0.235,
+      "sections": [
+        {
+          "id": "us-news",
+          "title": "US news",
+          "articles": 12
+        }
+      ]
+    },
+    {
+      "rank": 94,
+      "name": "Sir Fakesworth",
+      "crossovers": 1,
+      "home": "Games",
+      "articles": 339,
+      "outsideShare": 0.112,
+      "sections": [
+        {
+          "id": "politics",
+          "title": "Politics",
+          "articles": 38
+        }
+      ]
+    },
+    {
+      "rank": 95,
+      "name": "Disco Fakesworth",
+      "crossovers": 1,
+      "home": "Life and style",
+      "articles": 402,
+      "outsideShare": 0.062,
+      "sections": [
+        {
+          "id": "commentisfree",
+          "title": "Opinion",
+          "articles": 25
+        }
+      ]
+    },
+    {
+      "rank": 96,
+      "name": "Dame Fakesworth",
+      "crossovers": 1,
+      "home": "Opinion",
+      "articles": 260,
+      "outsideShare": 0.012,
+      "sections": [
+        {
+          "id": "stage",
+          "title": "Stage",
+          "articles": 3
+        }
+      ]
+    },
+    {
+      "rank": 97,
+      "name": "Auntie Fakesworth",
+      "crossovers": 0,
+      "home": "Games",
+      "articles": 384,
+      "outsideShare": 0,
+      "sections": []
+    },
+    {
+      "rank": 98,
+      "name": "Duke Fakesworth",
+      "crossovers": 0,
+      "home": "Sport",
+      "articles": 97,
+      "outsideShare": 0,
+      "sections": []
+    },
+    {
+      "rank": 99,
+      "name": "Lil Fakesworth",
+      "crossovers": 0,
+      "home": "Life and style",
+      "articles": 391,
+      "outsideShare": 0,
+      "sections": []
+    },
+    {
+      "rank": 100,
+      "name": "Professor Fakesworth",
+      "crossovers": 0,
+      "home": "Art and design",
+      "articles": 187,
+      "outsideShare": 0,
+      "sections": []
+    }
+  ]
+}
