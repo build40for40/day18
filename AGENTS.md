@@ -54,7 +54,7 @@ Cut for now: regions, sector leaderboards, social platforms, niche fashion pocke
 ## Decided
 
 - Samira owns the data and scoring, and the page only shows what `src/data/crossover.json` says. It never re-ranks.
-- `src/data/crossover.json` needs `rank`, `name` and `crossovers` for each person. `home`, `articles`, `outsideShare`, `sections`, `method` and `window` are optional, and the page hides what's missing. `src/chart/schema.ts` checks it at build time.
+- `src/data/crossover.json` needs `rank`, `name` and `crossovers` for each person. `home`, `articles`, `articlesTotal`, `sampled`, `outsideShare`, `sections`, `method` and `window` are optional (the page shows `articlesTotal` when there is one, and `sampled` says the section counts come from only the newest N articles because the pull was capped), and the page hides what's missing. `src/chart/schema.ts` checks it at build time.
 - Until that file exists, the page shows `src/data/crossover.sample.json` (100 made-up people) with a sample data banner.
 - Window: the rolling 12 months from 25 Nov 2025 to 25 Nov 2026.
 - Every Guardian section counts. `RULES.ignore` in `scripts/score.ts` can drop network or regional ones later.

@@ -15,6 +15,10 @@ export const chartSchema = z.object({
         crossovers: z.number().int().nonnegative(),
         home: z.string().optional(),
         articles: z.number().int().nonnegative().optional(),
+        // the full count of articles about them, which can be more than the section counts add up to
+        articlesTotal: z.number().int().nonnegative().optional(),
+        // set when the section counts come from only this many of the newest articles
+        sampled: z.number().int().positive().optional(),
         outsideShare: z.number().min(0).max(1).optional(),
         sections: z
           .array(z.object({ id: z.string(), title: z.string(), articles: z.number().int().nonnegative() }))

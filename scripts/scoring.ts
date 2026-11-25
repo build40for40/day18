@@ -10,7 +10,10 @@ export interface PersonCounts {
   name: string
   match: Match
   tag?: string
+  /** articles read, which can be fewer than `total` when a pull was capped */
   articles: number
+  /** the Guardian's full count of articles about them in the window, when the pull recorded it */
+  total?: number
   /** articles per Guardian section id */
   sections: Record<string, number>
 }
@@ -31,6 +34,10 @@ export interface Scored {
   crossovers: number
   home: string
   articles: number
+  /** the full count of articles about them, set when the pull recorded it */
+  articlesTotal?: number
+  /** set when section counts come from fewer articles than the total (a capped pull): how many were read */
+  sampled?: number
   outsideShare: number
   /** sections crossed into, beyond home, with their article counts */
   crossed: { id: string; articles: number }[]
@@ -60,6 +67,8 @@ export function scorePerson(person: PersonCounts, rules: ScoreRules): Omit<Score
     crossovers: crossed.length,
     home,
     articles: total,
+    ...(person.total !== undefined && { articlesTotal: person.total }),
+    ...(person.total !== undefined && person.articles < person.total && { sampled: person.articles }),
     outsideShare: Math.round(((total - homeCount) / total) * 1000) / 1000,
     crossed,
   }

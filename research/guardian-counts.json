@@ -46,7 +46,8 @@
         "membership": 1,
         "artanddesign": 1,
         "global-development": 1
-      }
+      },
+      "total": 5011
     },
     {
       "seedRank": 2,
@@ -83,7 +84,8 @@
         "community": 2,
         "artanddesign": 1,
         "food": 1
-      }
+      },
+      "total": 1320
     },
     {
       "seedRank": 3,
@@ -118,7 +120,8 @@
         "books": 1,
         "artanddesign": 1,
         "culture": 2
-      }
+      },
+      "total": 1406
     },
     {
       "seedRank": 4,
@@ -151,7 +154,8 @@
         "media": 3,
         "sport": 1,
         "artanddesign": 1
-      }
+      },
+      "total": 379
     },
     {
       "seedRank": 5,
@@ -176,7 +180,8 @@
         "business": 2,
         "football": 1,
         "artanddesign": 1
-      }
+      },
+      "total": 348
     },
     {
       "seedRank": 6,
@@ -199,7 +204,8 @@
         "tv-and-radio": 1,
         "sport": 7,
         "music": 1
-      }
+      },
+      "total": 204
     },
     {
       "seedRank": 7,
@@ -221,7 +227,8 @@
         "thefilter-us": 1,
         "business": 2,
         "artanddesign": 1
-      }
+      },
+      "total": 70
     },
     {
       "seedRank": 8,
@@ -243,7 +250,8 @@
         "media": 17,
         "lifeandstyle": 1,
         "politics": 1
-      }
+      },
+      "total": 89
     },
     {
       "seedRank": 9,
@@ -265,7 +273,8 @@
         "media": 2,
         "culture": 1,
         "fashion": 2
-      }
+      },
+      "total": 67
     },
     {
       "seedRank": 10,
@@ -287,7 +296,8 @@
         "media": 3,
         "fashion": 1,
         "society": 2
-      }
+      },
+      "total": 286
     },
     {
       "seedRank": 11,
@@ -308,7 +318,8 @@
         "media": 4,
         "us-news": 1,
         "business": 1
-      }
+      },
+      "total": 48
     },
     {
       "seedRank": 12,
@@ -329,7 +340,8 @@
         "global": 2,
         "world": 2,
         "artanddesign": 1
-      }
+      },
+      "total": 66
     },
     {
       "seedRank": 13,
@@ -350,7 +362,8 @@
         "politics": 8,
         "uk-news": 1,
         "artanddesign": 1
-      }
+      },
+      "total": 149
     },
     {
       "seedRank": 14,
@@ -371,7 +384,8 @@
         "business": 1,
         "culture": 1,
         "tv-and-radio": 1
-      }
+      },
+      "total": 111
     },
     {
       "seedRank": 15,
@@ -393,7 +407,8 @@
         "society": 1,
         "music": 1,
         "thefilter-us": 1
-      }
+      },
+      "total": 175
     },
     {
       "seedRank": 16,
@@ -413,7 +428,8 @@
         "politics": 2,
         "global-development": 1,
         "technology": 2
-      }
+      },
+      "total": 144
     },
     {
       "seedRank": 17,
@@ -433,7 +449,8 @@
         "business": 1,
         "tv-and-radio": 1,
         "sport": 1
-      }
+      },
+      "total": 36
     },
     {
       "seedRank": 18,
@@ -453,7 +470,8 @@
         "artanddesign": 3,
         "world": 2,
         "film": 2
-      }
+      },
+      "total": 53
     },
     {
       "seedRank": 19,
@@ -473,7 +491,8 @@
         "uk-news": 1,
         "stage": 1,
         "lifeandstyle": 1
-      }
+      },
+      "total": 58
     },
     {
       "seedRank": 20,
@@ -492,7 +511,8 @@
         "law": 1,
         "news": 1,
         "music": 1
-      }
+      },
+      "total": 34
     },
     {
       "seedRank": 21,
@@ -511,7 +531,8 @@
         "environment": 1,
         "australia-news": 3,
         "law": 1
-      }
+      },
+      "total": 260
     },
     {
       "seedRank": 22,
@@ -528,7 +549,8 @@
         "politics": 1,
         "fashion": 1,
         "news": 1
-      }
+      },
+      "total": 13
     },
     {
       "seedRank": 23,
@@ -545,7 +567,8 @@
         "artanddesign": 1,
         "film": 1,
         "sport": 1
-      }
+      },
+      "total": 23
     },
     {
       "seedRank": 24,
@@ -562,7 +585,8 @@
         "stage": 1,
         "culture": 1,
         "business": 1
-      }
+      },
+      "total": 35
     },
     {
       "seedRank": 25,
@@ -580,7 +604,8 @@
         "artanddesign": 1,
         "science": 1,
         "culture": 1
-      }
+      },
+      "total": 42
     },
     {
       "seedRank": 26,
@@ -598,7 +623,8 @@
         "australia-news": 2,
         "global": 1,
         "technology": 1
-      }
+      },
+      "total": 60
     },
     {
       "seedRank": 27,
@@ -616,7 +642,8 @@
         "news": 1,
         "uk-news": 2,
         "sport": 2
-      }
+      },
+      "total": 337
     },
     {
       "seedRank": 28,
@@ -633,7 +660,8 @@
         "culture": 1,
         "sport": 1,
         "lifeandstyle": 2
-      }
+      },
+      "total": 11
     },
     {
       "seedRank": 29,
@@ -649,7 +677,8 @@
         "world": 1,
         "film": 1,
         "books": 1
-      }
+      },
+      "total": 8
     },
     {
       "seedRank": 30,
@@ -666,7 +695,8 @@
         "tv-and-radio": 1,
         "news": 1,
         "football": 1
-      }
+      },
+      "total": 25
     },
     {
       "seedRank": 31,
@@ -683,7 +713,8 @@
         "us-news": 1,
         "business": 1,
         "politics": 1
-      }
+      },
+      "total": 27
     },
     {
       "seedRank": 32,
@@ -700,7 +731,8 @@
         "tv-and-radio": 1,
         "news": 1,
         "lifeandstyle": 1
-      }
+      },
+      "total": 28
     },
     {
       "seedRank": 33,
@@ -716,7 +748,8 @@
         "fashion": 1,
         "tv-and-radio": 1,
         "lifeandstyle": 1
-      }
+      },
+      "total": 19
     },
     {
       "seedRank": 34,
@@ -733,7 +766,8 @@
         "commentisfree": 1,
         "society": 1,
         "football": 1
-      }
+      },
+      "total": 28
     },
     {
       "seedRank": 35,
@@ -750,7 +784,8 @@
         "world": 3,
         "us-news": 3,
         "global": 2
-      }
+      },
+      "total": 87
     },
     {
       "seedRank": 36,
@@ -766,7 +801,8 @@
         "fashion": 3,
         "film": 1,
         "culture": 1
-      }
+      },
+      "total": 11
     },
     {
       "seedRank": 37,
@@ -781,7 +817,8 @@
         "books": 1,
         "tv-and-radio": 1,
         "uk-news": 1
-      }
+      },
+      "total": 8
     },
     {
       "seedRank": 38,
@@ -796,7 +833,8 @@
         "culture": 2,
         "lifeandstyle": 1,
         "books": 1
-      }
+      },
+      "total": 28
     },
     {
       "seedRank": 39,
@@ -812,7 +850,8 @@
         "global": 2,
         "commentisfree": 7,
         "world": 1
-      }
+      },
+      "total": 78
     },
     {
       "seedRank": 40,
@@ -827,7 +866,8 @@
         "culture": 1,
         "world": 1,
         "film": 1
-      }
+      },
+      "total": 19
     },
     {
       "seedRank": 41,
@@ -843,7 +883,8 @@
         "lifeandstyle": 1,
         "fashion": 1,
         "books": 1
-      }
+      },
+      "total": 23
     },
     {
       "seedRank": 42,
@@ -858,7 +899,8 @@
         "science": 1,
         "commentisfree": 1,
         "lifeandstyle": 2
-      }
+      },
+      "total": 26
     },
     {
       "seedRank": 43,
@@ -873,7 +915,8 @@
         "society": 1,
         "news": 1,
         "environment": 1
-      }
+      },
+      "total": 19
     },
     {
       "seedRank": 44,
@@ -888,7 +931,8 @@
         "culture": 1,
         "world": 1,
         "politics": 2
-      }
+      },
+      "total": 29
     },
     {
       "seedRank": 45,
@@ -903,7 +947,8 @@
         "commentisfree": 4,
         "artanddesign": 1,
         "film": 1
-      }
+      },
+      "total": 31
     },
     {
       "seedRank": 46,
@@ -918,7 +963,8 @@
         "tv-and-radio": 1,
         "world": 2,
         "business": 1
-      }
+      },
+      "total": 41
     },
     {
       "seedRank": 47,
@@ -931,7 +977,8 @@
         "uk-news": 6,
         "media": 6,
         "film": 2
-      }
+      },
+      "total": 21
     },
     {
       "seedRank": 48,
@@ -945,7 +992,8 @@
         "tv-and-radio": 7,
         "film": 7,
         "culture": 2
-      }
+      },
+      "total": 23
     },
     {
       "seedRank": 49,
@@ -958,7 +1006,8 @@
         "culture": 1,
         "stage": 1,
         "film": 2
-      }
+      },
+      "total": 5
     },
     {
       "seedRank": 50,
@@ -971,7 +1020,8 @@
         "artanddesign": 1,
         "music": 1,
         "fashion": 2
-      }
+      },
+      "total": 5
     },
     {
       "seedRank": 51,
@@ -984,7 +1034,8 @@
         "music": 4,
         "fashion": 1,
         "lifeandstyle": 1
-      }
+      },
+      "total": 8
     },
     {
       "seedRank": 52,
@@ -997,7 +1048,8 @@
         "us-news": 1,
         "technology": 1,
         "tv-and-radio": 1
-      }
+      },
+      "total": 7
     },
     {
       "seedRank": 53,
@@ -1010,7 +1062,8 @@
         "fashion": 2,
         "culture": 1,
         "music": 6
-      }
+      },
+      "total": 10
     },
     {
       "seedRank": 54,
@@ -1023,7 +1076,8 @@
         "culture": 2,
         "fashion": 1,
         "tv-and-radio": 1
-      }
+      },
+      "total": 11
     },
     {
       "seedRank": 55,
@@ -1037,7 +1091,8 @@
         "music": 8,
         "fashion": 1,
         "lifeandstyle": 1
-      }
+      },
+      "total": 15
     },
     {
       "seedRank": 56,
@@ -1050,7 +1105,8 @@
         "football": 1,
         "lifeandstyle": 1,
         "us-news": 1
-      }
+      },
+      "total": 9
     },
     {
       "seedRank": 57,
@@ -1063,7 +1119,8 @@
         "film": 9,
         "books": 2,
         "us-news": 1
-      }
+      },
+      "total": 13
     },
     {
       "seedRank": 58,
@@ -1077,7 +1134,8 @@
         "film": 1,
         "us-news": 1,
         "culture": 1
-      }
+      },
+      "total": 13
     },
     {
       "seedRank": 59,
@@ -1091,7 +1149,8 @@
         "commentisfree": 1,
         "global": 1,
         "tv-and-radio": 1
-      }
+      },
+      "total": 18
     },
     {
       "seedRank": 60,
@@ -1105,7 +1164,8 @@
         "news": 2,
         "politics": 1,
         "fashion": 1
-      }
+      },
+      "total": 22
     },
     {
       "seedRank": 61,
@@ -1119,7 +1179,8 @@
         "stage": 1,
         "fashion": 2,
         "culture": 1
-      }
+      },
+      "total": 26
     },
     {
       "seedRank": 62,
@@ -1133,7 +1194,8 @@
         "stage": 2,
         "culture": 1,
         "commentisfree": 1
-      }
+      },
+      "total": 25
     },
     {
       "seedRank": 63,
@@ -1147,7 +1209,8 @@
         "commentisfree": 3,
         "sport": 2,
         "world": 1
-      }
+      },
+      "total": 32
     },
     {
       "seedRank": 64,
@@ -1161,7 +1224,8 @@
         "sport": 1,
         "culture": 1,
         "fashion": 1
-      }
+      },
+      "total": 30
     },
     {
       "seedRank": 65,
@@ -1175,7 +1239,8 @@
         "politics": 3,
         "us-news": 3,
         "music": 1
-      }
+      },
+      "total": 75
     },
     {
       "seedRank": 66,
@@ -1189,7 +1254,8 @@
         "education": 1,
         "film": 1,
         "sport": 1
-      }
+      },
+      "total": 34
     },
     {
       "seedRank": 67,
@@ -1202,7 +1268,8 @@
         "film": 1,
         "media": 1,
         "culture": 1
-      }
+      },
+      "total": 9
     },
     {
       "seedRank": 68,
@@ -1214,7 +1281,8 @@
         "culture": 2,
         "music": 2,
         "sport": 1
-      }
+      },
+      "total": 5
     },
     {
       "seedRank": 69,
@@ -1227,7 +1295,8 @@
         "books": 4,
         "commentisfree": 1,
         "fashion": 4
-      }
+      },
+      "total": 15
     },
     {
       "seedRank": 70,
@@ -1239,7 +1308,8 @@
         "culture": 2,
         "film": 3,
         "world": 1
-      }
+      },
+      "total": 6
     },
     {
       "seedRank": 71,
@@ -1252,7 +1322,8 @@
         "books": 2,
         "commentisfree": 1,
         "artanddesign": 1
-      }
+      },
+      "total": 5
     },
     {
       "seedRank": 72,
@@ -1264,7 +1335,8 @@
         "world": 2,
         "music": 1,
         "film": 1
-      }
+      },
+      "total": 4
     },
     {
       "seedRank": 73,
@@ -1277,7 +1349,8 @@
         "music": 7,
         "us-news": 2,
         "commentisfree": 1
-      }
+      },
+      "total": 12
     },
     {
       "seedRank": 74,
@@ -1290,7 +1363,8 @@
         "commentisfree": 3,
         "business": 1,
         "world": 2
-      }
+      },
+      "total": 12
     },
     {
       "seedRank": 75,
@@ -1302,7 +1376,8 @@
         "film": 6,
         "tv-and-radio": 2,
         "lifeandstyle": 1
-      }
+      },
+      "total": 9
     },
     {
       "seedRank": 76,
@@ -1315,7 +1390,8 @@
         "world": 1,
         "uk-news": 1,
         "commentisfree": 1
-      }
+      },
+      "total": 7
     },
     {
       "seedRank": 77,
@@ -1327,7 +1403,8 @@
         "film": 4,
         "culture": 1,
         "tv-and-radio": 1
-      }
+      },
+      "total": 6
     },
     {
       "seedRank": 78,
@@ -1340,7 +1417,8 @@
         "commentisfree": 2,
         "us-news": 1,
         "australia-news": 1
-      }
+      },
+      "total": 9
     },
     {
       "seedRank": 79,
@@ -1352,7 +1430,8 @@
         "film": 6,
         "books": 1,
         "us-news": 1
-      }
+      },
+      "total": 8
     },
     {
       "seedRank": 80,
@@ -1365,7 +1444,8 @@
         "commentisfree": 4,
         "news": 2,
         "sport": 2
-      }
+      },
+      "total": 23
     },
     {
       "seedRank": 81,
@@ -1378,7 +1458,8 @@
         "music": 1,
         "us-news": 1,
         "commentisfree": 2
-      }
+      },
+      "total": 12
     },
     {
       "seedRank": 82,
@@ -1391,7 +1472,8 @@
         "commentisfree": 1,
         "culture": 1,
         "lifeandstyle": 2
-      }
+      },
+      "total": 18
     },
     {
       "seedRank": 83,
@@ -1404,7 +1486,8 @@
         "fashion": 1,
         "commentisfree": 1,
         "culture": 1
-      }
+      },
+      "total": 12
     },
     {
       "seedRank": 84,
@@ -1417,7 +1500,8 @@
         "news": 1,
         "us-news": 10,
         "fashion": 1
-      }
+      },
+      "total": 16
     },
     {
       "seedRank": 85,
@@ -1429,7 +1513,8 @@
         "film": 10,
         "fashion": 1,
         "culture": 1
-      }
+      },
+      "total": 12
     },
     {
       "seedRank": 86,
@@ -1442,7 +1527,8 @@
         "us-news": 19,
         "media": 1,
         "commentisfree": 3
-      }
+      },
+      "total": 25
     },
     {
       "seedRank": 87,
@@ -1454,7 +1540,8 @@
         "film": 13,
         "stage": 1,
         "music": 1
-      }
+      },
+      "total": 15
     },
     {
       "seedRank": 88,
@@ -1467,7 +1554,8 @@
         "commentisfree": 2,
         "uk-news": 1,
         "media": 1
-      }
+      },
+      "total": 33
     },
     {
       "seedRank": 89,
@@ -1481,7 +1569,8 @@
         "culture": 1,
         "fashion": 1,
         "commentisfree": 1
-      }
+      },
+      "total": 75
     },
     {
       "seedRank": 90,
@@ -1492,7 +1581,8 @@
       "sections": {
         "fashion": 2,
         "film": 2
-      }
+      },
+      "total": 4
     },
     {
       "seedRank": 91,
@@ -1503,7 +1593,8 @@
       "sections": {
         "film": 2,
         "fashion": 2
-      }
+      },
+      "total": 4
     },
     {
       "seedRank": 92,
@@ -1514,7 +1605,8 @@
       "sections": {
         "world": 1,
         "film": 1
-      }
+      },
+      "total": 2
     },
     {
       "seedRank": 93,
@@ -1525,7 +1617,8 @@
       "sections": {
         "fashion": 1,
         "film": 1
-      }
+      },
+      "total": 2
     },
     {
       "seedRank": 94,
@@ -1536,7 +1629,8 @@
       "sections": {
         "stage": 1,
         "artanddesign": 1
-      }
+      },
+      "total": 2
     },
     {
       "seedRank": 95,
@@ -1547,7 +1641,8 @@
       "sections": {
         "tv-and-radio": 1,
         "sport": 1
-      }
+      },
+      "total": 2
     },
     {
       "seedRank": 96,
@@ -1558,7 +1653,8 @@
       "sections": {
         "tv-and-radio": 5,
         "film": 4
-      }
+      },
+      "total": 9
     },
     {
       "seedRank": 97,
@@ -1569,7 +1665,8 @@
       "sections": {
         "tv-and-radio": 3,
         "food": 2
-      }
+      },
+      "total": 5
     },
     {
       "seedRank": 98,
@@ -1580,7 +1677,8 @@
       "sections": {
         "music": 4,
         "sport": 2
-      }
+      },
+      "total": 6
     },
     {
       "seedRank": 99,
@@ -1591,7 +1689,8 @@
       "sections": {
         "fashion": 2,
         "music": 1
-      }
+      },
+      "total": 3
     },
     {
       "seedRank": 100,
@@ -1602,7 +1701,8 @@
       "sections": {
         "sport": 2,
         "artanddesign": 1
-      }
+      },
+      "total": 3
     }
   ]
 }

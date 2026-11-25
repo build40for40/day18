@@ -39,6 +39,15 @@ describe('scorePerson', () => {
     expect(scorePerson(person('Kick Fake', { football: 30, sport: 5, music: 2 }), rules)).toMatchObject({ home: 'football', crossovers: 1 })
   })
 
+  it('carries the full article total, and says how many were read when the pull was capped', () => {
+    const full = scorePerson({ ...person('Full Fake', { music: 40, film: 2 }), total: 42 }, rules)
+    expect(full).toMatchObject({ articles: 42, articlesTotal: 42 })
+    expect(full).not.toHaveProperty('sampled')
+    const capped = scorePerson({ ...person('Capped Fake', { music: 40, film: 2 }), total: 500 }, rules)
+    expect(capped).toMatchObject({ articlesTotal: 500, sampled: 42 })
+    expect(scorePerson(person('Old Fake', { music: 40, film: 2 }), rules)).not.toHaveProperty('articlesTotal')
+  })
+
   it('drops people with no match or no articles', () => {
     expect(scorePerson(person('Nobody Fake', {}, 'none'), rules)).toBeNull()
     expect(scorePerson(person('Quiet Fake', {}), rules)).toBeNull()

@@ -10,7 +10,8 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
   <div class="detail">
     <p class="facts">
       <span v-if="person.home">Known for <b>{{ person.home }}</b></span>
-      <span v-if="person.articles !== undefined">{{ person.articles.toLocaleString('en-GB') }} articles</span>
+      <span v-if="(person.articlesTotal ?? person.articles) !== undefined">{{ (person.articlesTotal ?? person.articles)!.toLocaleString('en-GB') }} articles</span>
+      <span v-if="person.sampled">Sections from the newest {{ person.sampled.toLocaleString('en-GB') }}</span>
       <span v-if="person.outsideShare !== undefined">{{ percent(person.outsideShare) }} outside {{ person.home ?? 'home' }}</span>
     </p>
     <ul v-if="person.sections?.length" class="sections">

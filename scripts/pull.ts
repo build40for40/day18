@@ -43,10 +43,12 @@ async function countSections(params: Record<string, string>) {
   const sections: Record<string, number> = {}
   const names: Record<string, string> = {}
   let articles = 0
+  let total = 0
   for (let page = 1; ; page++) {
     const res = await client.get<SearchResponse>('/search', {
       ...params, 'from-date': FROM, 'to-date': TO, 'page-size': PAGE_SIZE, page,
     })
+    total = res.total
     for (const { sectionId, sectionName } of res.results) {
       sections[sectionId] = (sections[sectionId] ?? 0) + 1
       names[sectionId] = sectionName
@@ -54,7 +56,7 @@ async function countSections(params: Record<string, string>) {
     }
     if (page >= res.pages) break
   }
-  return { sections, names, articles }
+  return { sections, names, articles, total }
 }
 
 const seed = readSeed(await readFile(SEED, 'utf8'))
@@ -67,7 +69,7 @@ for (const { seedRank, term } of seed) {
     const tag = await findTag(term)
     const match: Match = tag ? 'tag' : 'phrase'
     const params: Record<string, string> = tag ? { tag: tag.id } : { q: `"${term}"` }
-    const { sections, names, articles } = await countSections(params)
+    const { sections, names, articles, total } = await countSections(params)
     Object.assign(sectionNames, names)
     people.push({
       seedRank,
@@ -75,6 +77,7 @@ for (const { seedRank, term } of seed) {
       match: articles ? match : 'none',
       ...(tag && { tag: tag.id }),
       articles,
+      total,
       sections,
     })
     console.log(`${String(seedRank).padStart(3)} ${term}: ${articles} articles via ${match}, ${Object.keys(sections).length} sections`)
