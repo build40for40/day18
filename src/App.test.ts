@@ -55,6 +55,17 @@ describe('App', () => {
     expect(wrapper.find('.list .body').exists()).toBe(false)
   })
 
+  it('collapses the intro after the first paragraph and expands it on request', async () => {
+    const wrapper = mount(App, { props: { data: loadChart({ real: minimal }) } })
+    const toggle = wrapper.find('.more-toggle')
+    expect(toggle.attributes('aria-expanded')).toBe('false')
+    expect(wrapper.find('#intro-more').classes()).not.toContain('open')
+    await toggle.trigger('click')
+    expect(toggle.attributes('aria-expanded')).toBe('true')
+    expect(wrapper.find('#intro-more').classes()).toContain('open')
+    expect(toggle.text()).toContain('Show less')
+  })
+
   it('searches names, ignoring accents, and keeps the original rank', async () => {
     const wrapper = mount(App, { props: { data: loadChart({ real: minimal }) } })
     await wrapper.find('#search').setValue('de fake')
