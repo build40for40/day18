@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { nextTick, ref } from 'vue'
+
 import FameChart from './chart/FameChart.vue'
 import HowWeRank from './chart/HowWeRank.vue'
 import IndexTable from './chart/IndexTable.vue'
@@ -10,6 +12,28 @@ const { chart, isSample } = props.data ?? loadChart()
 
 const people = [...chart.people].sort((a, b) => a.rank - b.rank)
 const edition = `${chart.window?.to.slice(0, 4) ?? '2026'} edition`
+
+// The intro shows its first paragraph and a faded peek of the rest, so the list is one scroll away.
+const expanded = ref(false)
+const more = ref<HTMLElement | null>(null)
+const moreHeight = ref<string | undefined>(undefined)
+async function toggleIntro() {
+  const el = more.value
+  if (!el) return (expanded.value = !expanded.value)
+  // animate between the faded peek and the real height, then let it size itself
+  moreHeight.value = `${el.scrollHeight}px`
+  if (expanded.value) {
+    await nextTick()
+    void el.offsetHeight // apply the pixel height before shrinking, so the close animates
+    expanded.value = false
+  } else {
+    expanded.value = true
+    setTimeout(settle, 500)
+  }
+}
+const settle = () => {
+  if (expanded.value) moreHeight.value = 'none'
+}
 </script>
 
 <template>
@@ -24,18 +48,30 @@ const edition = `${chart.window?.to.slice(0, 4) ?? '2026'} edition`
           see are completely different. Something can be huge in my world all week and you've never heard of it. That's
           every feed: built for one person, shown to one person.
         </p>
-        <p>It also makes it harder to tell who has real cultural influence.</p>
-        <p>
-          But when a news story, a celebrity, an influencer or a meme crosses over from one category into another,
-          that's when international conversations begin. An actress becomes the world's biggest fashion icon. The world's
-          biggest pop star marries a future Hall of Fame NFL player. A tech CEO gets known for a black leather jacket and
-          a possible relationship with a spy.
-        </p>
-        <p>
-          So we took the world's most searched for people and read a year of Guardian coverage to count how many
-          crossover stories each of them had. That's how we measure influence. Followers don't count. Fame alone
-          doesn't win. It's all about the crossover.
-        </p>
+        <div
+          id="intro-more"
+          ref="more"
+          class="more"
+          :class="{ open: expanded }"
+          :style="expanded ? { maxHeight: moreHeight } : undefined"
+        >
+          <p>It also makes it harder to tell who has real cultural influence.</p>
+          <p>
+            But when a news story, a celebrity, an influencer or a meme crosses over from one category into another,
+            that's when international conversations begin. An actress becomes the world's biggest fashion icon. The world's
+            biggest pop star marries a future Hall of Fame NFL player. A tech CEO gets known for a black leather jacket and
+            a possible relationship with a spy.
+          </p>
+          <p>
+            So we took the world's most searched for people and read a year of Guardian coverage to count how many
+            crossover stories each of them had. That's how we measure influence. Followers don't count. Fame alone
+            doesn't win. It's all about the crossover.
+          </p>
+        </div>
+        <button type="button" class="more-toggle" aria-controls="intro-more" :aria-expanded="expanded" @click="toggleIntro">
+          {{ expanded ? 'Show less' : 'Read why we made this' }}
+          <span class="chev" aria-hidden="true">↓</span>
+        </button>
       </div>
       <p v-if="chart.window" class="window">
         Guardian coverage from {{ formatDay(chart.window.from) }} to {{ formatDay(chart.window.to) }}
@@ -118,6 +154,52 @@ h1 span {
   line-height: 1.6;
   color: var(--ink-2);
   margin: 0 0 12px;
+}
+.more {
+  max-height: 4.9em;
+  overflow: hidden;
+  font-size: 17px;
+  -webkit-mask-image: linear-gradient(to bottom, #000 15%, transparent);
+  mask-image: linear-gradient(to bottom, #000 15%, transparent);
+  transition: max-height 0.45s ease;
+}
+.more.open {
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+.more p:last-child {
+  margin-bottom: 4px;
+}
+.more-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  padding: 8px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--card);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.more-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.chev {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.more-toggle[aria-expanded='true'] .chev {
+  transform: rotate(180deg);
+}
+@media (prefers-reduced-motion: reduce) {
+  .more,
+  .chev {
+    transition: none;
+  }
 }
 .window {
   margin: 0;
