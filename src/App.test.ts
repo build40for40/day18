@@ -39,6 +39,11 @@ describe('App', () => {
     expect(wrapper.findAll('.list > li')).toHaveLength(97)
   })
 
+  it('shows the chart note on real data', () => {
+    const wrapper = mount(App, { props: { data: loadChart({ real: { ...minimal, note: 'First pass: 4 of 5 scored.' } }) } })
+    expect(wrapper.find('.note').text()).toBe('First pass: 4 of 5 scored.')
+  })
+
   it('renders a minimal chart and opens a row with no sections', async () => {
     const wrapper = mount(App, { props: { data: loadChart({ real: minimal }) } })
     expect(wrapper.text()).not.toContain('Sample data')

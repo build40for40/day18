@@ -13,6 +13,7 @@
     "sections": "node --env-file-if-exists=.env scripts/sections.ts",
     "pull": "node --env-file-if-exists=.env scripts/pull.ts",
     "score": "node scripts/score.ts",
+    "chart:first-pass": "node scripts/first-pass-chart.ts",
     "wrangler": "env -u CLOUDFLARE_API_KEY -u CLOUDFLARE_EMAIL wrangler --profile 40for40",
     "deploy": "npm run build && npm run wrangler -- deploy"
   },
