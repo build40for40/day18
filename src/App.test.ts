@@ -32,11 +32,18 @@ describe('loadChart', () => {
 })
 
 describe('App', () => {
-  it('shows the sample banner, the podium and everyone else in the list', () => {
+  it('shows the sample banner, the top 10 and all 100 in the list', () => {
     const wrapper = mount(App, { props: { data: loadChart({}) } })
     expect(wrapper.text()).toContain('Sample data')
-    expect(wrapper.findAll('.podium > li')).toHaveLength(3)
-    expect(wrapper.findAll('.list > li')).toHaveLength(97)
+    expect(wrapper.findAll('.top-list > li')).toHaveLength(10)
+    expect(wrapper.findAll('.list > li')).toHaveLength(100)
+  })
+
+  it('renders the real chart with the fame chart and talent cards', () => {
+    const wrapper = mount(App)
+    expect(wrapper.text()).not.toContain('Sample data')
+    expect(wrapper.text()).toContain('Fame isn')
+    expect(wrapper.text()).toContain('SECTIONS CROSSED')
   })
 
   it('renders a minimal chart and opens a row with no sections', async () => {
@@ -48,9 +55,16 @@ describe('App', () => {
 
   it('searches names, ignoring accents, and keeps the original rank', async () => {
     const wrapper = mount(App, { props: { data: loadChart({ real: minimal }) } })
-    await wrapper.find('input').setValue('de fake')
+    await wrapper.find('#search').setValue('de fake')
     const rows = wrapper.findAll('.list > li')
     expect(rows).toHaveLength(1)
     expect(rows[0]!.find('.rank').text()).toBe('4')
+  })
+
+  it('steps through the top 10 talent cards', async () => {
+    const wrapper = mount(App, { props: { data: loadChart({}) } })
+    const first = wrapper.find('.card h3').text()
+    await wrapper.find('button[aria-label="Next card"]').trigger('click')
+    expect(wrapper.find('.card h3').text()).not.toBe(first)
   })
 })

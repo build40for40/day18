@@ -1,31 +1,39 @@
+/* Cobalt and pink on a cool white page. Posters keep their fixed palette in both themes. */
 :root {
-  --paper: #f4f1ea;
-  --card: #fffdf8;
-  --ink: #121110;
-  --ink-2: #57534b;
-  --muted: #8d877b;
-  --line: #e2ddd1;
-  --signal: #ff4d1a;
-  --signal-ink: #b8310b;
-  --signal-soft: #ffe4d9;
-  --meter-off: #e6e1d5;
-  --display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
-  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --bg: #f3f3f8;
+  --card: #ffffff;
+  --ink: #0b0b2b;
+  --ink-2: #3a3c5c;
+  --muted: #64668a;
+  --line: #dedfea;
+  --faint: #ecedf4;
+  --accent: #2236ff;
+  --on-accent: #ffffff;
+
+  /* poster palette, the same in light and dark */
+  --cobalt: #2236ff;
+  --cobalt-2: #5c6bff;
+  --pink: #ffc2da;
+  --paper: #fbfaff;
+  --navy: #0b0b2b;
+
+  --display: 'Bricolage Grotesque', 'Arial Narrow', system-ui, sans-serif;
+  --sans: 'Instrument Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: 'DM Mono', ui-monospace, 'SF Mono', Menlo, monospace;
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #0f0e0d;
-    --card: #1a1917;
-    --ink: #f3efe6;
-    --ink-2: #c2bcae;
-    --muted: #8a8477;
-    --line: #2d2b27;
-    --signal: #ff6a3d;
-    --signal-ink: #ff8a64;
-    --signal-soft: #3a1a0f;
-    --meter-off: #2f2d29;
+    --bg: #090a1c;
+    --card: #11132b;
+    --ink: #ecedff;
+    --ink-2: #c4c6e6;
+    --muted: #9a9cc0;
+    --line: #25284a;
+    --faint: #1a1d3a;
+    --accent: #8c96ff;
+    --on-accent: #0b0b2b;
     color-scheme: dark;
   }
 }
@@ -42,13 +50,20 @@ body {
 }
 
 body {
-  background: var(--paper);
+  background: var(--bg);
   color: var(--ink);
   font-family: var(--sans);
   font-size: 16px;
   line-height: 1.5;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  text-wrap: balance;
 }
 
 button,
@@ -58,7 +73,7 @@ input {
 }
 
 :focus-visible {
-  outline: 2px solid var(--signal);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -69,4 +84,81 @@ input {
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
+}
+
+/* shared bits */
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.chips button {
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid var(--line);
+  background: var(--card);
+  padding: 5px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.chips button[aria-pressed='true'] {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+/* posters scale with their own width, so they look the same in a screenshot at any size */
+.plate {
+  width: 100%;
+  max-width: 540px;
+  container-type: inline-size;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow:
+    0 1px 2px rgba(11, 11, 43, 0.08),
+    0 24px 48px -24px rgba(11, 11, 43, 0.4);
+  margin: 0;
+}
+
+.poster {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color-scheme: light;
+}
+
+.poster .brand {
+  font-family: var(--mono);
+  font-size: 2.3cqw;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  gap: 2cqw;
+}
+
+.poster .foot {
+  font-family: var(--mono);
+  font-size: 2.1cqw;
+  display: flex;
+  justify-content: space-between;
+  gap: 2cqw;
+  opacity: 0.75;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
 }
