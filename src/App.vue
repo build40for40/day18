@@ -147,20 +147,21 @@ h1 span {
   letter-spacing: -0.01em;
 }
 .why {
-  max-width: 62ch;
+  --intro-size: clamp(17px, 1.65vw, 21px);
 }
 .why p {
-  font-size: 17px;
+  font-size: var(--intro-size);
   line-height: 1.6;
   color: var(--ink-2);
   margin: 0 0 12px;
 }
 .more {
-  max-height: 4.9em;
+  /* one faded line as a teaser */
+  max-height: 1.7em;
   overflow: hidden;
-  font-size: 17px;
-  -webkit-mask-image: linear-gradient(to bottom, #000 15%, transparent);
-  mask-image: linear-gradient(to bottom, #000 15%, transparent);
+  font-size: var(--intro-size);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), transparent);
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), transparent);
   transition: max-height 0.45s ease;
 }
 .more.open {
@@ -174,7 +175,7 @@ h1 span {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin-top: 6px;
+  margin-top: 2px;
   padding: 8px 16px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -233,7 +234,6 @@ h1 span {
 .block-head p {
   margin: 0;
   color: var(--muted);
-  max-width: 62ch;
 }
 footer {
   padding-top: 24px;
