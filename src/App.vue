@@ -41,6 +41,7 @@ const toggle = (rank: number) => (open.value = open.value === rank ? null : rank
     <p v-if="isSample" class="sample" role="note">
       Sample data. These people are made up while Samira pulls the real thing.
     </p>
+    <p v-else-if="chart.note" class="note" role="note">{{ chart.note }}</p>
 
     <TopThree :people="podium" :max="max" :open="open" @toggle="toggle" />
 
@@ -111,6 +112,14 @@ h1 {
 .sample {
   background: var(--signal-soft);
   color: var(--signal-ink);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 14px;
+  margin: 0 0 18px;
+}
+.note {
+  border: 1px solid var(--line);
+  color: var(--ink-2);
   border-radius: 12px;
   padding: 10px 14px;
   font-size: 14px;

@@ -1,0 +1,796 @@
+{
+  "title": "The Crossover 100",
+  "window": {
+    "from": "2025-11-25",
+    "to": "2026-11-25"
+  },
+  "generatedAt": "2026-11-25T16:19:04.767Z",
+  "note": "First pass: 97 of 113 people scored so far. The rest have no Guardian tag or no usable articles yet.",
+  "method": [
+    "Everyone is from Semrush's most searched living people, checked against 12 months of Guardian coverage.",
+    "We only count articles the Guardian has tagged as being about them, not passing mentions.",
+    "Your home section is where the Guardian writes about you most.",
+    "A crossover is any other section with at least one article about you. Opinion pieces don't count, and football counts as sport.",
+    "Most crossovers wins. Ties go to whoever has more coverage outside their home section.",
+    "Politicians and royals pop up across news sections because they are the news, which is not quite the same as crossing over.",
+    "Donald Trump's pull stopped early, so his numbers are a floor."
+  ],
+  "people": [
+    {
+      "rank": 1,
+      "name": "Donald Trump",
+      "crossovers": 28,
+      "home": "US news",
+      "articles": 5011,
+      "outsideShare": 0.35
+    },
+    {
+      "rank": 2,
+      "name": "Elon Musk",
+      "crossovers": 21,
+      "home": "Technology",
+      "articles": 379,
+      "outsideShare": 0.57
+    },
+    {
+      "rank": 3,
+      "name": "Vladimir Putin",
+      "crossovers": 13,
+      "home": "World news",
+      "articles": 348,
+      "outsideShare": 0.2
+    },
+    {
+      "rank": 4,
+      "name": "Taylor Swift",
+      "crossovers": 11,
+      "home": "Music",
+      "articles": 70,
+      "outsideShare": 0.46
+    },
+    {
+      "rank": 5,
+      "name": "Prince Harry",
+      "crossovers": 11,
+      "home": "UK news",
+      "articles": 89,
+      "outsideShare": 0.41
+    },
+    {
+      "rank": 6,
+      "name": "Meghan Markle",
+      "crossovers": 11,
+      "home": "UK news",
+      "articles": 67,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 7,
+      "name": "Jeff Bezos",
+      "crossovers": 10,
+      "home": "Technology",
+      "articles": 48,
+      "outsideShare": 0.85
+    },
+    {
+      "rank": 8,
+      "name": "Mark Zuckerberg",
+      "crossovers": 10,
+      "home": "Technology",
+      "articles": 66,
+      "outsideShare": 0.48
+    },
+    {
+      "rank": 9,
+      "name": "Xi Jinping",
+      "crossovers": 10,
+      "home": "World news",
+      "articles": 149,
+      "outsideShare": 0.41
+    },
+    {
+      "rank": 10,
+      "name": "Barack Obama",
+      "crossovers": 9,
+      "home": "US news",
+      "articles": 53,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 11,
+      "name": "Timothée Chalamet",
+      "crossovers": 9,
+      "home": "Film",
+      "articles": 58,
+      "outsideShare": 0.26
+    },
+    {
+      "rank": 12,
+      "name": "David Beckham",
+      "crossovers": 8,
+      "home": "Sport",
+      "articles": 34,
+      "outsideShare": 0.65
+    },
+    {
+      "rank": 13,
+      "name": "JK Rowling",
+      "crossovers": 7,
+      "home": "Stage",
+      "articles": 13,
+      "outsideShare": 0.77
+    },
+    {
+      "rank": 14,
+      "name": "Beyoncé",
+      "crossovers": 7,
+      "home": "Music",
+      "articles": 23,
+      "outsideShare": 0.48
+    },
+    {
+      "rank": 15,
+      "name": "Paul McCartney",
+      "crossovers": 7,
+      "home": "Music",
+      "articles": 35,
+      "outsideShare": 0.37
+    },
+    {
+      "rank": 16,
+      "name": "Dolly Parton",
+      "crossovers": 7,
+      "home": "Music",
+      "articles": 42,
+      "outsideShare": 0.22
+    },
+    {
+      "rank": 17,
+      "name": "Volodymyr Zelenskyy",
+      "crossovers": 7,
+      "home": "World news",
+      "articles": 337,
+      "outsideShare": 0.11
+    },
+    {
+      "rank": 18,
+      "name": "Katy Perry",
+      "crossovers": 6,
+      "home": "Life and style",
+      "articles": 11,
+      "outsideShare": 0.75
+    },
+    {
+      "rank": 19,
+      "name": "Yoko Ono",
+      "crossovers": 6,
+      "home": "Art and design",
+      "articles": 8,
+      "outsideShare": 0.75
+    },
+    {
+      "rank": 20,
+      "name": "Ariana Grande",
+      "crossovers": 6,
+      "home": "Music",
+      "articles": 19,
+      "outsideShare": 0.42
+    },
+    {
+      "rank": 21,
+      "name": "Tom Cruise",
+      "crossovers": 6,
+      "home": "Film",
+      "articles": 28,
+      "outsideShare": 0.26
+    },
+    {
+      "rank": 22,
+      "name": "Kim Kardashian",
+      "crossovers": 5,
+      "home": "Fashion",
+      "articles": 11,
+      "outsideShare": 0.62
+    },
+    {
+      "rank": 23,
+      "name": "Bob Dylan",
+      "crossovers": 5,
+      "home": "Music",
+      "articles": 19,
+      "outsideShare": 0.26
+    },
+    {
+      "rank": 24,
+      "name": "Zendaya",
+      "crossovers": 4,
+      "home": "Film",
+      "articles": 26,
+      "outsideShare": 0.44
+    },
+    {
+      "rank": 25,
+      "name": "Bill Gates",
+      "crossovers": 4,
+      "home": "US news",
+      "articles": 19,
+      "outsideShare": 0.36
+    },
+    {
+      "rank": 26,
+      "name": "Bill Clinton",
+      "crossovers": 4,
+      "home": "US news",
+      "articles": 31,
+      "outsideShare": 0.15
+    },
+    {
+      "rank": 27,
+      "name": "Joe Biden",
+      "crossovers": 4,
+      "home": "US news",
+      "articles": 41,
+      "outsideShare": 0.14
+    },
+    {
+      "rank": 28,
+      "name": "Elton John",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 21,
+      "outsideShare": 0.67
+    },
+    {
+      "rank": 29,
+      "name": "Sydney Sweeney",
+      "crossovers": 3,
+      "home": "TV and radio",
+      "articles": 23,
+      "outsideShare": 0.63
+    },
+    {
+      "rank": 30,
+      "name": "Arnold Schwarzenegger",
+      "crossovers": 3,
+      "home": "Film",
+      "articles": 5,
+      "outsideShare": 0.6
+    },
+    {
+      "rank": 31,
+      "name": "Shakira",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 8,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 32,
+      "name": "Ben Affleck",
+      "crossovers": 3,
+      "home": "Film",
+      "articles": 7,
+      "outsideShare": 0.43
+    },
+    {
+      "rank": 33,
+      "name": "Lady Gaga",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 10,
+      "outsideShare": 0.4
+    },
+    {
+      "rank": 34,
+      "name": "Daniel Craig",
+      "crossovers": 3,
+      "home": "Film",
+      "articles": 11,
+      "outsideShare": 0.36
+    },
+    {
+      "rank": 35,
+      "name": "Justin Bieber",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 9,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 36,
+      "name": "Travis Kelce",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 15,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 37,
+      "name": "Stephen King",
+      "crossovers": 3,
+      "home": "Film",
+      "articles": 13,
+      "outsideShare": 0.31
+    },
+    {
+      "rank": 38,
+      "name": "Billie Eilish",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 13,
+      "outsideShare": 0.25
+    },
+    {
+      "rank": 39,
+      "name": "Olivia Rodrigo",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 18,
+      "outsideShare": 0.24
+    },
+    {
+      "rank": 40,
+      "name": "Kanye West",
+      "crossovers": 3,
+      "home": "Music",
+      "articles": 22,
+      "outsideShare": 0.2
+    },
+    {
+      "rank": 41,
+      "name": "Anne Hathaway",
+      "crossovers": 3,
+      "home": "Film",
+      "articles": 26,
+      "outsideShare": 0.17
+    },
+    {
+      "rank": 42,
+      "name": "Quentin Tarantino",
+      "crossovers": 3,
+      "home": "Film",
+      "articles": 25,
+      "outsideShare": 0.17
+    },
+    {
+      "rank": 43,
+      "name": "Kamala Harris",
+      "crossovers": 3,
+      "home": "US news",
+      "articles": 30,
+      "outsideShare": 0.14
+    },
+    {
+      "rank": 44,
+      "name": "Joe Rogan",
+      "crossovers": 2,
+      "home": "Film",
+      "articles": 9,
+      "outsideShare": 0.67
+    },
+    {
+      "rank": 45,
+      "name": "Dua Lipa",
+      "crossovers": 2,
+      "home": "Music",
+      "articles": 15,
+      "outsideShare": 0.57
+    },
+    {
+      "rank": 46,
+      "name": "Dalai Lama",
+      "crossovers": 2,
+      "home": "World news",
+      "articles": 4,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 47,
+      "name": "Bruce Springsteen",
+      "crossovers": 2,
+      "home": "Music",
+      "articles": 12,
+      "outsideShare": 0.36
+    },
+    {
+      "rank": 48,
+      "name": "Cillian Murphy",
+      "crossovers": 2,
+      "home": "Film",
+      "articles": 6,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 49,
+      "name": "George W Bush",
+      "crossovers": 2,
+      "home": "US news",
+      "articles": 12,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 50,
+      "name": "Greta Thunberg",
+      "crossovers": 2,
+      "home": "Environment",
+      "articles": 7,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 51,
+      "name": "Tom Hanks",
+      "crossovers": 2,
+      "home": "Film",
+      "articles": 9,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 52,
+      "name": "Sylvester Stallone",
+      "crossovers": 2,
+      "home": "Film",
+      "articles": 8,
+      "outsideShare": 0.25
+    },
+    {
+      "rank": 53,
+      "name": "Ed Sheeran",
+      "crossovers": 2,
+      "home": "Music",
+      "articles": 23,
+      "outsideShare": 0.21
+    },
+    {
+      "rank": 54,
+      "name": "Brad Pitt",
+      "crossovers": 2,
+      "home": "Film",
+      "articles": 12,
+      "outsideShare": 0.17
+    },
+    {
+      "rank": 55,
+      "name": "Hillary Clinton",
+      "crossovers": 2,
+      "home": "US news",
+      "articles": 25,
+      "outsideShare": 0.14
+    },
+    {
+      "rank": 56,
+      "name": "Robert De Niro",
+      "crossovers": 2,
+      "home": "Film",
+      "articles": 15,
+      "outsideShare": 0.13
+    },
+    {
+      "rank": 57,
+      "name": "Lionel Messi",
+      "crossovers": 2,
+      "home": "Sport",
+      "articles": 75,
+      "outsideShare": 0.03
+    },
+    {
+      "rank": 58,
+      "name": "Clint Eastwood",
+      "crossovers": 1,
+      "home": "World news",
+      "articles": 2,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 59,
+      "name": "Jennifer Lawrence",
+      "crossovers": 1,
+      "home": "Fashion",
+      "articles": 4,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 60,
+      "name": "Jennifer Lopez",
+      "crossovers": 1,
+      "home": "Fashion",
+      "articles": 2,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 61,
+      "name": "Justin Timberlake",
+      "crossovers": 1,
+      "home": "Stage",
+      "articles": 2,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 62,
+      "name": "Kylie Jenner",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 4,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 63,
+      "name": "Rafael Nadal",
+      "crossovers": 1,
+      "home": "TV and radio",
+      "articles": 2,
+      "outsideShare": 0.5
+    },
+    {
+      "rank": 64,
+      "name": "Mariah Carey",
+      "crossovers": 1,
+      "home": "Music",
+      "articles": 6,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 65,
+      "name": "Rihanna",
+      "crossovers": 1,
+      "home": "Fashion",
+      "articles": 3,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 66,
+      "name": "Roger Federer",
+      "crossovers": 1,
+      "home": "Sport",
+      "articles": 3,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 67,
+      "name": "Usain Bolt",
+      "crossovers": 1,
+      "home": "Sport",
+      "articles": 3,
+      "outsideShare": 0.33
+    },
+    {
+      "rank": 68,
+      "name": "Angela Merkel",
+      "crossovers": 1,
+      "home": "World news",
+      "articles": 6,
+      "outsideShare": 0.25
+    },
+    {
+      "rank": 69,
+      "name": "Bono",
+      "crossovers": 1,
+      "home": "Music",
+      "articles": 4,
+      "outsideShare": 0.25
+    },
+    {
+      "rank": 70,
+      "name": "John Travolta",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 5,
+      "outsideShare": 0.25
+    },
+    {
+      "rank": 71,
+      "name": "Michael Jordan",
+      "crossovers": 1,
+      "home": "Sport",
+      "articles": 4,
+      "outsideShare": 0.25
+    },
+    {
+      "rank": 72,
+      "name": "Bruno Mars",
+      "crossovers": 1,
+      "home": "Music",
+      "articles": 9,
+      "outsideShare": 0.22
+    },
+    {
+      "rank": 73,
+      "name": "Drake",
+      "crossovers": 1,
+      "home": "Music",
+      "articles": 5,
+      "outsideShare": 0.2
+    },
+    {
+      "rank": 74,
+      "name": "Dwayne Johnson",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 5,
+      "outsideShare": 0.2
+    },
+    {
+      "rank": 75,
+      "name": "Johnny Depp",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 5,
+      "outsideShare": 0.2
+    },
+    {
+      "rank": 76,
+      "name": "Kate Winslet",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 5,
+      "outsideShare": 0.2
+    },
+    {
+      "rank": 77,
+      "name": "Kate Middleton",
+      "crossovers": 1,
+      "home": "UK news",
+      "articles": 12,
+      "outsideShare": 0.18
+    },
+    {
+      "rank": 78,
+      "name": "Stevie Wonder",
+      "crossovers": 1,
+      "home": "Music",
+      "articles": 6,
+      "outsideShare": 0.17
+    },
+    {
+      "rank": 79,
+      "name": "Scarlett Johansson",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 7,
+      "outsideShare": 0.14
+    },
+    {
+      "rank": 80,
+      "name": "Robert Downey Jr",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 10,
+      "outsideShare": 0.1
+    },
+    {
+      "rank": 81,
+      "name": "Kendrick Lamar",
+      "crossovers": 1,
+      "home": "Music",
+      "articles": 11,
+      "outsideShare": 0.09
+    },
+    {
+      "rank": 82,
+      "name": "Leonardo DiCaprio",
+      "crossovers": 1,
+      "home": "Film",
+      "articles": 19,
+      "outsideShare": 0.05
+    },
+    {
+      "rank": 83,
+      "name": "Serena Williams",
+      "crossovers": 1,
+      "home": "Sport",
+      "articles": 26,
+      "outsideShare": 0.04
+    },
+    {
+      "rank": 84,
+      "name": "Novak Djokovic",
+      "crossovers": 1,
+      "home": "Sport",
+      "articles": 49,
+      "outsideShare": 0.02
+    },
+    {
+      "rank": 85,
+      "name": "Al Pacino",
+      "crossovers": 0,
+      "home": "Film",
+      "articles": 4,
+      "outsideShare": 0
+    },
+    {
+      "rank": 86,
+      "name": "Angelina Jolie",
+      "crossovers": 0,
+      "home": "Film",
+      "articles": 1,
+      "outsideShare": 0
+    },
+    {
+      "rank": 87,
+      "name": "Cristiano Ronaldo",
+      "crossovers": 0,
+      "home": "Sport",
+      "articles": 32,
+      "outsideShare": 0
+    },
+    {
+      "rank": 88,
+      "name": "Eminem",
+      "crossovers": 0,
+      "home": "Music",
+      "articles": 2,
+      "outsideShare": 0
+    },
+    {
+      "rank": 89,
+      "name": "Jackie Chan",
+      "crossovers": 0,
+      "home": "Film",
+      "articles": 2,
+      "outsideShare": 0
+    },
+    {
+      "rank": 90,
+      "name": "Jenna Ortega",
+      "crossovers": 0,
+      "home": "Film",
+      "articles": 7,
+      "outsideShare": 0
+    },
+    {
+      "rank": 91,
+      "name": "Keanu Reeves",
+      "crossovers": 0,
+      "home": "Film",
+      "articles": 3,
+      "outsideShare": 0
+    },
+    {
+      "rank": 92,
+      "name": "LeBron James",
+      "crossovers": 0,
+      "home": "Sport",
+      "articles": 20,
+      "outsideShare": 0
+    },
+    {
+      "rank": 93,
+      "name": "Oprah Winfrey",
+      "crossovers": 0,
+      "home": "Music",
+      "articles": 4,
+      "outsideShare": 0
+    },
+    {
+      "rank": 94,
+      "name": "Selena Gomez",
+      "crossovers": 0,
+      "home": "Life and style",
+      "articles": 2,
+      "outsideShare": 0
+    },
+    {
+      "rank": 95,
+      "name": "Shania Twain",
+      "crossovers": 0,
+      "home": "Music",
+      "articles": 3,
+      "outsideShare": 0
+    },
+    {
+      "rank": 96,
+      "name": "Simone Biles",
+      "crossovers": 0,
+      "home": "Sport",
+      "articles": 4,
+      "outsideShare": 0
+    },
+    {
+      "rank": 97,
+      "name": "Virat Kohli",
+      "crossovers": 0,
+      "home": "Sport",
+      "articles": 1,
+      "outsideShare": 0
+    }
+  ]
+}

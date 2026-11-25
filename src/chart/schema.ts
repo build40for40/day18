@@ -6,6 +6,8 @@ export const chartSchema = z.object({
   title: z.string().default('The Crossover 100'),
   window: z.object({ from: z.string(), to: z.string() }).optional(),
   generatedAt: z.string().optional(),
+  /** a one-line caveat shown under the header, e.g. how many people are scored so far */
+  note: z.string().optional(),
   method: z.array(z.string()).default([]),
   people: z
     .array(

@@ -23,6 +23,7 @@ Shared 40 for 40 context lives in `../AGENTS.md`.
 - `npm run sections`: saves every Guardian section to `research/guardian-sections.json`. 1 API call.
 - `npm run pull`: Guardian coverage for everyone in the Semrush seed, to `research/guardian-counts.json`. 1 call a second, cached in `data/cache/` (gitignored), stops at 450 calls (`GUARDIAN_BUDGET` to change it) and carries on from the cache next run.
 - `npm run score`: ranks `research/guardian-counts.json` into `src/data/crossover.json`. No API calls. The rules are constants at the top of `scripts/score.ts`.
+- `npm run chart:first-pass`: writes `src/data/crossover.json` from Samira's first-pass scores in `research/guardian-crossover-scores.csv` (her method: crossovers at 1+ article, opinion ignored, football merged into sport). Use `npm run score` instead once the full pull exists.
 - `npm run deploy`, and wrangler as `npm run wrangler -- <args>`, never `npx wrangler`.
 
 The Guardian scripts need `GUARDIAN_API_KEY` in a local `.env` (copy `.env.example`). It's Samira's personal developer key: non-commercial use only, 1 call a second, 500 a day. Never commit it, and never log request URLs, since they hold the key.
@@ -55,7 +56,7 @@ Cut for now: regions, sector leaderboards, social platforms, niche fashion pocke
 
 - Samira owns the data and scoring, and the page only shows what `src/data/crossover.json` says. It never re-ranks.
 - `src/data/crossover.json` needs `rank`, `name` and `crossovers` for each person. `home`, `articles`, `outsideShare`, `sections`, `method` and `window` are optional, and the page hides what's missing. `src/chart/schema.ts` checks it at build time.
-- Until that file exists, the page shows `src/data/crossover.sample.json` (100 made-up people) with a sample data banner.
+- The page shows the chart's optional `note` under the header (the first pass says how many people are scored so far). Until that file exists, the page shows `src/data/crossover.sample.json` (100 made-up people) with a sample data banner.
 - Window: the rolling 12 months from 25 Nov 2025 to 25 Nov 2026.
 - Every Guardian section counts. `RULES.ignore` in `scripts/score.ts` can drop network or regional ones later.
 - The look is our own: no TIME, Billboard or FTSE branding.
