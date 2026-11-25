@@ -3,6 +3,8 @@ import { computed } from 'vue'
 
 import index from '../../research/crossover-index.json'
 
+defineProps<{ rank?: number }>()
+
 // Real data: every Guardian section Taylor Swift has appeared in, all time, from the case study.
 const study = index.case_study_taylor_swift
 const entries = study.section_entries
@@ -22,13 +24,14 @@ const x = (ym: string) => {
 }
 const y = (n: number) => B - (n / 32) * (B - T)
 
-const LABELS: Record<string, [string, number]> = {
-  music: ['Music', 1],
-  technology: ['Tech', 1],
-  commentisfree: ['Opinion', 1],
-  business: ['Business', 1],
-  politics: ['Politics', 1],
-  sport: ['Sport, the Kelce era', -1],
+// [label, side (1 right, -1 left), vertical nudge]
+const LABELS: Record<string, [string, number, number]> = {
+  music: ['Music', 1, -12],
+  technology: ['Tech', 1, 4],
+  commentisfree: ['Opinion', 1, 4],
+  business: ['Business', 1, 9],
+  politics: ['Politics', 1, -3],
+  sport: ['Sport, the Kelce era', -1, -10],
 }
 
 const chart = computed(() => {
@@ -70,7 +73,7 @@ const years = [2008, 2012, 2016, 2020, 2024]
             <text
               v-if="d.label"
               :x="d.cx + d.label[1] * (d.r + 5)"
-              :y="d.cy + 4"
+              :y="d.cy + d.label[2]"
               font-size="11"
               font-weight="600"
               font-family="Instrument Sans, sans-serif"
@@ -91,15 +94,26 @@ const years = [2008, 2012, 2016, 2020, 2024]
       </div>
     </figure>
     <div class="why">
-      <h3>What a crossover career looks like</h3>
+      <h3>Why crossover is the measure</h3>
+      <p v-if="rank">
+        Taylor Swift comes in at number {{ rank }} on the Index, and she's arguably the most influential musician in the
+        world. Not because she gets written about the most, but because she gets written about everywhere.
+      </p>
       <p>
         Swift spent three years in the music pages. Then tech, film, culture and opinion in quick succession. Business
         and politics by 2016. After 2017, nothing new for six years, until she started turning up at Chiefs games and
         the sport desk had to start writing about her.
       </p>
       <p>
-        This is the shape we're ranking: not how loud someone is, but how many different rooms they get talked about in.
-        Unlike the ranking above, which covers the last 12 months, this chart covers all time.
+        That's crossover-ability. Plenty of people are huge inside their own world. The ones who shape culture are the
+        ones every desk in the newsroom ends up covering: music, then business, then politics, then sport. Every new
+        section is a new audience that had never heard of them.
+      </p>
+      <p>
+        So that's what the Index counts. For each person we take 12 months of Guardian coverage, find the section
+        they're known for, and count every other section that wrote about them. Followers don't count, and neither
+        does sheer volume. This is the shape of influence: not how loud someone is, but how many different rooms they
+        get talked about in.
       </p>
     </div>
   </div>
