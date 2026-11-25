@@ -1,0 +1,14 @@
+person,tag,articles_12m,home_section,other_sections,outside_pct,in_final_100
+andy burnham,politics/andyburnham,1320,politics,25,46,yes
+dario amodei,technology/dario-amodei,9,technology,2,29,yes
+hakeem jeffries,us-news/hakeem-jeffries,32,us-news,3,14,yes
+pete hegseth,us-news/pete-hegseth,286,us-news,11,31,yes
+chuck schumer,us-news/chuck-schumer,32,us-news,1,3,no
+benjamin netanyahu,world/benjamin-netanyahu,260,world,8,20,yes
+mary peltola,no tag,,,,,no
+abdul el-sayed,us-news/abdul-el-sayed,16,us-news,2,17,yes
+gina hinojosa,no tag,,,,,no
+scott bessent,no tag,,,,,no
+marco rubio,us-news/marco-rubio,144,world,9,52,yes
+mike johnson,us-news/mike-johnson,29,us-news,4,19,yes
+james talarico,no tag,,,,,no
