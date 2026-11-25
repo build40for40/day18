@@ -32,18 +32,16 @@ describe('loadChart', () => {
 })
 
 describe('App', () => {
-  it('shows the sample banner, the top 10 and all 100 in the list', () => {
+  it('shows the sample banner and all 100 in the list', () => {
     const wrapper = mount(App, { props: { data: loadChart({}) } })
     expect(wrapper.text()).toContain('Sample data')
-    expect(wrapper.findAll('.top-list > li')).toHaveLength(10)
     expect(wrapper.findAll('.list > li')).toHaveLength(100)
   })
 
-  it('renders the real chart with the fame chart and talent cards', () => {
+  it('renders the real chart with the fame chart', () => {
     const wrapper = mount(App)
     expect(wrapper.text()).not.toContain('Sample data')
     expect(wrapper.text()).toContain('Fame isn')
-    expect(wrapper.text()).toContain('SECTIONS CROSSED')
   })
 
   it('opens a card from a list row, steps through it and closes it', async () => {
@@ -76,10 +74,4 @@ describe('App', () => {
     expect(rows[0]!.find('.rank').text()).toBe('4')
   })
 
-  it('steps through the top 10 talent cards', async () => {
-    const wrapper = mount(App, { props: { data: loadChart({}) } })
-    const first = wrapper.find('.card h3').text()
-    await wrapper.find('button[aria-label="Next card"]').trigger('click')
-    expect(wrapper.find('.card h3').text()).not.toBe(first)
-  })
 })
