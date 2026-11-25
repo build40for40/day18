@@ -1,4 +1,4 @@
-// npm run pull: 12 months of Guardian coverage for everyone in the Semrush seed list.
+// npm run pull: 12 months of Guardian coverage for everyone in the final 100 (research/final-100.csv).
 // Writes research/guardian-counts.json. Safe to rerun: cached calls are free, and a run that
 // hits the budget saves what it has and carries on from there next time.
 import { readFile, writeFile } from 'node:fs/promises'
@@ -6,7 +6,7 @@ import { readFile, writeFile } from 'node:fs/promises'
 import { apiKey, BudgetSpent, createClient } from './guardian.ts'
 import type { Match, PersonCounts } from './scoring.ts'
 
-const SEED = 'research/semrush-living-seed-100.csv'
+const SEED = 'research/final-100.csv'
 const OUT = 'research/guardian-counts.json'
 const FROM = '2025-11-25'
 const TO = '2026-11-25'
@@ -27,8 +27,10 @@ function readSeed(csv: string) {
   const cols = header!.split(',').map((c) => c.trim())
   return lines
     .map((line) => Object.fromEntries(line.split(',').map((v, i) => [cols[i], v.trim()])))
-    .filter((row) => row.in_seed === 'yes')
-    .map((row) => ({ seedRank: Number(row.rank), term: row.search_term! }))
+    // the Semrush seed file marks who is in with in_seed and names people in search_term;
+    // final-100.csv has no in_seed column (everyone listed is in) and uses person
+    .filter((row) => row.in_seed === undefined || row.in_seed === 'yes')
+    .map((row) => ({ seedRank: Number(row.rank), term: (row.search_term ?? row.person)! }))
 }
 
 /** The Guardian's own tag for a person, when its title matches the name exactly. */

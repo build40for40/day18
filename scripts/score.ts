@@ -5,10 +5,13 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import { rankPeople, type PersonCounts, type ScoreRules } from './scoring.ts'
 
 const RULES: ScoreRules = {
-  // a phrase search also catches passing mentions, so it needs more articles to count
-  threshold: { tag: 3, phrase: 5 },
-  // e.g. ['commentisfree', 'global'] to stop network or regional sections counting
-  ignore: [],
+  // one article in another section counts, as Samira asked on 25 Nov 2026. A phrase search also
+  // catches passing mentions, so it still needs more articles to count
+  threshold: { tag: 1, phrase: 5 },
+  // the opinion section is not a field, so it never counts. Add network or regional sections here
+  ignore: ['commentisfree'],
+  // football is part of sport, not a separate world to cross into
+  merge: { football: 'sport' },
   top: 100,
 }
 
@@ -35,11 +38,11 @@ const chart = {
   window: counts.window,
   generatedAt: new Date().toISOString(),
   method: [
-    `Everyone is from Semrush's most searched people, checked against 12 months of Guardian coverage.`,
-    `Your home section is where the Guardian writes about you most.`,
-    `A crossover is any other section with at least ${RULES.threshold.tag} articles about you (${RULES.threshold.phrase} when we matched your name rather than a Guardian tag).`,
+    `Most people are from Semrush's most searched people, plus a few hand-picked names, all checked against 12 months of Guardian coverage.`,
+    `Your home section is where the Guardian writes about you most. Football counts as sport, and the opinion section doesn't count.`,
+    `A crossover is any other section with at least ${RULES.threshold.tag} article about you (${RULES.threshold.phrase} when we matched your name rather than a Guardian tag).`,
     `Most crossovers wins. Ties go to whoever has more coverage outside their home section.`,
-    `How much coverage you get doesn't count, so fame alone can't win.`,
+    `Everyone here crossed into at least one other section. How much coverage you get doesn't count, but with a low bar a handful of articles can move a score, so the thinnest are marked.`,
   ],
   people: rankPeople(counts.people, RULES).map(({ crossed, home, ...person }) => ({
     ...person,

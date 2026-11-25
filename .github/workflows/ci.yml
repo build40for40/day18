@@ -67,7 +67,7 @@ jobs:
         run: |
           url=$(echo "$OUTPUT" | sed -nE 's/.*Version Preview Alias URL: (https:[^ ]+).*/\1/p' | head -1)
           [ -n "$url" ] || { echo "::warning::No preview alias URL in the wrangler output."; exit 0; }
-          url="${url%/}/day18/"
+          url="${url%/}/crossover/"
           echo "Preview: $url" >> "$GITHUB_STEP_SUMMARY"
           gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --edit-last --create-if-none --body "Preview of ${SHA::7}: $url"
 

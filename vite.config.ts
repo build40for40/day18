@@ -5,9 +5,9 @@ import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 
 export default defineConfig({
-  base: '/day18/',
+  base: '/crossover/',
   build: {
-    outDir: 'dist/day18',
+    outDir: 'dist/crossover',
   },
   plugins: [vue(), vueDevTools()],
   resolve: {

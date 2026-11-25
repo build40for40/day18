@@ -14,7 +14,7 @@ Nicole wants a FTSE 100 for influence. We start with crossover: someone is influ
 
 ```sh
 npm install
-npm run dev        # http://localhost:5173/day18/, with sample data until the real chart exists
+npm run dev        # http://localhost:5173/crossover/, with sample data until the real chart exists
 ```
 
 ## Data
@@ -35,4 +35,4 @@ npm run build
 
 ## Deploy
 
-Live at https://build40for40.com/day18/. Merging to `main` deploys it, and every pull request gets a public preview link.
+Live at https://build40for40.com/crossover/ (the old /day18/ address redirects there). Merging to `main` deploys it, and every pull request gets a public preview link.

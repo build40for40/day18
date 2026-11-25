@@ -32,6 +32,13 @@ describe('scorePerson', () => {
     expect(scored).toMatchObject({ home: 'music', crossovers: 1, articles: 14 })
   })
 
+  it('counts a merged section as the one it points to', () => {
+    const merged = { ...rules, merge: { football: 'sport' } }
+    const scored = scorePerson(person('Kick Fake', { football: 30, sport: 5, music: 2 }), merged)
+    expect(scored).toMatchObject({ home: 'sport', crossovers: 0, articles: 37 })
+    expect(scorePerson(person('Kick Fake', { football: 30, sport: 5, music: 2 }), rules)).toMatchObject({ home: 'football', crossovers: 1 })
+  })
+
   it('drops people with no match or no articles', () => {
     expect(scorePerson(person('Nobody Fake', {}, 'none'), rules)).toBeNull()
     expect(scorePerson(person('Quiet Fake', {}), rules)).toBeNull()

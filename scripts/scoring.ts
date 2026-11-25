@@ -20,6 +20,8 @@ export interface ScoreRules {
   threshold: Record<Exclude<Match, 'none'>, number>
   /** section ids that never count as a crossover (network or regional sections, say) */
   ignore: string[]
+  /** section ids counted as another section (football as sport, say), applied before scoring */
+  merge?: Record<string, string>
   top: number
 }
 
@@ -36,7 +38,13 @@ export interface Scored {
 
 export function scorePerson(person: PersonCounts, rules: ScoreRules): Omit<Scored, 'rank'> | null {
   if (person.match === 'none') return null
-  const counts = Object.entries(person.sections).filter(([id, n]) => n > 0 && !rules.ignore.includes(id))
+  const merged: Record<string, number> = {}
+  for (const [id, n] of Object.entries(person.sections)) {
+    if (n <= 0 || rules.ignore.includes(id)) continue
+    const target = rules.merge?.[id] ?? id
+    merged[target] = (merged[target] ?? 0) + n
+  }
+  const counts = Object.entries(merged)
   const total = counts.reduce((sum, [, n]) => sum + n, 0)
   if (total === 0) return null
 

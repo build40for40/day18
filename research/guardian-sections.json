@@ -1,0 +1,416 @@
+{
+  "retrieved": "2026-11-25",
+  "total": 82,
+  "sections": [
+    {
+      "id": "about",
+      "title": "About",
+      "url": "https://www.theguardian.com/about"
+    },
+    {
+      "id": "animals-farmed",
+      "title": "Animals farmed",
+      "url": "https://www.theguardian.com/animals-farmed"
+    },
+    {
+      "id": "artanddesign",
+      "title": "Art and design",
+      "url": "https://www.theguardian.com/artanddesign"
+    },
+    {
+      "id": "australia-news",
+      "title": "Australia news",
+      "url": "https://www.theguardian.com/australia-news"
+    },
+    {
+      "id": "better-business",
+      "title": "Better Business",
+      "url": "https://www.theguardian.com/better-business"
+    },
+    {
+      "id": "books",
+      "title": "Books",
+      "url": "https://www.theguardian.com/books"
+    },
+    {
+      "id": "business",
+      "title": "Business",
+      "url": "https://www.theguardian.com/business"
+    },
+    {
+      "id": "business-to-business",
+      "title": "Business to business",
+      "url": "https://www.theguardian.com/business-to-business"
+    },
+    {
+      "id": "cardiff",
+      "title": "Cardiff",
+      "url": "https://www.theguardian.com/cardiff"
+    },
+    {
+      "id": "childrens-books-site",
+      "title": "Children's books",
+      "url": "https://www.theguardian.com/childrens-books-site"
+    },
+    {
+      "id": "cities",
+      "title": "Cities",
+      "url": "https://www.theguardian.com/cities"
+    },
+    {
+      "id": "commentisfree",
+      "title": "Opinion",
+      "url": "https://www.theguardian.com/commentisfree"
+    },
+    {
+      "id": "community",
+      "title": "Community",
+      "url": "https://www.theguardian.com/community"
+    },
+    {
+      "id": "crosswords",
+      "title": "Crosswords",
+      "url": "https://www.theguardian.com/crosswords"
+    },
+    {
+      "id": "culture",
+      "title": "Culture",
+      "url": "https://www.theguardian.com/culture"
+    },
+    {
+      "id": "culture-network",
+      "title": "Culture Network",
+      "url": "https://www.theguardian.com/culture-network"
+    },
+    {
+      "id": "culture-professionals-network",
+      "title": "Culture professionals network",
+      "url": "https://www.theguardian.com/culture-professionals-network"
+    },
+    {
+      "id": "edinburgh",
+      "title": "Edinburgh",
+      "url": "https://www.theguardian.com/edinburgh"
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "url": "https://www.theguardian.com/education"
+    },
+    {
+      "id": "enterprise-network",
+      "title": "Guardian Enterprise Network",
+      "url": "https://www.theguardian.com/enterprise-network"
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "url": "https://www.theguardian.com/environment"
+    },
+    {
+      "id": "extra",
+      "title": "Extra",
+      "url": "https://www.theguardian.com/extra"
+    },
+    {
+      "id": "fashion",
+      "title": "Fashion",
+      "url": "https://www.theguardian.com/fashion"
+    },
+    {
+      "id": "film",
+      "title": "Film",
+      "url": "https://www.theguardian.com/film"
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "url": "https://www.theguardian.com/food"
+    },
+    {
+      "id": "football",
+      "title": "Football",
+      "url": "https://www.theguardian.com/football"
+    },
+    {
+      "id": "games",
+      "title": "Games",
+      "url": "https://www.theguardian.com/games"
+    },
+    {
+      "id": "global-development",
+      "title": "Global development",
+      "url": "https://www.theguardian.com/global-development"
+    },
+    {
+      "id": "global-development-professionals-network",
+      "title": "Global Development Professionals Network",
+      "url": "https://www.theguardian.com/global-development-professionals-network"
+    },
+    {
+      "id": "government-computing-network",
+      "title": "Guardian Government Computing",
+      "url": "https://www.theguardian.com/government-computing-network"
+    },
+    {
+      "id": "guardian-foundation",
+      "title": "Guardian Foundation",
+      "url": "https://www.theguardian.com/guardian-foundation"
+    },
+    {
+      "id": "guardian-professional",
+      "title": "Guardian Professional",
+      "url": "https://www.theguardian.com/guardian-professional"
+    },
+    {
+      "id": "healthcare-network",
+      "title": "Healthcare Professionals Network",
+      "url": "https://www.theguardian.com/healthcare-network"
+    },
+    {
+      "id": "help",
+      "title": "Help",
+      "url": "https://www.theguardian.com/help"
+    },
+    {
+      "id": "higher-education-network",
+      "title": "Higher Education Network",
+      "url": "https://www.theguardian.com/higher-education-network"
+    },
+    {
+      "id": "housing-network",
+      "title": "Housing Network",
+      "url": "https://www.theguardian.com/housing-network"
+    },
+    {
+      "id": "inequality",
+      "title": "Inequality",
+      "url": "https://www.theguardian.com/inequality"
+    },
+    {
+      "id": "info",
+      "title": "Info",
+      "url": "https://www.theguardian.com/info"
+    },
+    {
+      "id": "jobsadvice",
+      "title": "Jobs",
+      "url": "https://www.theguardian.com/jobsadvice"
+    },
+    {
+      "id": "katine",
+      "title": "Katine",
+      "url": "https://www.theguardian.com/katine"
+    },
+    {
+      "id": "law",
+      "title": "Law",
+      "url": "https://www.theguardian.com/law"
+    },
+    {
+      "id": "leeds",
+      "title": "Leeds",
+      "url": "https://www.theguardian.com/leeds"
+    },
+    {
+      "id": "lifeandstyle",
+      "title": "Life and style",
+      "url": "https://www.theguardian.com/lifeandstyle"
+    },
+    {
+      "id": "local",
+      "title": "Local",
+      "url": "https://www.theguardian.com/local"
+    },
+    {
+      "id": "local-government-network",
+      "title": "Local Leaders Network",
+      "url": "https://www.theguardian.com/local-government-network"
+    },
+    {
+      "id": "media",
+      "title": "Media",
+      "url": "https://www.theguardian.com/media"
+    },
+    {
+      "id": "media-network",
+      "title": "Media Network",
+      "url": "https://www.theguardian.com/media-network"
+    },
+    {
+      "id": "membership",
+      "title": "Membership",
+      "url": "https://www.theguardian.com/membership"
+    },
+    {
+      "id": "money",
+      "title": "Money",
+      "url": "https://www.theguardian.com/money"
+    },
+    {
+      "id": "music",
+      "title": "Music",
+      "url": "https://www.theguardian.com/music"
+    },
+    {
+      "id": "news",
+      "title": "News",
+      "url": "https://www.theguardian.com/news"
+    },
+    {
+      "id": "politics",
+      "title": "Politics",
+      "url": "https://www.theguardian.com/politics"
+    },
+    {
+      "id": "public-leaders-network",
+      "title": "Public Leaders Network",
+      "url": "https://www.theguardian.com/public-leaders-network"
+    },
+    {
+      "id": "puzzles",
+      "title": "Puzzles",
+      "url": "https://www.theguardian.com/puzzles"
+    },
+    {
+      "id": "puzzles-and-games",
+      "title": "Puzzles and games",
+      "url": "https://www.theguardian.com/puzzles-and-games"
+    },
+    {
+      "id": "science",
+      "title": "Science",
+      "url": "https://www.theguardian.com/science"
+    },
+    {
+      "id": "search",
+      "title": "Search",
+      "url": "https://www.theguardian.com/search"
+    },
+    {
+      "id": "small-business-network",
+      "title": "Guardian Small Business Network",
+      "url": "https://www.theguardian.com/small-business-network"
+    },
+    {
+      "id": "social-care-network",
+      "title": "Social Care Network",
+      "url": "https://www.theguardian.com/social-care-network"
+    },
+    {
+      "id": "social-enterprise-network",
+      "title": "Social Enterprise Network",
+      "url": "https://www.theguardian.com/social-enterprise-network"
+    },
+    {
+      "id": "society",
+      "title": "Society",
+      "url": "https://www.theguardian.com/society"
+    },
+    {
+      "id": "society-professionals",
+      "title": "Society Professionals",
+      "url": "https://www.theguardian.com/society-professionals"
+    },
+    {
+      "id": "sport",
+      "title": "Sport",
+      "url": "https://www.theguardian.com/sport"
+    },
+    {
+      "id": "stage",
+      "title": "Stage",
+      "url": "https://www.theguardian.com/stage"
+    },
+    {
+      "id": "teacher-network",
+      "title": "Teacher Network",
+      "url": "https://www.theguardian.com/teacher-network"
+    },
+    {
+      "id": "technology",
+      "title": "Technology",
+      "url": "https://www.theguardian.com/technology"
+    },
+    {
+      "id": "thefilter",
+      "title": "The Filter",
+      "url": "https://www.theguardian.com/thefilter"
+    },
+    {
+      "id": "thefilter-us",
+      "title": "The Filter US",
+      "url": "https://www.theguardian.com/thefilter-us"
+    },
+    {
+      "id": "theguardian",
+      "title": "From the Guardian",
+      "url": "https://www.theguardian.com/theguardian"
+    },
+    {
+      "id": "theobserver",
+      "title": "From the Observer",
+      "url": "https://www.theguardian.com/theobserver"
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "url": "https://www.theguardian.com/travel"
+    },
+    {
+      "id": "travel/offers",
+      "title": "Guardian holiday offers",
+      "url": "https://www.theguardian.com/travel/offers"
+    },
+    {
+      "id": "tv-and-radio",
+      "title": "Television & radio",
+      "url": "https://www.theguardian.com/tv-and-radio"
+    },
+    {
+      "id": "uk-news",
+      "title": "UK news",
+      "url": "https://www.theguardian.com/uk-news"
+    },
+    {
+      "id": "us-news",
+      "title": "US news",
+      "url": "https://www.theguardian.com/us-news"
+    },
+    {
+      "id": "us-wellness",
+      "title": "Wellness (Do NOT use)",
+      "url": "https://www.theguardian.com/us-wellness"
+    },
+    {
+      "id": "voluntary-sector-network",
+      "title": "Voluntary Sector Network",
+      "url": "https://www.theguardian.com/voluntary-sector-network"
+    },
+    {
+      "id": "weather",
+      "title": "Weather",
+      "url": "https://www.theguardian.com/weather"
+    },
+    {
+      "id": "wellness",
+      "title": "Wellness",
+      "url": "https://www.theguardian.com/wellness"
+    },
+    {
+      "id": "women-in-leadership",
+      "title": "Women in Leadership",
+      "url": "https://www.theguardian.com/women-in-leadership"
+    },
+    {
+      "id": "working-in-development",
+      "title": "Working in development",
+      "url": "https://www.theguardian.com/working-in-development"
+    },
+    {
+      "id": "world",
+      "title": "World news",
+      "url": "https://www.theguardian.com/world"
+    }
+  ]
+}

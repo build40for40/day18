@@ -1,0 +1,1452 @@
+{
+  "window": {
+    "from": "2025-11-25",
+    "to": "2026-11-25"
+  },
+  "pulledAt": "2026-11-25T16:31:23.653466+00:00",
+  "complete": true,
+  "seed": "research/final-100.csv",
+  "sectionNames": {},
+  "people": [
+    {
+      "seedRank": 1,
+      "name": "Donald Trump",
+      "match": "tag",
+      "tag": "us-news/donaldtrump",
+      "articles": 1000,
+      "sections": {
+        "culture": 20,
+        "us-news": 537,
+        "technology": 31,
+        "uk-news": 7,
+        "commentisfree": 168,
+        "global": 1,
+        "stage": 2,
+        "world": 130,
+        "education": 1,
+        "politics": 15,
+        "environment": 6,
+        "australia-news": 10,
+        "sport": 6,
+        "games": 1,
+        "food": 2,
+        "tv-and-radio": 5,
+        "news": 4,
+        "community": 4,
+        "business": 18,
+        "media": 12,
+        "fashion": 1,
+        "society": 1,
+        "science": 2,
+        "lifeandstyle": 1,
+        "music": 1,
+        "film": 3,
+        "football": 4,
+        "books": 4,
+        "membership": 1,
+        "artanddesign": 1,
+        "global-development": 1
+      }
+    },
+    {
+      "seedRank": 2,
+      "name": "Elon Musk",
+      "match": "tag",
+      "tag": "technology/elon-musk",
+      "articles": 379,
+      "sections": {
+        "global": 4,
+        "football": 1,
+        "us-news": 37,
+        "uk-news": 9,
+        "technology": 140,
+        "world": 26,
+        "science": 26,
+        "commentisfree": 52,
+        "tv-and-radio": 2,
+        "film": 15,
+        "business": 19,
+        "politics": 18,
+        "community": 2,
+        "books": 4,
+        "culture": 4,
+        "global-development": 1,
+        "news": 6,
+        "lifeandstyle": 2,
+        "australia-news": 3,
+        "music": 1,
+        "society": 2,
+        "media": 3,
+        "sport": 1,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 3,
+      "name": "Vladimir Putin",
+      "match": "tag",
+      "tag": "world/vladimir-putin",
+      "articles": 348,
+      "sections": {
+        "books": 4,
+        "commentisfree": 73,
+        "world": 221,
+        "us-news": 18,
+        "politics": 7,
+        "australia-news": 3,
+        "news": 5,
+        "technology": 1,
+        "sport": 1,
+        "music": 2,
+        "uk-news": 5,
+        "film": 3,
+        "culture": 1,
+        "business": 2,
+        "football": 1,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 4,
+      "name": "Taylor Swift",
+      "match": "tag",
+      "tag": "music/taylor-swift",
+      "articles": 70,
+      "sections": {
+        "music": 33,
+        "sport": 3,
+        "tv-and-radio": 4,
+        "culture": 5,
+        "commentisfree": 9,
+        "uk-news": 2,
+        "us-news": 1,
+        "film": 1,
+        "lifeandstyle": 3,
+        "fashion": 5,
+        "thefilter-us": 1,
+        "business": 2,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 5,
+      "name": "Prince Harry",
+      "match": "tag",
+      "tag": "uk/prince-harry",
+      "articles": 89,
+      "sections": {
+        "world": 4,
+        "uk-news": 47,
+        "us-news": 3,
+        "commentisfree": 10,
+        "books": 1,
+        "environment": 1,
+        "education": 1,
+        "news": 1,
+        "money": 1,
+        "sport": 1,
+        "media": 17,
+        "lifeandstyle": 1,
+        "politics": 1
+      }
+    },
+    {
+      "seedRank": 6,
+      "name": "Meghan Markle",
+      "match": "tag",
+      "tag": "uk-news/meghan-duchess-of-sussex",
+      "articles": 67,
+      "sections": {
+        "uk-news": 39,
+        "us-news": 3,
+        "world": 3,
+        "commentisfree": 9,
+        "lifeandstyle": 1,
+        "environment": 1,
+        "education": 2,
+        "news": 1,
+        "tv-and-radio": 2,
+        "money": 1,
+        "media": 2,
+        "culture": 1,
+        "fashion": 2
+      }
+    },
+    {
+      "seedRank": 7,
+      "name": "Jeff Bezos",
+      "match": "tag",
+      "tag": "technology/jeff-bezos",
+      "articles": 48,
+      "sections": {
+        "environment": 1,
+        "film": 5,
+        "world": 3,
+        "news": 4,
+        "technology": 6,
+        "football": 5,
+        "science": 5,
+        "fashion": 5,
+        "commentisfree": 8,
+        "media": 4,
+        "us-news": 1,
+        "business": 1
+      }
+    },
+    {
+      "seedRank": 8,
+      "name": "Mark Zuckerberg",
+      "match": "tag",
+      "tag": "technology/mark-zuckerberg",
+      "articles": 66,
+      "sections": {
+        "us-news": 5,
+        "technology": 28,
+        "film": 6,
+        "news": 1,
+        "fashion": 1,
+        "food": 1,
+        "commentisfree": 12,
+        "media": 5,
+        "culture": 2,
+        "global": 2,
+        "world": 2,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 9,
+      "name": "Xi Jinping",
+      "match": "tag",
+      "tag": "world/xi-jinping",
+      "articles": 149,
+      "sections": {
+        "world": 71,
+        "commentisfree": 28,
+        "us-news": 23,
+        "australia-news": 4,
+        "technology": 5,
+        "culture": 2,
+        "news": 2,
+        "tv-and-radio": 2,
+        "business": 2,
+        "politics": 8,
+        "uk-news": 1,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 10,
+      "name": "Bad Bunny",
+      "match": "tag",
+      "tag": "music/bad-bunny",
+      "articles": 36,
+      "sections": {
+        "culture": 2,
+        "fashion": 2,
+        "music": 19,
+        "thefilter": 1,
+        "australia-news": 1,
+        "travel": 1,
+        "us-news": 6,
+        "commentisfree": 1,
+        "business": 1,
+        "tv-and-radio": 1,
+        "sport": 1
+      }
+    },
+    {
+      "seedRank": 11,
+      "name": "Barack Obama",
+      "match": "tag",
+      "tag": "us-news/barack-obama",
+      "articles": 53,
+      "sections": {
+        "news": 2,
+        "us-news": 32,
+        "lifeandstyle": 1,
+        "commentisfree": 5,
+        "politics": 2,
+        "sport": 2,
+        "music": 1,
+        "books": 1,
+        "artanddesign": 3,
+        "world": 2,
+        "film": 2
+      }
+    },
+    {
+      "seedRank": 12,
+      "name": "Timoth\u00e9e Chalamet",
+      "match": "tag",
+      "tag": "film/timoth-e-chalamet",
+      "articles": 58,
+      "sections": {
+        "film": 40,
+        "fashion": 6,
+        "global": 1,
+        "commentisfree": 4,
+        "tv-and-radio": 1,
+        "culture": 1,
+        "games": 1,
+        "music": 1,
+        "uk-news": 1,
+        "stage": 1,
+        "lifeandstyle": 1
+      }
+    },
+    {
+      "seedRank": 13,
+      "name": "David Beckham",
+      "match": "tag",
+      "tag": "football/david-beckham",
+      "articles": 34,
+      "sections": {
+        "commentisfree": 8,
+        "football": 9,
+        "uk-news": 1,
+        "tv-and-radio": 2,
+        "business": 1,
+        "lifeandstyle": 7,
+        "fashion": 3,
+        "law": 1,
+        "news": 1,
+        "music": 1
+      }
+    },
+    {
+      "seedRank": 14,
+      "name": "JK Rowling",
+      "match": "tag",
+      "tag": "books/jkrowling",
+      "articles": 13,
+      "sections": {
+        "stage": 3,
+        "tv-and-radio": 3,
+        "culture": 1,
+        "society": 1,
+        "books": 2,
+        "politics": 1,
+        "fashion": 1,
+        "news": 1
+      }
+    },
+    {
+      "seedRank": 15,
+      "name": "Beyonc\u00e9",
+      "match": "tag",
+      "tag": "music/beyonce",
+      "articles": 23,
+      "sections": {
+        "music": 12,
+        "lifeandstyle": 1,
+        "culture": 1,
+        "business": 1,
+        "fashion": 5,
+        "artanddesign": 1,
+        "film": 1,
+        "sport": 1
+      }
+    },
+    {
+      "seedRank": 16,
+      "name": "Paul McCartney",
+      "match": "tag",
+      "tag": "music/paulmccartney",
+      "articles": 35,
+      "sections": {
+        "music": 22,
+        "film": 5,
+        "environment": 1,
+        "tv-and-radio": 3,
+        "science": 1,
+        "stage": 1,
+        "culture": 1,
+        "business": 1
+      }
+    },
+    {
+      "seedRank": 17,
+      "name": "Dolly Parton",
+      "match": "tag",
+      "tag": "music/dolly-parton",
+      "articles": 42,
+      "sections": {
+        "music": 29,
+        "australia-news": 1,
+        "uk-news": 1,
+        "us-news": 2,
+        "commentisfree": 5,
+        "fashion": 1,
+        "artanddesign": 1,
+        "science": 1,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 18,
+      "name": "Narendra Modi",
+      "match": "tag",
+      "tag": "world/narendra-modi",
+      "articles": 60,
+      "sections": {
+        "us-news": 1,
+        "world": 44,
+        "commentisfree": 7,
+        "global-development": 2,
+        "culture": 1,
+        "sport": 1,
+        "australia-news": 2,
+        "global": 1,
+        "technology": 1
+      }
+    },
+    {
+      "seedRank": 19,
+      "name": "Volodymyr Zelenskyy",
+      "match": "tag",
+      "tag": "world/volodymyr-zelenskiy",
+      "articles": 337,
+      "sections": {
+        "world": 270,
+        "commentisfree": 32,
+        "australia-news": 1,
+        "fashion": 1,
+        "us-news": 18,
+        "politics": 10,
+        "news": 1,
+        "uk-news": 2,
+        "sport": 2
+      }
+    },
+    {
+      "seedRank": 20,
+      "name": "Katy Perry",
+      "match": "tag",
+      "tag": "music/katy-perry",
+      "articles": 11,
+      "sections": {
+        "us-news": 1,
+        "fashion": 1,
+        "commentisfree": 3,
+        "music": 1,
+        "law": 1,
+        "culture": 1,
+        "sport": 1,
+        "lifeandstyle": 2
+      }
+    },
+    {
+      "seedRank": 21,
+      "name": "Yoko Ono",
+      "match": "tag",
+      "tag": "culture/yoko-ono",
+      "articles": 8,
+      "sections": {
+        "artanddesign": 2,
+        "fashion": 1,
+        "culture": 1,
+        "politics": 1,
+        "world": 1,
+        "film": 1,
+        "books": 1
+      }
+    },
+    {
+      "seedRank": 22,
+      "name": "Harry Styles",
+      "match": "tag",
+      "tag": "music/harry-styles",
+      "articles": 28,
+      "sections": {
+        "music": 14,
+        "commentisfree": 3,
+        "culture": 2,
+        "fashion": 5,
+        "thefilter": 1,
+        "tv-and-radio": 1,
+        "news": 1,
+        "lifeandstyle": 1
+      }
+    },
+    {
+      "seedRank": 23,
+      "name": "Ariana Grande",
+      "match": "tag",
+      "tag": "music/ariana-grande",
+      "articles": 19,
+      "sections": {
+        "music": 11,
+        "culture": 1,
+        "stage": 2,
+        "film": 2,
+        "fashion": 1,
+        "tv-and-radio": 1,
+        "lifeandstyle": 1
+      }
+    },
+    {
+      "seedRank": 24,
+      "name": "Tom Cruise",
+      "match": "tag",
+      "tag": "film/tomcruise",
+      "articles": 28,
+      "sections": {
+        "environment": 1,
+        "film": 20,
+        "culture": 2,
+        "tv-and-radio": 1,
+        "news": 1,
+        "commentisfree": 1,
+        "society": 1,
+        "football": 1
+      }
+    },
+    {
+      "seedRank": 25,
+      "name": "Kim Kardashian",
+      "match": "tag",
+      "tag": "us-news/kim-kardashian",
+      "articles": 11,
+      "sections": {
+        "tv-and-radio": 1,
+        "books": 1,
+        "commentisfree": 3,
+        "sport": 1,
+        "fashion": 3,
+        "film": 1,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 26,
+      "name": "Idris Elba",
+      "match": "tag",
+      "tag": "culture/idris-elba",
+      "articles": 8,
+      "sections": {
+        "music": 1,
+        "film": 3,
+        "business": 1,
+        "books": 1,
+        "tv-and-radio": 1,
+        "uk-news": 1
+      }
+    },
+    {
+      "seedRank": 27,
+      "name": "Bob Dylan",
+      "match": "tag",
+      "tag": "music/bobdylan",
+      "articles": 19,
+      "sections": {
+        "music": 14,
+        "education": 1,
+        "lifeandstyle": 1,
+        "culture": 1,
+        "world": 1,
+        "film": 1
+      }
+    },
+    {
+      "seedRank": 28,
+      "name": "Margot Robbie",
+      "match": "tag",
+      "tag": "film/margot-robbie",
+      "articles": 23,
+      "sections": {
+        "commentisfree": 1,
+        "film": 17,
+        "tv-and-radio": 1,
+        "business": 1,
+        "lifeandstyle": 1,
+        "fashion": 1,
+        "books": 1
+      }
+    },
+    {
+      "seedRank": 29,
+      "name": "Zendaya",
+      "match": "tag",
+      "tag": "film/zendaya",
+      "articles": 26,
+      "sections": {
+        "film": 14,
+        "tv-and-radio": 7,
+        "culture": 1,
+        "science": 1,
+        "commentisfree": 1,
+        "lifeandstyle": 2
+      }
+    },
+    {
+      "seedRank": 30,
+      "name": "Bill Gates",
+      "match": "tag",
+      "tag": "us-news/bill-gates",
+      "articles": 19,
+      "sections": {
+        "commentisfree": 5,
+        "us-news": 9,
+        "technology": 2,
+        "society": 1,
+        "news": 1,
+        "environment": 1
+      }
+    },
+    {
+      "seedRank": 31,
+      "name": "Bill Clinton",
+      "match": "tag",
+      "tag": "us-news/clinton",
+      "articles": 31,
+      "sections": {
+        "us-news": 23,
+        "business": 1,
+        "world": 1,
+        "commentisfree": 4,
+        "artanddesign": 1,
+        "film": 1
+      }
+    },
+    {
+      "seedRank": 32,
+      "name": "Joe Biden",
+      "match": "tag",
+      "tag": "us-news/joebiden",
+      "articles": 41,
+      "sections": {
+        "us-news": 31,
+        "film": 1,
+        "commentisfree": 5,
+        "tv-and-radio": 1,
+        "world": 2,
+        "business": 1
+      }
+    },
+    {
+      "seedRank": 33,
+      "name": "Elton John",
+      "match": "tag",
+      "tag": "music/elton-john",
+      "articles": 21,
+      "sections": {
+        "music": 7,
+        "uk-news": 6,
+        "media": 6,
+        "film": 2
+      }
+    },
+    {
+      "seedRank": 34,
+      "name": "Sydney Sweeney",
+      "match": "tag",
+      "tag": "film/sydney-sweeney",
+      "articles": 23,
+      "sections": {
+        "commentisfree": 4,
+        "sport": 3,
+        "tv-and-radio": 7,
+        "film": 7,
+        "culture": 2
+      }
+    },
+    {
+      "seedRank": 35,
+      "name": "Arnold Schwarzenegger",
+      "match": "tag",
+      "tag": "film/arnold-schwarzenegger",
+      "articles": 5,
+      "sections": {
+        "us-news": 1,
+        "culture": 1,
+        "stage": 1,
+        "film": 2
+      }
+    },
+    {
+      "seedRank": 36,
+      "name": "Shakira",
+      "match": "tag",
+      "tag": "music/shakira",
+      "articles": 8,
+      "sections": {
+        "football": 2,
+        "music": 4,
+        "fashion": 1,
+        "lifeandstyle": 1
+      }
+    },
+    {
+      "seedRank": 37,
+      "name": "Ben Affleck",
+      "match": "tag",
+      "tag": "film/benaffleck",
+      "articles": 7,
+      "sections": {
+        "film": 4,
+        "us-news": 1,
+        "technology": 1,
+        "tv-and-radio": 1
+      }
+    },
+    {
+      "seedRank": 38,
+      "name": "Lady Gaga",
+      "match": "tag",
+      "tag": "music/lady-gaga",
+      "articles": 10,
+      "sections": {
+        "tv-and-radio": 1,
+        "fashion": 2,
+        "culture": 1,
+        "music": 6
+      }
+    },
+    {
+      "seedRank": 39,
+      "name": "Daniel Craig",
+      "match": "tag",
+      "tag": "film/danielcraig",
+      "articles": 11,
+      "sections": {
+        "film": 7,
+        "culture": 2,
+        "fashion": 1,
+        "tv-and-radio": 1
+      }
+    },
+    {
+      "seedRank": 40,
+      "name": "Travis Kelce",
+      "match": "tag",
+      "tag": "sport/travis-kelce",
+      "articles": 15,
+      "sections": {
+        "sport": 2,
+        "commentisfree": 3,
+        "music": 8,
+        "fashion": 1,
+        "lifeandstyle": 1
+      }
+    },
+    {
+      "seedRank": 41,
+      "name": "Justin Bieber",
+      "match": "tag",
+      "tag": "music/justin-bieber",
+      "articles": 9,
+      "sections": {
+        "music": 6,
+        "football": 1,
+        "lifeandstyle": 1,
+        "us-news": 1
+      }
+    },
+    {
+      "seedRank": 42,
+      "name": "Stephen King",
+      "match": "tag",
+      "tag": "books/stephenking",
+      "articles": 13,
+      "sections": {
+        "culture": 1,
+        "film": 9,
+        "books": 2,
+        "us-news": 1
+      }
+    },
+    {
+      "seedRank": 43,
+      "name": "Billie Eilish",
+      "match": "tag",
+      "tag": "music/billie-eilish",
+      "articles": 13,
+      "sections": {
+        "music": 9,
+        "commentisfree": 1,
+        "film": 1,
+        "us-news": 1,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 44,
+      "name": "Olivia Rodrigo",
+      "match": "tag",
+      "tag": "music/olivia-rodrigo",
+      "articles": 18,
+      "sections": {
+        "music": 13,
+        "culture": 2,
+        "commentisfree": 1,
+        "global": 1,
+        "tv-and-radio": 1
+      }
+    },
+    {
+      "seedRank": 45,
+      "name": "Kanye West",
+      "match": "tag",
+      "tag": "music/kanyewest",
+      "articles": 22,
+      "sections": {
+        "music": 16,
+        "commentisfree": 2,
+        "news": 2,
+        "politics": 1,
+        "fashion": 1
+      }
+    },
+    {
+      "seedRank": 46,
+      "name": "Anne Hathaway",
+      "match": "tag",
+      "tag": "film/anne-hathaway",
+      "articles": 26,
+      "sections": {
+        "film": 20,
+        "commentisfree": 2,
+        "stage": 1,
+        "fashion": 2,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 47,
+      "name": "Quentin Tarantino",
+      "match": "tag",
+      "tag": "film/quentintarantino",
+      "articles": 25,
+      "sections": {
+        "film": 20,
+        "books": 1,
+        "stage": 2,
+        "culture": 1,
+        "commentisfree": 1
+      }
+    },
+    {
+      "seedRank": 48,
+      "name": "Kamala Harris",
+      "match": "tag",
+      "tag": "us-news/kamala-harris",
+      "articles": 30,
+      "sections": {
+        "us-news": 19,
+        "commentisfree": 8,
+        "sport": 1,
+        "culture": 1,
+        "fashion": 1
+      }
+    },
+    {
+      "seedRank": 49,
+      "name": "Joe Rogan",
+      "match": "tag",
+      "tag": "culture/joe-rogan",
+      "articles": 9,
+      "sections": {
+        "commentisfree": 6,
+        "film": 1,
+        "media": 1,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 50,
+      "name": "Cardi B",
+      "match": "tag",
+      "tag": "music/cardi-b",
+      "articles": 5,
+      "sections": {
+        "culture": 2,
+        "music": 2,
+        "sport": 1
+      }
+    },
+    {
+      "seedRank": 51,
+      "name": "Dua Lipa",
+      "match": "tag",
+      "tag": "music/dua-lipa",
+      "articles": 15,
+      "sections": {
+        "music": 6,
+        "books": 4,
+        "commentisfree": 1,
+        "fashion": 4
+      }
+    },
+    {
+      "seedRank": 52,
+      "name": "Pedro Pascal",
+      "match": "tag",
+      "tag": "culture/pedro-pascal",
+      "articles": 6,
+      "sections": {
+        "culture": 2,
+        "film": 3,
+        "world": 1
+      }
+    },
+    {
+      "seedRank": 53,
+      "name": "Stormzy",
+      "match": "tag",
+      "tag": "music/stormzy",
+      "articles": 5,
+      "sections": {
+        "film": 1,
+        "books": 2,
+        "commentisfree": 1,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 54,
+      "name": "Dalai Lama",
+      "match": "tag",
+      "tag": "world/dalailama",
+      "articles": 4,
+      "sections": {
+        "world": 2,
+        "music": 1,
+        "film": 1
+      }
+    },
+    {
+      "seedRank": 55,
+      "name": "Bruce Springsteen",
+      "match": "tag",
+      "tag": "music/springsteen",
+      "articles": 12,
+      "sections": {
+        "politics": 2,
+        "music": 7,
+        "us-news": 2,
+        "commentisfree": 1
+      }
+    },
+    {
+      "seedRank": 56,
+      "name": "George W Bush",
+      "match": "tag",
+      "tag": "us-news/george-bush",
+      "articles": 12,
+      "sections": {
+        "us-news": 6,
+        "commentisfree": 3,
+        "business": 1,
+        "world": 2
+      }
+    },
+    {
+      "seedRank": 57,
+      "name": "Tom Hanks",
+      "match": "tag",
+      "tag": "film/tomhanks",
+      "articles": 9,
+      "sections": {
+        "film": 6,
+        "tv-and-radio": 2,
+        "lifeandstyle": 1
+      }
+    },
+    {
+      "seedRank": 58,
+      "name": "Greta Thunberg",
+      "match": "tag",
+      "tag": "environment/greta-thunberg",
+      "articles": 7,
+      "sections": {
+        "environment": 4,
+        "world": 1,
+        "uk-news": 1,
+        "commentisfree": 1
+      }
+    },
+    {
+      "seedRank": 59,
+      "name": "Cillian Murphy",
+      "match": "tag",
+      "tag": "film/cillian-murphy",
+      "articles": 6,
+      "sections": {
+        "film": 4,
+        "culture": 1,
+        "tv-and-radio": 1
+      }
+    },
+    {
+      "seedRank": 60,
+      "name": "Sylvester Stallone",
+      "match": "tag",
+      "tag": "film/sylvester-stallone",
+      "articles": 8,
+      "sections": {
+        "film": 6,
+        "books": 1,
+        "us-news": 1
+      }
+    },
+    {
+      "seedRank": 61,
+      "name": "Ed Sheeran",
+      "match": "tag",
+      "tag": "music/ed-sheeran",
+      "articles": 23,
+      "sections": {
+        "music": 15,
+        "commentisfree": 4,
+        "news": 2,
+        "sport": 2
+      }
+    },
+    {
+      "seedRank": 62,
+      "name": "Tom Holland",
+      "match": "tag",
+      "tag": "film/tom-holland",
+      "articles": 18,
+      "sections": {
+        "film": 14,
+        "commentisfree": 1,
+        "culture": 1,
+        "lifeandstyle": 2
+      }
+    },
+    {
+      "seedRank": 63,
+      "name": "Rosal\u00eda",
+      "match": "tag",
+      "tag": "music/rosalia",
+      "articles": 12,
+      "sections": {
+        "music": 9,
+        "fashion": 1,
+        "commentisfree": 1,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 64,
+      "name": "Brad Pitt",
+      "match": "tag",
+      "tag": "film/bradpitt",
+      "articles": 12,
+      "sections": {
+        "film": 10,
+        "fashion": 1,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 65,
+      "name": "Hillary Clinton",
+      "match": "tag",
+      "tag": "us-news/hillary-clinton",
+      "articles": 25,
+      "sections": {
+        "culture": 2,
+        "us-news": 19,
+        "media": 1,
+        "commentisfree": 3
+      }
+    },
+    {
+      "seedRank": 66,
+      "name": "Robert De Niro",
+      "match": "tag",
+      "tag": "film/robertdeniro",
+      "articles": 15,
+      "sections": {
+        "film": 13,
+        "stage": 1,
+        "music": 1
+      }
+    },
+    {
+      "seedRank": 67,
+      "name": "Lionel Messi",
+      "match": "tag",
+      "tag": "football/lionel-messi",
+      "articles": 75,
+      "sections": {
+        "football": 71,
+        "sport": 1,
+        "culture": 1,
+        "fashion": 1,
+        "commentisfree": 1
+      }
+    },
+    {
+      "seedRank": 68,
+      "name": "Jennifer Lawrence",
+      "match": "tag",
+      "tag": "film/jennifer-lawrence",
+      "articles": 4,
+      "sections": {
+        "fashion": 2,
+        "film": 2
+      }
+    },
+    {
+      "seedRank": 69,
+      "name": "Kylie Jenner",
+      "match": "tag",
+      "tag": "lifeandstyle/kylie-jenner",
+      "articles": 4,
+      "sections": {
+        "film": 2,
+        "fashion": 2
+      }
+    },
+    {
+      "seedRank": 70,
+      "name": "Clint Eastwood",
+      "match": "tag",
+      "tag": "film/clinteastwood",
+      "articles": 2,
+      "sections": {
+        "world": 1,
+        "film": 1
+      }
+    },
+    {
+      "seedRank": 71,
+      "name": "Jennifer Lopez",
+      "match": "tag",
+      "tag": "culture/jennifer-lopez",
+      "articles": 2,
+      "sections": {
+        "fashion": 1,
+        "film": 1
+      }
+    },
+    {
+      "seedRank": 72,
+      "name": "Justin Timberlake",
+      "match": "tag",
+      "tag": "culture/justin-timberlake",
+      "articles": 2,
+      "sections": {
+        "stage": 1,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 73,
+      "name": "Rafael Nadal",
+      "match": "tag",
+      "tag": "sport/rafaelnadal",
+      "articles": 2,
+      "sections": {
+        "tv-and-radio": 1,
+        "sport": 1
+      }
+    },
+    {
+      "seedRank": 74,
+      "name": "Gordon Ramsay",
+      "match": "tag",
+      "tag": "food/gordonramsay",
+      "articles": 5,
+      "sections": {
+        "tv-and-radio": 3,
+        "food": 2
+      }
+    },
+    {
+      "seedRank": 75,
+      "name": "Mariah Carey",
+      "match": "tag",
+      "tag": "music/mariahcarey",
+      "articles": 6,
+      "sections": {
+        "music": 4,
+        "sport": 2
+      }
+    },
+    {
+      "seedRank": 76,
+      "name": "Rihanna",
+      "match": "tag",
+      "tag": "music/rihanna",
+      "articles": 3,
+      "sections": {
+        "fashion": 2,
+        "music": 1
+      }
+    },
+    {
+      "seedRank": 77,
+      "name": "Usain Bolt",
+      "match": "tag",
+      "tag": "sport/usainbolt",
+      "articles": 3,
+      "sections": {
+        "sport": 2,
+        "artanddesign": 1
+      }
+    },
+    {
+      "seedRank": 78,
+      "name": "Roger Federer",
+      "match": "tag",
+      "tag": "sport/roger-federer",
+      "articles": 3,
+      "sections": {
+        "sport": 2,
+        "business": 1
+      }
+    },
+    {
+      "seedRank": 79,
+      "name": "Doja Cat",
+      "match": "tag",
+      "tag": "music/doja-cat",
+      "articles": 3,
+      "sections": {
+        "music": 2,
+        "fashion": 1
+      }
+    },
+    {
+      "seedRank": 80,
+      "name": "Naomi Campbell",
+      "match": "tag",
+      "tag": "fashion/naomi-campbell",
+      "articles": 3,
+      "sections": {
+        "society": 1,
+        "fashion": 2
+      }
+    },
+    {
+      "seedRank": 81,
+      "name": "Angela Merkel",
+      "match": "tag",
+      "tag": "world/angela-merkel",
+      "articles": 6,
+      "sections": {
+        "world": 3,
+        "us-news": 1,
+        "commentisfree": 2
+      }
+    },
+    {
+      "seedRank": 82,
+      "name": "John Travolta",
+      "match": "tag",
+      "tag": "film/john-travolta",
+      "articles": 5,
+      "sections": {
+        "uk-news": 1,
+        "commentisfree": 1,
+        "film": 3
+      }
+    },
+    {
+      "seedRank": 83,
+      "name": "Michael Jordan",
+      "match": "tag",
+      "tag": "sport/michael-jordan",
+      "articles": 4,
+      "sections": {
+        "film": 1,
+        "sport": 3
+      }
+    },
+    {
+      "seedRank": 84,
+      "name": "Bono",
+      "match": "tag",
+      "tag": "music/bono",
+      "articles": 4,
+      "sections": {
+        "music": 3,
+        "us-news": 1
+      }
+    },
+    {
+      "seedRank": 85,
+      "name": "Bruno Mars",
+      "match": "tag",
+      "tag": "music/bruno-mars",
+      "articles": 9,
+      "sections": {
+        "music": 7,
+        "culture": 2
+      }
+    },
+    {
+      "seedRank": 86,
+      "name": "Drake",
+      "match": "tag",
+      "tag": "music/drake",
+      "articles": 5,
+      "sections": {
+        "lifeandstyle": 1,
+        "music": 4
+      }
+    },
+    {
+      "seedRank": 87,
+      "name": "Johnny Depp",
+      "match": "tag",
+      "tag": "film/johnnydepp",
+      "articles": 5,
+      "sections": {
+        "film": 4,
+        "music": 1
+      }
+    },
+    {
+      "seedRank": 88,
+      "name": "Dwayne Johnson",
+      "match": "tag",
+      "tag": "film/dwayne-johnson",
+      "articles": 5,
+      "sections": {
+        "film": 4,
+        "stage": 1
+      }
+    },
+    {
+      "seedRank": 89,
+      "name": "Kate Winslet",
+      "match": "tag",
+      "tag": "film/katewinslet",
+      "articles": 5,
+      "sections": {
+        "film": 4,
+        "tv-and-radio": 1
+      }
+    },
+    {
+      "seedRank": 90,
+      "name": "Kate Middleton",
+      "match": "tag",
+      "tag": "uk/duchess-of-cambridge",
+      "articles": 12,
+      "sections": {
+        "uk-news": 9,
+        "commentisfree": 1,
+        "fashion": 2
+      }
+    },
+    {
+      "seedRank": 91,
+      "name": "Stevie Wonder",
+      "match": "tag",
+      "tag": "music/steviewonder",
+      "articles": 6,
+      "sections": {
+        "music": 5,
+        "us-news": 1
+      }
+    },
+    {
+      "seedRank": 92,
+      "name": "Scarlett Johansson",
+      "match": "tag",
+      "tag": "film/scarlettjohansson",
+      "articles": 7,
+      "sections": {
+        "film": 6,
+        "technology": 1
+      }
+    },
+    {
+      "seedRank": 93,
+      "name": "Robert Downey Jr",
+      "match": "tag",
+      "tag": "film/robertdowneyjr",
+      "articles": 10,
+      "sections": {
+        "film": 9,
+        "tv-and-radio": 1
+      }
+    },
+    {
+      "seedRank": 94,
+      "name": "Kendrick Lamar",
+      "match": "tag",
+      "tag": "music/kendrick-lamar",
+      "articles": 11,
+      "sections": {
+        "music": 10,
+        "lifeandstyle": 1
+      }
+    },
+    {
+      "seedRank": 95,
+      "name": "Chappell Roan",
+      "match": "tag",
+      "tag": "music/chappell-roan",
+      "articles": 13,
+      "sections": {
+        "music": 11,
+        "culture": 1,
+        "commentisfree": 1
+      }
+    },
+    {
+      "seedRank": 96,
+      "name": "Sabrina Carpenter",
+      "match": "tag",
+      "tag": "music/sabrina-carpenter",
+      "articles": 14,
+      "sections": {
+        "music": 13,
+        "culture": 1
+      }
+    },
+    {
+      "seedRank": 97,
+      "name": "Leonardo DiCaprio",
+      "match": "tag",
+      "tag": "film/leonardodicaprio",
+      "articles": 19,
+      "sections": {
+        "film": 18,
+        "society": 1
+      }
+    },
+    {
+      "seedRank": 98,
+      "name": "Serena Williams",
+      "match": "tag",
+      "tag": "sport/serena-williams",
+      "articles": 26,
+      "sections": {
+        "sport": 23,
+        "commentisfree": 2,
+        "uk-news": 1
+      }
+    },
+    {
+      "seedRank": 99,
+      "name": "Novak Djokovic",
+      "match": "tag",
+      "tag": "sport/novak-djokovic",
+      "articles": 49,
+      "sections": {
+        "sport": 48,
+        "food": 1
+      }
+    },
+    {
+      "seedRank": 100,
+      "name": "Lewis Hamilton",
+      "match": "tag",
+      "tag": "sport/lewis-hamilton",
+      "articles": 81,
+      "sections": {
+        "sport": 80,
+        "money": 1
+      }
+    }
+  ]
+}

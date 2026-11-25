@@ -6,9 +6,11 @@
   "compatibility_date": "2026-11-01",
   "assets": {
     "directory": "./dist",
-    "run_worker_first": ["/day18/api/*"]
+    "run_worker_first": ["/crossover/api/*", "/day18", "/day18/*"]
   },
   "routes": [
+    { "pattern": "build40for40.com/crossover", "zone_name": "build40for40.com" },
+    { "pattern": "build40for40.com/crossover/*", "zone_name": "build40for40.com" },
     { "pattern": "build40for40.com/day18", "zone_name": "build40for40.com" },
     { "pattern": "build40for40.com/day18/*", "zone_name": "build40for40.com" }
   ],
