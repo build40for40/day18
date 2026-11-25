@@ -3,6 +3,10 @@ node_modules/
 
 # build output
 dist/
+coverage
+*.tsbuildinfo
+*.log
+*.local
 
 # environment variables
 .env*
@@ -13,8 +17,17 @@ dist/
 # wrangler state
 .wrangler/
 
+# Vitest and Vite
+__screenshots__/
+*.timestamp-*-*.mjs
+
+# editors
+.vscode/*
+!.vscode/extensions.json
+.idea
+
 # macOS
 .DS_Store
 
 # local data and cached API responses
-data/
+/data/
