@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fame vs Reach</title>
+<meta name="description" content="Higher or lower on who the world Googles more. A Day 18 game from 40 for 40.">
+<style>
+  :root {
+    --bg: #f4f1ea;
+    --panel: #ffffff;
+    --ink: #16130f;
+    --muted: #6b6459;
+    --line: #ddd6c8;
+    --up: #0f8a4a;
+    --down: #c8322b;
+    --accent: #1d3fd6;
+    --ticker-bg: #16130f;
+    --ticker-ink: #f4f1ea;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #12110f;
+      --panel: #1d1b18;
+      --ink: #f1ece2;
+      --muted: #a39b8c;
+      --line: #34302a;
+      --up: #3ccf7f;
+      --down: #ff6b60;
+      --accent: #8fa6ff;
+      --ticker-bg: #000;
+      --ticker-ink: #f1ece2;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  .ticker {
+    background: var(--ticker-bg);
+    color: var(--ticker-ink);
+    font: 600 13px/1 var(--mono);
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 9px 0;
+  }
+  .ticker-track { display: inline-block; animation: tick 90s linear infinite; }
+  .ticker span { margin-right: 28px; }
+  .ticker b { color: var(--up); font-weight: 600; }
+  @keyframes tick { to { transform: translateX(-50%); } }
+
+  main {
+    flex: 1;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px 16px 32px;
+  }
+  header h1 {
+    font-size: clamp(30px, 8vw, 46px);
+    letter-spacing: -0.03em;
+    margin: 0;
+    line-height: 1;
+  }
+  header h1 em { font-style: normal; color: var(--accent); }
+  header p { margin: 8px 0 0; color: var(--muted); font-size: 15px; }
+
+  .modes { display: flex; gap: 8px; margin: 18px 0 0; flex-wrap: wrap; }
+  .mode {
+    font: 600 13px/1 var(--sans);
+    border: 1px solid var(--line);
+    background: var(--panel);
+    color: var(--ink);
+    border-radius: 999px;
+    padding: 9px 14px;
+    cursor: pointer;
+  }
+  .mode[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+  .mode:disabled { cursor: not-allowed; opacity: 0.55; }
+
+  .scores {
+    display: flex;
+    justify-content: space-between;
+    font: 600 14px/1 var(--mono);
+    margin: 18px 0 10px;
+    color: var(--muted);
+  }
+  .scores strong { color: var(--ink); font-size: 18px; }
+
+  .board { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 12px 14px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    min-height: 290px;
+    transition: border-color 0.2s, transform 0.2s;
+  }
+  .card.right { border-color: var(--up); }
+  .card.wrong { border-color: var(--down); animation: shake 0.35s; }
+  @keyframes shake {
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+  }
+  .avatar {
+    width: 64px; height: 64px; border-radius: 50%;
+    display: grid; place-items: center;
+    font: 700 22px/1 var(--sans);
+    color: #fff;
+  }
+  .name { font-weight: 700; font-size: 19px; line-height: 1.15; min-height: 2.3em; display: flex; align-items: center; }
+  .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+  .value { font: 700 30px/1 var(--mono); letter-spacing: -0.02em; }
+  .value.hidden { color: var(--muted); }
+  .extra { color: var(--muted); font-size: 12px; min-height: 1.2em; }
+  .vs {
+    grid-column: 1 / -1;
+    text-align: center;
+    font: 700 13px/1 var(--mono);
+    color: var(--muted);
+    margin: -4px 0;
+  }
+  .buttons { display: flex; flex-direction: column; gap: 8px; width: 100%; margin-top: auto; }
+  .buttons button {
+    font: 700 16px/1 var(--sans);
+    border: 0;
+    border-radius: 10px;
+    padding: 14px 8px;
+    cursor: pointer;
+    color: #fff;
+  }
+  .buttons .more { background: var(--up); }
+  .buttons .fewer { background: var(--down); }
+  .buttons button:disabled { opacity: 0.4; cursor: default; }
+  button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+  .quip { min-height: 1.5em; text-align: center; font-weight: 600; margin: 14px 0 0; }
+
+  .over {
+    margin-top: 16px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 18px 16px;
+    text-align: center;
+  }
+  .over[hidden] { display: none; }
+  .over h2 { margin: 0 0 6px; font-size: 22px; }
+  .over p { margin: 0 0 14px; color: var(--muted); }
+  .over .actions { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
+  .over button {
+    font: 700 15px/1 var(--sans);
+    border-radius: 10px;
+    padding: 12px 16px;
+    cursor: pointer;
+    border: 1px solid var(--ink);
+    background: var(--ink);
+    color: var(--bg);
+  }
+  .over button.ghost { background: transparent; color: var(--ink); }
+
+  footer {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 16px 24px;
+    color: var(--muted);
+    font-size: 12px;
+    line-height: 1.5;
+  }
+  footer a { color: inherit; }
+
+  @media (min-width: 600px) {
+    .card { padding: 22px 18px 18px; min-height: 320px; }
+    .avatar { width: 80px; height: 80px; font-size: 26px; }
+    .value { font-size: 38px; }
+    .name { font-size: 22px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ticker-track { animation: none; }
+    .card.wrong { animation: none; }
+  }
+</style>
+</head>
+<body>
+<div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+<main>
+  <header>
+    <h1>Fame <em>vs</em> Reach</h1>
+    <p>Who does the world Google more? Fame is the easy bit. Crossover is the real game.</p>
+  </header>
+
+  <div class="modes" role="group" aria-label="Game mode">
+    <button class="mode" id="mode-searches" aria-pressed="true">Googled more</button>
+    <button class="mode" id="mode-breadth" aria-pressed="false" disabled title="Unlocks when the Guardian press pull lands">Crossed over more 🔒</button>
+  </div>
+
+  <div class="scores">
+    <span>STREAK <strong id="streak">0</strong></span>
+    <span>BEST <strong id="best">0</strong></span>
+  </div>
+
+  <section class="board" aria-live="polite">
+    <article class="card" id="card-a"></article>
+    <article class="card" id="card-b"></article>
+  </section>
+
+  <p class="quip" id="quip"></p>
+
+  <section class="over" id="over" hidden>
+    <h2 id="over-title"></h2>
+    <p id="over-text"></p>
+    <div class="actions">
+      <button id="again">Go again</button>
+      <button class="ghost" id="share">Share my streak</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Searches are Google monthly global volumes from Semrush (page dated March 2026), banded, so they're approximate.
+  Instagram counts from Wikipedia, snapshot 25 Nov 2026. No politicians, royals or dead people, sorry Elvis.
+  A <a href="https://build40for40.com">40 for 40</a> Day 18 game.
+</footer>
+
+<script>
+(() => {
+  const MODES = {
+    searches: {
+      key: "searches",
+      label: "monthly searches",
+      format: (p) => p.searchesLabel,
+      question: "searches",
+    },
+    breadth: {
+      key: "breadth",
+      label: "sections crossed",
+      format: (p) => String(p.breadth),
+      question: "sections",
+    },
+  };
+  const BREADTH_UNLOCK = 20;
+
+  const QUIPS_RIGHT = [
+    "Nailed it.",
+    "You've clearly been doomscrolling.",
+    "Big brain energy.",
+    "The algorithm fears you.",
+    "Correct. Put that on your LinkedIn.",
+  ];
+  const QUIPS_BLOWOUT = [
+    "Not even close.",
+    "That's a different postcode of famous.",
+    "Absolute landslide.",
+  ];
+
+  const store = {
+    get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+    set(k, v) { try { localStorage.setItem(k, v); } catch {} },
+  };
+
+  const $ = (id) => document.getElementById(id);
+  const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+
+  let people = [];
+  let mode = MODES.searches;
+  let a, b;
+  let streak = 0;
+  let best = Number(store.get("fvr-best") || 0);
+  let seen = new Set();
+  let locked = false;
+
+  function hue(str) {
+    let h = 0;
+    for (const c of str) h = (h * 31 + c.charCodeAt(0)) % 360;
+    return h;
+  }
+  function initials(name) {
+    const parts = name.split(/\s+/);
+    return (parts[0][0] + (parts.length > 1 ? parts[parts.length - 1][0] : "")).toUpperCase();
+  }
+  function pool() {
+    return people.filter((p) => p[mode.key] !== null && p[mode.key] !== undefined);
+  }
+
+  // Pick someone new whose value differs from the current card, so there's always a right answer.
+  function nextOpponent(current) {
+    const candidates = pool().filter((p) => p.id !== current.id && p[mode.key] !== current[mode.key]);
+    let fresh = candidates.filter((p) => !seen.has(p.id));
+    if (!fresh.length) { seen = new Set([current.id]); fresh = candidates; }
+    const p = pick(fresh);
+    seen.add(p.id);
+    return p;
+  }
+
+  function cardHTML(p, reveal) {
+    const extra = p.followersMillions ? `Also ${p.followersMillions}M on Instagram` : "";
+    return `
+      <div class="avatar" style="background:hsl(${hue(p.name)} 55% 42%)">${initials(p.name)}</div>
+      <div class="name">${p.name}</div>
+      <div class="label">${mode.label}</div>
+      <div class="value ${reveal ? "" : "hidden"}">${reveal ? mode.format(p) : "?"}</div>
+      <div class="extra">${reveal ? extra : ""}</div>`;
+  }
+
+  function render() {
+    $("card-a").className = "card";
+    $("card-b").className = "card";
+    $("card-a").innerHTML = cardHTML(a, true);
+    $("card-b").innerHTML = cardHTML(b, false) + `
+      <div class="buttons">
+        <button class="more" id="more">▲ More</button>
+        <button class="fewer" id="fewer">▼ Fewer</button>
+      </div>`;
+    $("more").onclick = () => guess(1);
+    $("fewer").onclick = () => guess(-1);
+    $("streak").textContent = streak;
+    $("best").textContent = best;
+  }
+
+  function guess(dir) {
+    if (locked) return;
+    locked = true;
+    $("more").disabled = true;
+    $("fewer").disabled = true;
+
+    const av = a[mode.key], bv = b[mode.key];
+    const correct = Math.sign(bv - av) === dir;
+    const card = $("card-b");
+    card.querySelector(".value").classList.remove("hidden");
+    card.querySelector(".value").textContent = mode.format(b);
+    card.querySelector(".extra").textContent = b.followersMillions ? `Also ${b.followersMillions}M on Instagram` : "";
+    card.classList.add(correct ? "right" : "wrong");
+
+    const ratio = Math.max(av, bv) / Math.min(av, bv);
+    if (correct) {
+      streak += 1;
+      if (streak > best) { best = streak; store.set("fvr-best", String(best)); }
+      $("streak").textContent = streak;
+      $("best").textContent = best;
+      $("quip").textContent = ratio >= 3 ? pick(QUIPS_BLOWOUT) : pick(QUIPS_RIGHT);
+      setTimeout(() => { a = b; b = nextOpponent(a); locked = false; $("quip").textContent = ""; render(); }, 1100);
+    } else {
+      const winner = bv > av ? b : a;
+      $("quip").textContent = `Nope. ${winner.name} wins this one.`;
+      gameOver();
+    }
+  }
+
+  function gameOver() {
+    const rank =
+      streak === 0 ? "Have you been living under a rock? Lovely rock though." :
+      streak < 4 ? "Casual scroller. Respectable." :
+      streak < 8 ? "Certified chronically online." :
+      streak < 15 ? "You might actually be an algorithm." :
+      "Please touch grass. We're begging.";
+    $("over-title").textContent = `Streak of ${streak}`;
+    $("over-text").textContent = rank;
+    $("over").hidden = false;
+    $("again").focus();
+  }
+
+  function start() {
+    streak = 0;
+    locked = false;
+    seen = new Set();
+    $("over").hidden = true;
+    $("share").textContent = "Share my streak";
+    $("quip").textContent = "";
+    a = pick(pool());
+    seen.add(a.id);
+    b = nextOpponent(a);
+    render();
+  }
+
+  function setMode(name) {
+    mode = MODES[name];
+    $("mode-searches").setAttribute("aria-pressed", String(name === "searches"));
+    $("mode-breadth").setAttribute("aria-pressed", String(name === "breadth"));
+    start();
+  }
+
+  function buildTicker() {
+    const items = [...people]
+      .sort((x, y) => y.searches - x.searches)
+      .map((p) => `<span>${p.name.toUpperCase()} <b>▲ ${p.searchesLabel}</b></span>`)
+      .join("");
+    $("ticker").innerHTML = items + items;
+  }
+
+  $("again").onclick = start;
+  $("share").onclick = async () => {
+    const text = `I got a streak of ${streak} on Fame vs Reach. Think you know who the internet's obsessed with? ${location.href}`;
+    try {
+      if (navigator.share) await navigator.share({ text });
+      else { await navigator.clipboard.writeText(text); $("share").textContent = "Copied!"; }
+    } catch {}
+  };
+  $("mode-searches").onclick = () => setMode("searches");
+  $("mode-breadth").onclick = () => setMode("breadth");
+
+  fetch("people.json")
+    .then((r) => r.json())
+    .then((data) => {
+      people = data.people;
+      const withBreadth = people.filter((p) => p.breadth !== null).length;
+      if (withBreadth >= BREADTH_UNLOCK) {
+        $("mode-breadth").disabled = false;
+        $("mode-breadth").textContent = "Crossed over more";
+        $("mode-breadth").removeAttribute("title");
+      }
+      buildTicker();
+      start();
+    })
+    .catch(() => { $("quip").textContent = "Couldn't load the famous people. They're probably at the Met Gala."; });
+})();
+</script>
+</body>
+</html>
