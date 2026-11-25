@@ -6,7 +6,6 @@ import type { Person } from './schema'
 import { fold, searchesFor } from './searches'
 
 const props = defineProps<{ people: Person[] }>()
-const emit = defineEmits<{ open: [rank: number] }>()
 
 const W = 400
 const H = 354
@@ -165,7 +164,7 @@ const tipBelow = computed(() => tipTop.value < 30)
               fill="#000000"
               fill-opacity="0"
               @mouseenter="active = d.person.name"
-              @click="emit('open', d.person.rank)"
+              @click="active = active === d.person.name ? null : d.person.name"
             />
           </svg>
           <div
@@ -179,7 +178,6 @@ const tipBelow = computed(() => tipTop.value < 30)
             <span>#{{ activeDot.person.rank }} · known for {{ activeDot.person.home ?? 'unknown' }}</span>
             <span>{{ fmt(activeDot.searches) }} searches a month</span>
             <span>{{ activeDot.person.crossovers }} sections crossed</span>
-            <span class="cta">Click to open their card</span>
           </div>
         </div>
         <div class="foot">
@@ -198,7 +196,7 @@ const tipBelow = computed(() => tipTop.value < 30)
           {{ laneName(l.id) }}
         </button>
       </div>
-      <p class="hint">Hover a dot for a quick look, or tap it to open their card. The shaded corner is who brands should be watching: more worlds than their fame suggests.</p>
+      <p class="hint">Hover or tap any dot. The shaded corner is who brands should be watching: more worlds than their fame suggests.</p>
     </div>
   </div>
 </template>
@@ -273,16 +271,6 @@ svg {
 }
 .tip span {
   opacity: 0.8;
-}
-.tip .cta {
-  opacity: 1;
-  color: var(--pink);
-  margin-top: 3px;
-}
-@media (hover: none) {
-  .tip .cta {
-    display: none;
-  }
 }
 .explore {
   display: grid;

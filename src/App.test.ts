@@ -44,26 +44,15 @@ describe('App', () => {
     expect(wrapper.text()).toContain('Fame isn')
   })
 
-  it('opens a card from a list row, steps through it and closes it', async () => {
-    const wrapper = mount(App, { props: { data: loadChart({ real: minimal }) }, attachTo: document.body })
+  it('opens a row inline to show every section, and closes it again', async () => {
+    const wrapper = mount(App, { props: { data: loadChart({ real: minimal }) } })
     expect(wrapper.text()).not.toContain('Sample data')
-    expect(wrapper.find('[role="dialog"]').exists()).toBe(false)
-    await wrapper.findAll('.list .head')[3]!.trigger('click')
-    const dialog = wrapper.find('[role="dialog"]')
-    expect(dialog.text()).toContain('Dé Fake')
-    expect(dialog.text()).toContain('No crossovers yet')
-    await wrapper.find('button[aria-label="Next person"]').trigger('click')
-    expect(wrapper.find('[role="dialog"] h3').text()).toBe('Ada Fake')
-    await wrapper.find('button[aria-label="Close card"]').trigger('click')
-    expect(wrapper.find('[role="dialog"]').exists()).toBe(false)
-    wrapper.unmount()
-  })
-
-  it('opens a card from a dot on the fame chart', async () => {
-    const wrapper = mount(App, { attachTo: document.body })
-    await wrapper.find('.fame .hit').trigger('click')
-    expect(wrapper.find('[role="dialog"]').exists()).toBe(true)
-    wrapper.unmount()
+    const head = wrapper.findAll('.list .head')[3]!
+    await head.trigger('click')
+    expect(wrapper.find('.list .body').text()).toContain('No crossovers yet')
+    expect(head.attributes('aria-expanded')).toBe('true')
+    await head.trigger('click')
+    expect(wrapper.find('.list .body').exists()).toBe(false)
   })
 
   it('searches names, ignoring accents, and keeps the original rank', async () => {

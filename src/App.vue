@@ -1,7 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
-import CardDialog from './chart/CardDialog.vue'
 import FameChart from './chart/FameChart.vue'
 import HowWeRank from './chart/HowWeRank.vue'
 import IndexTable from './chart/IndexTable.vue'
@@ -13,7 +10,6 @@ const { chart, isSample } = props.data ?? loadChart()
 
 const people = [...chart.people].sort((a, b) => a.rank - b.rank)
 const edition = `${chart.window?.to.slice(0, 4) ?? '2026'} edition`
-const cardRank = ref<number | null>(null)
 </script>
 
 <template>
@@ -55,14 +51,14 @@ const cardRank = ref<number | null>(null)
         <h2 id="all-title">The top 100</h2>
         <p>
           Every row shows 12 lanes of the paper, so you can read a whole year at a glance. Ranked by how many Guardian
-          sections they crossed into. Tap anyone to open their card.
+          sections they crossed into. Tap anyone to see every section they crossed into.
         </p>
       </div>
-      <IndexTable :people="people" @open="cardRank = $event" />
+      <IndexTable :people="people" />
     </section>
 
     <section class="block" aria-label="Fame isn't influence">
-      <FameChart :people="people" @open="cardRank = $event" />
+      <FameChart :people="people" />
     </section>
 
     <section class="block" aria-label="Taylor Swift case study">
@@ -78,8 +74,6 @@ const cardRank = ref<number | null>(null)
       searched list, plus a few hand-picked names. Built live on <a href="https://www.twitch.tv/40for40">Twitch</a> by
       40 for 40.
     </footer>
-
-    <CardDialog v-model:rank="cardRank" :people="people" :edition="edition" />
   </main>
 </template>
 
