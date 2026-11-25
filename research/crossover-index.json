@@ -1,0 +1,230 @@
+{
+  "meta": {
+    "name": "Day 18 crossover index database",
+    "problem": "Ranking creator influence globally",
+    "created": "2026-11-25",
+    "status": "draft, first pass",
+    "note": "Counts are snapshots from 25 Nov 2026 and approximate. Nothing here has been validated as a prediction."
+  },
+  "methodology": {
+    "goal": "A global top 100 of the most popular people, ranked first on crossover relevance from 12 months of press coverage.",
+    "scope": {
+      "geography": "global, no country cuts",
+      "categories": "none in the list; Guardian sections are used internally to measure crossover only",
+      "year": "2026 only"
+    },
+    "steps": [
+      {
+        "step": 1,
+        "name": "Seed the candidates by followers",
+        "detail": "Take the most-followed people, not a curated list. Current seed is Wikipedia's list of most-followed Instagram accounts with brand accounts (Instagram, Nike) removed. A cross-platform combined list was not available: the Backlinko page redirected and returned a 403."
+      },
+      {
+        "step": 2,
+        "name": "Pull 12 months of press",
+        "detail": "Guardian Content API, window 2025-11-25 to 2026-11-25. Record each article's section and publish date, count by section and month, cache every page locally.",
+        "api_limits": "Developer key: 1 call per second, 500 calls per day, non-commercial use only."
+      },
+      {
+        "step": 3,
+        "name": "Score crossover relevance only",
+        "detail": "Home section is the section with the most articles for that person. Breadth is the number of other sections with at least 3 articles. Outside share is the share of articles outside the home section. Rank by breadth, break ties with outside share. Show volume beside the score but keep it out of the score so fame alone cannot win."
+      },
+      {
+        "step": 4,
+        "name": "Rank the top 10 first, then widen to 100",
+        "detail": "Work through the top ten people by followers, then extend the same method down the seed list."
+      }
+    ],
+    "matching_options": [
+      {
+        "option": "headline-only",
+        "api_parameter": "query-fields=headline",
+        "status": "tested, works, but counts too small to score most people",
+        "recommended": false
+      },
+      {
+        "option": "tag-based",
+        "detail": "Articles the Guardian has tagged as about the person, for example music/taylor-swift. Needs one tag lookup per name; some people may have no tag.",
+        "status": "proposed",
+        "recommended": true
+      },
+      {
+        "option": "body-mentions",
+        "detail": "Full-text search with a higher per-section threshold to filter passing mentions.",
+        "status": "fallback for people without a tag",
+        "recommended": false
+      }
+    ],
+    "hypothesis": "A person's ability to cross into other industries is the biggest factor in how famous they become. Not tested yet: needs an outcome measure independent of press, a stalled-controls group, and timestamped rankings checked over time.",
+    "caveats": [
+      "Guardian coverage reflects UK and US editorial choices.",
+      "Follower totals vary by source and date, so treat them as approximate.",
+      "Tags may have been added to older articles after publication.",
+      "A public index built on Guardian content probably needs the commercial key or the Guardian's permission; check before publishing.",
+      "Sections overlap, and many of the 82 are network or regional sections."
+    ]
+  },
+  "seed": {
+    "source": "Wikipedia, List of most-followed Instagram accounts (brand accounts removed)",
+    "retrieved": "2026-11-25",
+    "metric": "Instagram followers, millions",
+    "people": [
+      { "rank": 1, "name": "Cristiano Ronaldo", "followers_millions": 681, "description": "Footballer", "country": "Portugal" },
+      { "rank": 2, "name": "Lionel Messi", "followers_millions": 517, "description": "Footballer", "country": "Argentina" },
+      { "rank": 3, "name": "Selena Gomez", "followers_millions": 402, "description": "Musician and actress", "country": "United States" },
+      { "rank": 4, "name": "Kylie Jenner", "followers_millions": 381, "description": "Media personality", "country": "United States" },
+      { "rank": 5, "name": "Dwayne Johnson", "followers_millions": 380, "description": "Actor and professional wrestler", "country": "United States" },
+      { "rank": 6, "name": "Ariana Grande", "followers_millions": 362, "description": "Musician and actress", "country": "United States" },
+      { "rank": 7, "name": "Kim Kardashian", "followers_millions": 343, "description": "Media personality", "country": "United States" },
+      { "rank": 8, "name": "Beyoncé", "followers_millions": 298, "description": "Musician and actress", "country": "United States" },
+      { "rank": 9, "name": "Khloé Kardashian", "followers_millions": 291, "description": "Media personality", "country": "United States" },
+      { "rank": 10, "name": "Justin Bieber", "followers_millions": 285, "description": "Musician", "country": "Canada" }
+    ],
+    "not_in_seed_but_seen_elsewhere": [
+      "MrBeast (leads YouTube, second on combined-follower lists)",
+      "Khaby Lame (leads TikTok)"
+    ]
+  },
+  "press_counts_12_months": {
+    "window": { "from": "2025-11-25", "to": "2026-11-25" },
+    "source": "Guardian Content API search, headline field only, phrase match on full name",
+    "results": [
+      { "name": "Cristiano Ronaldo", "headline_matches": 15, "short_name_headline_matches": { "Ronaldo": 33 }, "any_field_matches": 289 },
+      { "name": "Lionel Messi", "headline_matches": 21, "short_name_headline_matches": { "Messi": 57 } },
+      { "name": "Selena Gomez", "headline_matches": 1 },
+      { "name": "Kylie Jenner", "headline_matches": 1 },
+      { "name": "Dwayne Johnson", "headline_matches": 0 },
+      { "name": "Ariana Grande", "headline_matches": 14 },
+      { "name": "Kim Kardashian", "headline_matches": 1 },
+      { "name": "Beyoncé", "headline_matches": 12 },
+      { "name": "Khloé Kardashian", "headline_matches": 0 },
+      { "name": "Justin Bieber", "headline_matches": 5, "short_name_headline_matches": { "Bieber": 6 } }
+    ],
+    "finding": "Six of the ten have too few headline matches to reach 3 articles in any other section, so headline-only cannot score them. Short-name matches are higher but can hit other people."
+  },
+  "case_study_taylor_swift": {
+    "purpose": "Benchmark for how breadth looks over time, not evidence for the hypothesis. Famous before Instagram, so not a creator-origin case.",
+    "method": "Guardian articles tagged music/taylor-swift, all dates",
+    "articles": 1192,
+    "first_article_month": "2008-09",
+    "last_article_month": "2026-11",
+    "sections_entered": 31,
+    "section_entries": [
+      { "section": "music", "first_month": "2008-09", "articles": 747 },
+      { "section": "technology", "first_month": "2011-11", "articles": 37 },
+      { "section": "stage", "first_month": "2012-01", "articles": 3 },
+      { "section": "artanddesign", "first_month": "2012-03", "articles": 3 },
+      { "section": "film", "first_month": "2012-07", "articles": 27 },
+      { "section": "media", "first_month": "2012-09", "articles": 16 },
+      { "section": "culture", "first_month": "2012-10", "articles": 37 },
+      { "section": "tv-and-radio", "first_month": "2013-02", "articles": 15 },
+      { "section": "commentisfree", "first_month": "2013-03", "articles": 100 },
+      { "section": "lifeandstyle", "first_month": "2013-03", "articles": 35 },
+      { "section": "fashion", "first_month": "2013-11", "articles": 23 },
+      { "section": "uk-news", "first_month": "2013-11", "articles": 12 },
+      { "section": "society", "first_month": "2014-08", "articles": 2 },
+      { "section": "us-news", "first_month": "2014-08", "articles": 20 },
+      { "section": "global", "first_month": "2014-11", "articles": 5 },
+      { "section": "australia-news", "first_month": "2015-01", "articles": 9 },
+      { "section": "books", "first_month": "2015-03", "articles": 3 },
+      { "section": "world", "first_month": "2015-06", "articles": 18 },
+      { "section": "games", "first_month": "2016-02", "articles": 1 },
+      { "section": "business", "first_month": "2016-08", "articles": 20 },
+      { "section": "politics", "first_month": "2016-09", "articles": 14 },
+      { "section": "education", "first_month": "2016-10", "articles": 3 },
+      { "section": "money", "first_month": "2017-06", "articles": 7 },
+      { "section": "careers", "first_month": "2017-08", "articles": 1 },
+      { "section": "sport", "first_month": "2023-10", "articles": 25 },
+      { "section": "environment", "first_month": "2023-11", "articles": 1 },
+      { "section": "global-development", "first_month": "2024-03", "articles": 1 },
+      { "section": "news", "first_month": "2024-04", "articles": 3 },
+      { "section": "football", "first_month": "2024-06", "articles": 1 },
+      { "section": "thefilter", "first_month": "2024-11", "articles": 2 },
+      { "section": "thefilter-us", "first_month": "2026-06", "articles": 1 }
+    ]
+  },
+  "baskets": {
+    "design": "Three owned indicators and one rented indicator per vertical, plus a shared press and crossover layer. Owned space is weighted above rented. Weights are not set yet.",
+    "verticals": [
+      {
+        "vertical": "business",
+        "status": "chosen by Samira",
+        "owned": [
+          { "indicator": "Email subscribers (Substack, newsletters)", "data": "partial, some authors hide counts" },
+          { "indicator": "Monetised communities", "data": "self-reported" },
+          { "indicator": "Books", "data": "public" }
+        ],
+        "rented": [
+          { "indicator": "LinkedIn followers and engagement", "data": "followers public, engagement per post, scraping restricted" }
+        ]
+      },
+      {
+        "vertical": "music",
+        "status": "draft, not confirmed",
+        "owned": [
+          { "indicator": "Direct-to-fan channels (mailing list, Bandcamp, fan club)", "data": "self-reported or partial" },
+          { "indicator": "Live (tour scale, venues, festival billing)", "data": "public, needs collecting" },
+          { "indicator": "Catalogue and credits (charts, writing, placements)", "data": "public, ownership often private" }
+        ],
+        "rented": [
+          { "indicator": "Streaming and short-form (Spotify monthly listeners, TikTok sound use)", "data": "public on each platform" }
+        ]
+      },
+      {
+        "vertical": "fashion",
+        "status": "proposal, not confirmed",
+        "owned": [
+          { "indicator": "Email subscribers (newsletters, Substack)", "data": "partial" },
+          { "indicator": "Own label, collaborations and collections", "data": "public, needs collecting" },
+          { "indicator": "Monetised communities and memberships", "data": "self-reported" }
+        ],
+        "rented": [
+          { "indicator": "Resale and rental activity (Depop, Vinted, By Rotation): followers, ratings, sell-through", "data": "profile-level, platform terms unchecked" }
+        ]
+      }
+    ],
+    "shared_layer": [
+      { "indicator": "Press coverage by Guardian section (breadth, speed, persistence)", "type": "institutional", "data": "public, key in hand" },
+      { "indicator": "Number of sections and baskets entered over time", "type": "crossover", "data": "derived" }
+    ]
+  },
+  "watchlist_fashion_platforms": {
+    "note": "Apps named in 2025 and 2026 coverage. A watch list, not a basket: no public follower or creator counts found. Details come from search summaries, not from reading the articles.",
+    "apps": [
+      { "name": "WNTD", "what": "Fashion discovery app for Gen Z shoppers, 3 million pounds backing", "noted": "2026-04" },
+      { "name": "Naia", "what": "Discovery of one-of-one pieces from emerging designers, with saves, designer follows and taste polls", "noted": "2026-05" },
+      { "name": "Daydream", "what": "AI fashion discovery built on a runway database", "noted": "2025-11" },
+      { "name": "Alta", "what": "AI styling and digital closet with a social feed", "noted": null },
+      { "name": "Garde-Robe", "what": "Friends' recommendations instead of influencer content", "noted": null },
+      {
+        "name": "By Rotation",
+        "what": "UK peer-to-peer fashion rental app, 20 percent commission on approved rentals",
+        "user_claims": ["about 330,000 to 350,000 registered UK users (2024)", "400,000 (Essence, 2026)", "more than 1 million (TechCrunch, 2026, company claim)"],
+        "note": "User numbers conflict and are self-reported"
+      }
+    ]
+  },
+  "sources": [
+    { "name": "Guardian Open Platform", "url": "https://open-platform.theguardian.com/", "use": "press data, key limits and terms" },
+    { "name": "Wikipedia: List of most-followed Instagram accounts", "url": "https://en.wikipedia.org/wiki/List_of_most-followed_Instagram_accounts", "use": "follower seed" },
+    { "name": "Forbes Top Creators 2026", "url": "https://www.forbes.com.au/news/lifestyle/forbes-top-creators-2026/", "use": "reference only, not used for the seed" },
+    { "name": "TIME100 Creators 2026", "url": "https://time.com/collection/time100-creators/2026/", "use": "reference only, not used for the seed" },
+    { "name": "TechCrunch on By Rotation", "url": "https://techcrunch.com/?p=2291520", "use": "fashion watch list" },
+    { "name": "Business of Fashion on By Rotation", "url": "https://www.businessoffashion.com/articles/technology/rental-platform-by-rotation-raises-3-million/", "use": "fashion watch list" },
+    { "name": "Fashionista on Daydream", "url": "https://fashionista.com/2025/11/daydream-launches-iphone-app", "use": "fashion watch list" }
+  ],
+  "api_usage": {
+    "date": "2026-11-25",
+    "approx_calls_used": 22,
+    "daily_limit": 500,
+    "note": "Approximate tally. The key lives in a local .env that is not committed."
+  },
+  "open_decisions": [
+    "Matching method for the 12 months of press: tag-based (recommended) or body mentions",
+    "Whether a cross-platform follower seed is needed, so MrBeast and Khaby Lame can appear",
+    "Whether the baskets add to YouTube and Instagram or replace them",
+    "Basket weights for owned versus rented",
+    "Commercial terms for publishing an index built on Guardian content"
+  ]
+}

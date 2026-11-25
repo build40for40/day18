@@ -15,3 +15,6 @@ dist/
 
 # macOS
 .DS_Store
+
+# local data and cached API responses
+data/
