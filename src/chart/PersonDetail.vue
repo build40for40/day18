@@ -9,9 +9,9 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
 <template>
   <div class="detail">
     <p class="facts">
-      <span v-if="person.home">Home: <b>{{ person.home }}</b></span>
+      <span v-if="person.home">Known for <b>{{ person.home }}</b></span>
       <span v-if="person.articles !== undefined">{{ person.articles.toLocaleString('en-GB') }} articles</span>
-      <span v-if="person.outsideShare !== undefined">{{ percent(person.outsideShare) }} outside home</span>
+      <span v-if="person.outsideShare !== undefined">{{ percent(person.outsideShare) }} outside {{ person.home ?? 'home' }}</span>
     </p>
     <ul v-if="person.sections?.length" class="sections">
       <li v-for="section in person.sections" :key="section.id">
@@ -23,9 +23,6 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
 </template>
 
 <style scoped>
-.detail {
-  padding: 4px 0 4px;
-}
 .facts {
   display: flex;
   flex-wrap: wrap;
@@ -44,15 +41,16 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
 }
 .sections li {
   border: 1px solid var(--line);
-  background: var(--paper);
+  background: var(--card);
   border-radius: 999px;
   padding: 3px 10px;
   font-size: 13px;
   font-weight: 500;
 }
 .sections span {
-  color: var(--muted);
-  font-variant-numeric: tabular-nums;
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 12px;
   margin-left: 2px;
 }
 </style>
