@@ -1,0 +1,21 @@
+guess_order,person,group,chosen_to_fill,tag,articles_12m,home_section,other_sections,outside_pct
+1,narendra modi,politician,yes,world/narendra-modi,60,world,7,17
+2,neymar,,yes,football/neymar,6,sport,0,0
+3,bad bunny,,yes,music/bad-bunny,36,music,9,46
+4,khaby lame,,no,no tag,,,,
+5,lewis hamilton,,yes,sport/lewis-hamilton,81,sport,1,1
+6,harry styles,,yes,music/harry-styles,28,music,6,44
+7,priyanka chopra,,yes,film/priyanka-chopra,1,film,0,0
+8,pewdiepie,,no,no tag,,,,
+9,adele,,no,music/adele,1,,,
+10,tom holland,,yes,film/tom-holland,18,film,2,18
+11,margot robbie,,yes,film/margot-robbie,23,film,5,23
+12,the weeknd,,yes,music/the-weeknd,1,lifeandstyle,0,0
+13,cardi b,,yes,music/cardi-b,5,culture,2,60
+14,pedro pascal,,no,culture/pedro-pascal,6,film,2,50
+15,travis scott,,no,music/travis-scott,1,music,0,0
+16,sabrina carpenter,,no,music/sabrina-carpenter,14,music,1,7
+17,doja cat,,no,music/doja-cat,3,music,1,33
+18,chappell roan,,no,music/chappell-roan,13,music,1,8
+19,kai cenat,,no,no tag,,,,
+20,ishowspeed,,no,no tag,,,,
