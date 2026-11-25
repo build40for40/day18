@@ -81,7 +81,7 @@ const percent = (share: number) => `${Math.round(share * 100)}%`
               <i :style="{ '--w': percent(person.outsideShare) }" />{{ percent(person.outsideShare) }}
             </template>
           </span>
-          <span class="c-art articles">{{ person.articles?.toLocaleString('en-GB') ?? '' }}</span>
+          <span class="c-art articles">{{ (person.articlesTotal ?? person.articles)?.toLocaleString('en-GB') ?? '' }}</span>
         </button>
         <div v-if="open === person.rank" :id="`detail-${person.rank}`" class="body">
           <span class="eyebrow">Every section they crossed into</span>
