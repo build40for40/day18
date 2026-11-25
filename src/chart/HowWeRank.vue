@@ -2,6 +2,9 @@
 import { LANES } from './lanes'
 
 defineProps<{ method: string[] }>()
+
+const names = LANES.map((l) => l.name)
+const laneList = `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`
 </script>
 
 <template>
@@ -10,8 +13,8 @@ defineProps<{ method: string[] }>()
     <ol>
       <li v-for="(line, index) in method" :key="index">{{ line }}</li>
       <li>
-        To make the grid readable, the Guardian's sections are grouped into 12 lanes:
-        {{ LANES.map((l) => l.name).join(', ') }}. The lanes are only for display. The score counts sections.
+        The score counts every one of the Guardian's 82 sections. That's too many to show on a phone, so the grid groups
+        them into {{ LANES.length }} lanes: {{ laneList }}. The lanes are only for display. The score counts sections.
       </li>
     </ol>
   </section>
