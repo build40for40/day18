@@ -69,7 +69,7 @@ const edition = `${chart.window?.to.slice(0, 4) ?? '2026'} edition`
     </section>
 
     <section class="block" aria-label="Taylor Swift case study">
-      <SwiftStory />
+      <SwiftStory :rank="people.find((p) => p.name === 'Taylor Swift')?.rank" />
     </section>
 
     <section class="block">
