@@ -148,7 +148,7 @@ start()
     <div class="head">
       <p class="eyebrow kicker">The Crossover 100 Index · Game</p>
       <h2 id="hot-title">Hot or Not</h2>
-      <p class="rules">Is their influence hot or not? We'll show you how famous they are. Fame is a trap.</p>
+      <p class="rules">Influence... it's so hot right now.</p>
       <dl class="key">
         <div>
           <dt>🔥 Hot</dt>
