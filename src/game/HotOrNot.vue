@@ -67,7 +67,7 @@ const compact = new Intl.NumberFormat('en-GB', { notation: 'compact', maximumFra
 const fameLine = computed(() =>
   searches.value === undefined
     ? 'Not on the most searched list'
-    : `Googled ${compact.format(searches.value)} times a month`,
+    : `Googled ${compact.format(searches.value).toUpperCase()} times a month`,
 )
 
 const homeName = computed(() => (lanes.value?.home ? laneName(lanes.value.home) : card.value?.home ?? 'their lane'))
@@ -148,11 +148,18 @@ start()
     <div class="head">
       <p class="eyebrow kicker">The Crossover 100 Index · Game</p>
       <h2 id="hot-title">Hot or Not</h2>
-      <p class="rules">
-        Is their influence hot or not? <strong>Hot</strong> means they crossed into {{ line }} or more sections of the
-        paper. <strong>Not</strong> means they mostly stay in their lane. Fame is a trap. Swipe, tap or use your arrow
-        keys.
-      </p>
+      <p class="rules">Is their influence hot or not? We'll show you how famous they are. Fame is a trap.</p>
+      <dl class="key">
+        <div>
+          <dt>🔥 Hot</dt>
+          <dd>Crossed into {{ line }} or more sections of the paper</dd>
+        </div>
+        <div>
+          <dt>🧊 Not</dt>
+          <dd>Mostly stays in their lane</dd>
+        </div>
+      </dl>
+      <p class="how">Swipe the card, tap a button, or use ← → and Enter.</p>
     </div>
 
     <div class="table">
@@ -249,8 +256,57 @@ h2 {
   color: var(--muted);
   max-width: 62ch;
 }
-.rules strong {
-  color: var(--ink);
+.key {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0 0;
+}
+.key div {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+.key dt {
+  flex: 0 0 auto;
+  min-width: 4.6em;
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 18px;
+}
+.key dd {
+  margin: 0;
+  color: var(--ink-2);
+}
+.how {
+  margin: 8px 0 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* wide screens: the pitch on the left, the game on the right */
+@media (min-width: 860px) {
+  .game {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 420px);
+    gap: 56px;
+    align-items: center;
+  }
+  .head {
+    gap: 10px;
+  }
+  h2 {
+    font-size: clamp(56px, 7vw, 88px);
+    line-height: 0.9;
+  }
+  .rules {
+    font-size: 18px;
+  }
+  .table {
+    margin: 0;
+  }
+  .table .card {
+    min-height: 320px;
+  }
 }
 
 .table {
