@@ -5,6 +5,7 @@ import { LANES, laneName, personLanes } from '../chart/lanes'
 import type { Person } from '../chart/schema'
 import { searchesFor } from '../chart/searches'
 import { dealRound, hotLine, scoreLine, shareText, verdictOf, type Verdict } from './hotOrNot'
+import { fameLine, knownFor } from './knownFor'
 
 const props = defineProps<{ people: Person[] }>()
 
@@ -62,21 +63,16 @@ function next() {
   }
 }
 
-const compact = new Intl.NumberFormat('en-GB', { notation: 'compact', maximumFractionDigits: 1 })
-
-const fameLine = computed(() =>
-  searches.value === undefined
-    ? 'Not on the most searched list'
-    : `Googled ${compact.format(searches.value).toUpperCase()} times a month`,
-)
+const fame = computed(() => (card.value ? fameLine(card.value, searches.value) : ''))
 
 const homeName = computed(() => (lanes.value?.home ? laneName(lanes.value.home) : card.value?.home ?? 'their lane'))
+const known = computed(() => (card.value ? knownFor(card.value) : null))
 
 const quip = computed(() => {
   if (!card.value || !guess.value) return ''
   const right = guess.value === truth.value
   const famous = (searches.value ?? 0) >= 1_000_000
-  const quiet = searches.value === undefined || searches.value < 500_000
+  const quiet = searches.value !== undefined && searches.value < 500_000
   const verdict = right ? 'Correct.' : 'Nope.'
   if (truth.value === 'not' && famous) return `${verdict} Massively famous, but the paper mostly keeps them in ${homeName.value}.`
   if (truth.value === 'hot' && quiet) return `${verdict} Not that Googled, yet somehow in every section. Sneaky.`
@@ -184,9 +180,9 @@ start()
           <span class="stamp hot" aria-hidden="true">HOT 🔥</span>
           <span class="stamp not" aria-hidden="true">NOT 🧊</span>
 
-          <p class="known">Known for {{ homeName }}</p>
+          <p class="known">Known for {{ known?.label }}</p>
           <p class="name">{{ card.name }}</p>
-          <p class="fame">{{ fameLine }}</p>
+          <p v-if="fame" class="fame">{{ fame }}</p>
 
           <div v-if="guess" class="reveal" aria-live="polite">
             <p class="verdict">{{ truth === 'hot' ? '🔥 Hot' : '🧊 Not' }}</p>
@@ -202,6 +198,7 @@ start()
                 :title="l.name"
               />
             </div>
+            <p v-if="known?.paper && !quip.includes(known.paper)" class="filed">The paper mostly files them under {{ known.paper }}.</p>
             <p class="quip">{{ quip }}</p>
           </div>
         </div>
@@ -469,6 +466,12 @@ h2 {
 }
 .squares i.hm {
   background: var(--pink);
+}
+.filed {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  opacity: 0.8;
 }
 .quip {
   margin: 0;
