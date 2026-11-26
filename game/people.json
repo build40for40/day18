@@ -1,0 +1,667 @@
+{
+  "generated": "2026-11-25",
+  "sources": {
+    "searches": "Semrush Most Popular People, Google monthly global searches, page dated March 2026",
+    "followers": "Wikipedia, List of most-followed Instagram accounts (brand accounts removed)",
+    "breadth": "Guardian Content API, sections with 3+ articles outside the home section"
+  },
+  "people": [
+    {
+      "id": "taylor-swift",
+      "name": "Taylor Swift",
+      "rank": 2,
+      "searches": 4100000,
+      "searchesLabel": "4.1M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "elon-musk",
+      "name": "Elon Musk",
+      "rank": 3,
+      "searches": 3400000,
+      "searchesLabel": "3.4M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "lebron-james",
+      "name": "LeBron James",
+      "rank": 5,
+      "searches": 2700000,
+      "searchesLabel": "2.7M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "sydney-sweeney",
+      "name": "Sydney Sweeney",
+      "rank": 6,
+      "searches": 2700000,
+      "searchesLabel": "2.7M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "ariana-grande",
+      "name": "Ariana Grande",
+      "rank": 7,
+      "searches": 1800000,
+      "searchesLabel": "1.8M",
+      "followersMillions": 362,
+      "breadth": null
+    },
+    {
+      "id": "kendrick-lamar",
+      "name": "Kendrick Lamar",
+      "rank": 8,
+      "searches": 1800000,
+      "searchesLabel": "1.8M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "billie-eilish",
+      "name": "Billie Eilish",
+      "rank": 9,
+      "searches": 1500000,
+      "searchesLabel": "1.5M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "jenna-ortega",
+      "name": "Jenna Ortega",
+      "rank": 10,
+      "searches": 1500000,
+      "searchesLabel": "1.5M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "travis-kelce",
+      "name": "Travis Kelce",
+      "rank": 12,
+      "searches": 1500000,
+      "searchesLabel": "1.5M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "justin-bieber",
+      "name": "Justin Bieber",
+      "rank": 14,
+      "searches": 1200000,
+      "searchesLabel": "1.2M",
+      "followersMillions": 285,
+      "breadth": null
+    },
+    {
+      "id": "megan-fox",
+      "name": "Megan Fox",
+      "rank": 15,
+      "searches": 1200000,
+      "searchesLabel": "1.2M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "patrick-mahomes",
+      "name": "Patrick Mahomes",
+      "rank": 16,
+      "searches": 1200000,
+      "searchesLabel": "1.2M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "selena-gomez",
+      "name": "Selena Gomez",
+      "rank": 17,
+      "searches": 1200000,
+      "searchesLabel": "1.2M",
+      "followersMillions": 402,
+      "breadth": null
+    },
+    {
+      "id": "ana-de-armas",
+      "name": "Ana de Armas",
+      "rank": 18,
+      "searches": 1000000,
+      "searchesLabel": "1M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "drake",
+      "name": "Drake",
+      "rank": 19,
+      "searches": 1000000,
+      "searchesLabel": "1M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "kanye-west",
+      "name": "Kanye West",
+      "rank": 20,
+      "searches": 1000000,
+      "searchesLabel": "1M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "scarlett-johansson",
+      "name": "Scarlett Johansson",
+      "rank": 22,
+      "searches": 1000000,
+      "searchesLabel": "1M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "timothee-chalamet",
+      "name": "Timothée Chalamet",
+      "rank": 23,
+      "searches": 1000000,
+      "searchesLabel": "1M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "tom-cruise",
+      "name": "Tom Cruise",
+      "rank": 24,
+      "searches": 1000000,
+      "searchesLabel": "1M",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "anne-hathaway",
+      "name": "Anne Hathaway",
+      "rank": 25,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "beyonce",
+      "name": "Beyoncé",
+      "rank": 26,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": 298,
+      "breadth": null
+    },
+    {
+      "id": "bob-dylan",
+      "name": "Bob Dylan",
+      "rank": 27,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "brad-pitt",
+      "name": "Brad Pitt",
+      "rank": 28,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "clint-eastwood",
+      "name": "Clint Eastwood",
+      "rank": 29,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "dolly-parton",
+      "name": "Dolly Parton",
+      "rank": 30,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "eminem",
+      "name": "Eminem",
+      "rank": 31,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "jake-paul",
+      "name": "Jake Paul",
+      "rank": 32,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "jennifer-aniston",
+      "name": "Jennifer Aniston",
+      "rank": 33,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "lady-gaga",
+      "name": "Lady Gaga",
+      "rank": 34,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "zendaya",
+      "name": "Zendaya",
+      "rank": 36,
+      "searches": 823000,
+      "searchesLabel": "823K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "angelina-jolie",
+      "name": "Angelina Jolie",
+      "rank": 37,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "arnold-schwarzenegger",
+      "name": "Arnold Schwarzenegger",
+      "rank": 38,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "ben-affleck",
+      "name": "Ben Affleck",
+      "rank": 39,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "dua-lipa",
+      "name": "Dua Lipa",
+      "rank": 40,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "jennifer-lopez",
+      "name": "Jennifer Lopez",
+      "rank": 41,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "joe-rogan",
+      "name": "Joe Rogan",
+      "rank": 42,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "katy-perry",
+      "name": "Katy Perry",
+      "rank": 43,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "keanu-reeves",
+      "name": "Keanu Reeves",
+      "rank": 44,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "kim-kardashian",
+      "name": "Kim Kardashian",
+      "rank": 45,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": 343,
+      "breadth": null
+    },
+    {
+      "id": "leonardo-dicaprio",
+      "name": "Leonardo DiCaprio",
+      "rank": 46,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "michael-jordan",
+      "name": "Michael Jordan",
+      "rank": 47,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "olivia-rodrigo",
+      "name": "Olivia Rodrigo",
+      "rank": 48,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "post-malone",
+      "name": "Post Malone",
+      "rank": 49,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "rihanna",
+      "name": "Rihanna",
+      "rank": 50,
+      "searches": 673000,
+      "searchesLabel": "673K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "bruno-mars",
+      "name": "Bruno Mars",
+      "rank": 51,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "rank": 52,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": 681,
+      "breadth": null
+    },
+    {
+      "id": "jennifer-lawrence",
+      "name": "Jennifer Lawrence",
+      "rank": 53,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "johnny-depp",
+      "name": "Johnny Depp",
+      "rank": 54,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "kylie-jenner",
+      "name": "Kylie Jenner",
+      "rank": 55,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": 381,
+      "breadth": null
+    },
+    {
+      "id": "mariah-carey",
+      "name": "Mariah Carey",
+      "rank": 56,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "robert-de-niro",
+      "name": "Robert De Niro",
+      "rank": 58,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "serena-williams",
+      "name": "Serena Williams",
+      "rank": 59,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "sylvester-stallone",
+      "name": "Sylvester Stallone",
+      "rank": 60,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "tom-hanks",
+      "name": "Tom Hanks",
+      "rank": 61,
+      "searches": 550000,
+      "searchesLabel": "550K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "cillian-murphy",
+      "name": "Cillian Murphy",
+      "rank": 63,
+      "searches": 450000,
+      "searchesLabel": "450K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "dwayne-johnson",
+      "name": "Dwayne Johnson",
+      "rank": 64,
+      "searches": 450000,
+      "searchesLabel": "450K",
+      "followersMillions": 380,
+      "breadth": null
+    },
+    {
+      "id": "jeff-bezos",
+      "name": "Jeff Bezos",
+      "rank": 65,
+      "searches": 450000,
+      "searchesLabel": "450K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "john-travolta",
+      "name": "John Travolta",
+      "rank": 66,
+      "searches": 450000,
+      "searchesLabel": "450K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "mark-zuckerberg",
+      "name": "Mark Zuckerberg",
+      "rank": 68,
+      "searches": 450000,
+      "searchesLabel": "450K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "mrbeast",
+      "name": "MrBeast",
+      "rank": 69,
+      "searches": 450000,
+      "searchesLabel": "450K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "shakira",
+      "name": "Shakira",
+      "rank": 70,
+      "searches": 450000,
+      "searchesLabel": "450K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "al-pacino",
+      "name": "Al Pacino",
+      "rank": 71,
+      "searches": 368000,
+      "searchesLabel": "368K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "elton-john",
+      "name": "Elton John",
+      "rank": 74,
+      "searches": 368000,
+      "searchesLabel": "368K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "jackie-chan",
+      "name": "Jackie Chan",
+      "rank": 76,
+      "searches": 368000,
+      "searchesLabel": "368K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "justin-timberlake",
+      "name": "Justin Timberlake",
+      "rank": 77,
+      "searches": 368000,
+      "searchesLabel": "368K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "novak-djokovic",
+      "name": "Novak Djokovic",
+      "rank": 79,
+      "searches": 368000,
+      "searchesLabel": "368K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "paul-mccartney",
+      "name": "Paul McCartney",
+      "rank": 80,
+      "searches": 368000,
+      "searchesLabel": "368K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "kate-winslet",
+      "name": "Kate Winslet",
+      "rank": 87,
+      "searches": 301000,
+      "searchesLabel": "301K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "logan-paul",
+      "name": "Logan Paul",
+      "rank": 88,
+      "searches": 301000,
+      "searchesLabel": "301K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "quentin-tarantino",
+      "name": "Quentin Tarantino",
+      "rank": 93,
+      "searches": 301000,
+      "searchesLabel": "301K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "simone-biles",
+      "name": "Simone Biles",
+      "rank": 94,
+      "searches": 301000,
+      "searchesLabel": "301K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "bill-gates",
+      "name": "Bill Gates",
+      "rank": 98,
+      "searches": 246000,
+      "searchesLabel": "246K",
+      "followersMillions": null,
+      "breadth": null
+    },
+    {
+      "id": "bruce-springsteen",
+      "name": "Bruce Springsteen",
+      "rank": 100,
+      "searches": 246000,
+      "searchesLabel": "246K",
+      "followersMillions": null,
+      "breadth": null
+    }
+  ]
+}
