@@ -3,6 +3,7 @@ import { describe, expect, it } from 'vitest'
 
 import type { Person } from '../chart/schema'
 import { dealRound, hotLine, scoreLine, shareText, verdictOf } from './hotOrNot'
+import { knownFor } from './knownFor'
 
 const people: Person[] = [1, 1, 2, 2, 3, 3, 3, 5, 8, 12, 20, 28].map((crossovers, i) => ({
   rank: i + 1,
@@ -50,5 +51,21 @@ describe('copy', () => {
 
   it('has a line for every score', () => {
     for (let s = 0; s <= 10; s++) expect(scoreLine(s, 10)).not.toBe('')
+  })
+})
+
+describe('knownFor', () => {
+  it('uses the paper lane when there is no override', () => {
+    expect(knownFor({ rank: 1, name: 'Jensen Huang', crossovers: 5, home: 'Technology' })).toEqual({
+      label: 'Tech & science',
+      paper: undefined,
+    })
+  })
+
+  it('uses the hand-checked label and keeps the paper lane beside it', () => {
+    expect(knownFor({ rank: 1, name: 'Travis Kelce', crossovers: 3, home: 'Music' })).toEqual({
+      label: 'Sport',
+      paper: 'Music',
+    })
   })
 })

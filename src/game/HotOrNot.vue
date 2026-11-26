@@ -5,6 +5,7 @@ import { LANES, laneName, personLanes } from '../chart/lanes'
 import type { Person } from '../chart/schema'
 import { searchesFor } from '../chart/searches'
 import { dealRound, hotLine, scoreLine, shareText, verdictOf, type Verdict } from './hotOrNot'
+import { knownFor } from './knownFor'
 
 const props = defineProps<{ people: Person[] }>()
 
@@ -71,6 +72,7 @@ const fameLine = computed(() =>
 )
 
 const homeName = computed(() => (lanes.value?.home ? laneName(lanes.value.home) : card.value?.home ?? 'their lane'))
+const known = computed(() => (card.value ? knownFor(card.value) : null))
 
 const quip = computed(() => {
   if (!card.value || !guess.value) return ''
@@ -184,7 +186,7 @@ start()
           <span class="stamp hot" aria-hidden="true">HOT 🔥</span>
           <span class="stamp not" aria-hidden="true">NOT 🧊</span>
 
-          <p class="known">Known for {{ homeName }}</p>
+          <p class="known">Known for {{ known?.label }}</p>
           <p class="name">{{ card.name }}</p>
           <p class="fame">{{ fameLine }}</p>
 
@@ -202,6 +204,7 @@ start()
                 :title="l.name"
               />
             </div>
+            <p v-if="known?.paper" class="filed">The paper mostly files them under {{ known.paper }}.</p>
             <p class="quip">{{ quip }}</p>
           </div>
         </div>
@@ -469,6 +472,12 @@ h2 {
 }
 .squares i.hm {
   background: var(--pink);
+}
+.filed {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 12px;
+  opacity: 0.8;
 }
 .quip {
   margin: 0;
