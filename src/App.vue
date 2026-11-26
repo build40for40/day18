@@ -6,6 +6,7 @@ import HowWeRank from './chart/HowWeRank.vue'
 import IndexTable from './chart/IndexTable.vue'
 import SwiftStory from './chart/SwiftStory.vue'
 import { formatDay, loadChart, type LoadedChart } from './chart/load'
+import HotOrNot from './game/HotOrNot.vue'
 
 const props = defineProps<{ data?: LoadedChart }>()
 const { chart, isSample } = props.data ?? loadChart()
@@ -95,6 +96,10 @@ const settle = () => {
 
     <section class="block" aria-label="Fame isn't influence">
       <FameChart :people="people" />
+    </section>
+
+    <section id="hot-or-not" class="block" aria-labelledby="hot-title">
+      <HotOrNot :people="people" />
     </section>
 
     <section class="block" aria-label="Taylor Swift case study">

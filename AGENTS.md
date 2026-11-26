@@ -2,7 +2,7 @@
 
 Day 18 of 40 for 40, built live on Twitch on Wednesday 25 November 2026. The problem is "Ranking creator influence globally", from Nicole. Work is tracked on the Superthread `day18` board and the "Day 18" page.
 
-- **Form factor:** a web app (from the jar's web app, browser extension and game), served at https://build40for40.com/crossover/ (it was /day18/ earlier, which now redirects). A game on the same data may follow.
+- **Form factor:** a web app (from the jar's web app, browser extension and game), served at https://build40for40.com/crossover/ (it was /day18/ earlier, which now redirects). The page also has a Hot or Not game (`src/game/`, at `#hot-or-not`): swipe on whether someone crossed into more sections than the Index median.
 - **Name:** TBC. The repo stays `day18` until the app has a name, then it's renamed and served at `build40for40.com/<app>/`.
 
 Shared 40 for 40 context lives in `../AGENTS.md`.
