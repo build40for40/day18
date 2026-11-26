@@ -3,7 +3,9 @@ import { describe, expect, it } from 'vitest'
 
 import type { Person } from '../chart/schema'
 import { dealRound, hotLine, scoreLine, shareText, verdictOf } from './hotOrNot'
-import { knownFor } from './knownFor'
+import realChart from '../data/crossover.json'
+import { fold, searchesFor } from '../chart/searches'
+import { fameLine, KNOWN_FOR, knownFor } from './knownFor'
 
 const people: Person[] = [1, 1, 2, 2, 3, 3, 3, 5, 8, 12, 20, 28].map((crossovers, i) => ({
   rank: i + 1,
@@ -67,5 +69,31 @@ describe('knownFor', () => {
       label: 'Sport',
       paper: 'Music',
     })
+  })
+})
+
+describe('the real 100', () => {
+  const people = (realChart as { people: Person[] }).people
+
+  it('gives every card a fame line', () => {
+    for (const p of people) expect(fameLine(p, searchesFor(p.name)), p.name).not.toBe('')
+  })
+
+  it('only hand-labels people who are in the Index', () => {
+    const names = new Set(people.map((p) => fold(p.name)))
+    for (const name of Object.keys(KNOWN_FOR)) expect(names.has(name), name).toBe(true)
+  })
+})
+
+describe('fameLine', () => {
+  const person = { rank: 1, name: 'Fake', crossovers: 1, articles: 22, articlesTotal: 1406 }
+
+  it('prefers Google searches', () => {
+    expect(fameLine(person, 2_700_000)).toBe('Googled 2.7M times a month')
+  })
+
+  it('falls back to Guardian articles', () => {
+    expect(fameLine(person, undefined)).toBe('1.4K Guardian articles this year')
+    expect(fameLine({ ...person, articlesTotal: 1 }, undefined)).toBe('1 Guardian article this year')
   })
 })
